@@ -1,0 +1,72 @@
+\documentclass[12pt]{article}
+
+% House style preamble
+\input{.house-style/preamble.tex}
+
+\hypersetup{
+  pdftitle={Linguistic transparency as mediated accessibility}
+}
+
+\title{Linguistic transparency as mediated accessibility}
+\author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
+\thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
+Humber Polytechnic \& University of Toronto
+\and
+Jong-Bok Kim\\
+Kyung Hee University}
+\date{\today}
+
+% Tables: longtable + booktabs + calc + array (used by section .tex files).
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{calc}
+\usepackage{array}
+% Tightlist for compact lists; pandocbounded/real are legacy compatibility
+% from earlier markdown→pandoc pipeline; harmless if unused.
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\real}[1]{#1}
+\providecommand{\pandocbounded}[1]{#1}
+
+% \Cref / \cref auto-prefix section references with the right word/symbol.
+\usepackage[capitalize,nameinlink]{cleveref}
+\crefname{section}{§}{§§}
+\Crefname{section}{§}{§§}
+
+% Cosmetic fixes for the build.
+\setlength{\headheight}{14pt}        % silence fancyhdr headheight warning
+\setlength{\emergencystretch}{3em}   % allow stretchier line-breaks in bibliography notes
+
+% Prevent line breaks inside inline math at relations and binary operators.
+\relpenalty=10000
+\binoppenalty=10000
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{paper/sections/00-abstract.tex}
+\end{abstract}
+
+\input{paper/sections/01-introduction.tex}
+\input{paper/sections/02-morphosyntactic-transparency.tex}
+\input{paper/sections/03-constructional-transparency.tex}
+\input{paper/sections/04-semantic-transparency.tex}
+\input{paper/sections/05-processing-transparency.tex}
+\input{paper/sections/06-typological-transparency.tex}
+\input{paper/sections/07-metaphysical-framing.tex}
+\input{paper/sections/08-conclusion.tex}
+
+\appendix
+\input{paper/sections/A1-appendix-a.tex}
+\input{paper/sections/B1-appendix-b.tex}
+\input{paper/sections/C1-appendix-c.tex}
+\input{paper/sections/D1-appendix-d.tex}
+
+\section*{Acknowledgements}
+
+This paper was drafted with the assistance of large language models (Claude Opus 4.7 with the 1M-context configuration; OpenAI Codex 5.3). All content has been reviewed and revised by the authors, who take full responsibility for the final text.
+
+\printbibliography
+
+\end{document}

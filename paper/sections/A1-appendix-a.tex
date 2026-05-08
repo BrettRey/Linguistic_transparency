@@ -1,0 +1,120 @@
+\section{Number-transparent NP empirical apparatus}\label{sec:A}
+
+This appendix collects the COCA pilot data behind the §\ref{sec:2} claims about the number-transparent quantificational noun class. The body of the paper carries the qualitative claims; the audit trail lives here. Full machine-readable data: \texttt{paper/data/coca-pilot.md}.
+
+\subsection{Methodology}\label{sec:A-1}
+
+Queries were issued through the local Playwright wrapper at \texttt{tools/english-corpora/bin/ecorg.mjs} (May 2026). Each query is a surface string; counts are raw COCA frequencies, not filtered for head versus modifier use, idiom contamination, or sense disambiguation, except where noted. Two filtering issues recur:
+
+\begin{itemize}
+\item
+  \mention{Modifier confound}. Surface strings of the form \mention{X of N} may include cases where \mention{N} is a modifier inside a larger NP rather than the head of the \mention{of}-complement (e.g., \mention{lots of day-care} rather than \mention{lots of day}). The countability paper \autocite{reynolds2026countability} handles the same coding issue for \mention{three police} and \mention{three cattle}. Where small counts fall in the predicted-counter direction, the modifier confound likely inflates them.
+\item
+  \mention{Parse-shift}. Surface strings containing a number-transparent QN plus a verb form may include cases where the QN sits inside a relative clause modifying a different head-noun, with the visible verb agreeing with that other head. \mention{A lot of money are} is the textbook case: of 13 raw plural-agreement hits, 10 are parse-shifted (people/parents/movies/times \mention{are}; \mention{a lot of money} in a relative clause), 1 is irrealis \mention{were} (CGEL §3.5.1), 1 \mention{'s} hit is contracted \mention{has} (singular, matches prediction), and 1 is a genuine plural override.
+\end{itemize}
+
+The wrapper's KWIC mode (which would let an analyst inspect contexts) is broken as of May 2026 (Playwright internal error on every attempt). Counts in the tables below were generated via list-mode queries; the parse-shift filtering for \mention{a lot of money} was done from contexts retrieved separately. Other small-count counter-direction cells in the override table have not been spot-checked and may include similar artefacts.
+
+\subsection{\texorpdfstring{A.2 Partitive vs.~non-partitive \mention{of}-complements}{A.2 Partitive vs.~non-partitive of-complements}}\label{a.2-partitive-vs.-non-partitive-of-complements}
+
+The contrast: \term{partitive} \mention{of}-complements have definite complements (\mention{of the money}, \mention{of those books}); \term{non-partitive} \mention{of}-complements have indefinite complements (\mention{of money}, \mention{of soldiers}).
+
+\subsubsection{\texorpdfstring{Plural-only forms (\mention{lots, bags, heaps, loads, oodles, stacks, piles})}{Plural-only forms (lots, bags, heaps, loads, oodles, stacks, piles)}}\label{plural-only-forms-lots-bags-heaps-loads-oodles-stacks-piles}
+
+Non-partitive (X of N): \mention{lots of people} 3,878; \mention{lots of money} 1,376; \mention{lots of time} 703; \mention{loads of money} 109; \mention{piles of money} 91; \mention{loads of people} 90; \mention{loads of time} 34; \mention{heaps of money} 15; \mention{heaps of people} 7; plus single-digit hits for several other combinations. \textbf{Total: 6,311.} The single-digit \mention{X of day} hits (\mention{lots of day} 3, \mention{heaps of time} 3, \mention{piles of time} 1, \mention{piles of people} 1) likely include modifier uses (\mention{lots of day-care}).
+
+Partitive (X of the N): \mention{lots of the time} 7; \mention{lots of the people} 5; \mention{loads of the day} 1. \textbf{Total: 13.} \mention{Piles} and \mention{heaps} return 0 partitive hits with any complement tested.
+
+Indefinite-NP complement (X of a N): \mention{lots of a day} 0; \mention{piles of a day} 0; \mention{heaps of a day} 0; \mention{loads of a day} 0; \mention{lots/piles/heaps/loads of an afternoon} 0. \textbf{Total: 0.} Plural-only forms reject \mention{of [Det NP]} whether the determiner is definite (\mention{the}) or indefinite (\mention{a/an}); their \mention{of}-complements are bare/non-determined.
+
+Partitive ratio: $13 / (6{,}311 + 13) \approx\! 0.2\%$.
+
+\subsubsection{\texorpdfstring{\mention{Plenty}}{Plenty}}\label{plenty}
+
+Non-partitive: \mention{plenty of time} 4,017; \mention{plenty of people} 1,563; \mention{plenty of money} 668; \mention{plenty of day} 4 (likely modifier). \textbf{Total: 6,252.}
+
+Partitive: \mention{plenty of the time} 1; \mention{plenty of the people} 1. \textbf{Total: 2.}
+
+Partitive ratio: $2 / 6{,}254 \approx\! 0.03\%$.
+
+\subsubsection{\texorpdfstring{\mention{Rest, remainder}}{Rest, remainder}}\label{rest-remainder}
+
+Non-partitive (the X of N): \mention{the rest of time} 75; \mention{the rest of people} 12; \mention{the rest of day} 7; \mention{the remainder of time} 3; \mention{the remainder of day} 2; \mention{the rest of money} 1. \textbf{Total: 100 raw.} \mention{The rest of time} (75 hits) is heavily contaminated by idiomatic \mention{for the rest of time} (= ``forever'') and similar. Spot-checking head uses only would lower the figure substantially.
+
+Partitive (the X of the N): \mention{the rest of the day} 1,932; \mention{the rest of the time} 830; \mention{the rest of the people} 272; \mention{the rest of the money} 222; \mention{the remainder of the day} 75; \mention{the remainder of the time} 21; \mention{the remainder of the money} 13. \textbf{Total: 3,365.}
+
+Indefinite-NP complement: \mention{the remainder of a day} 1.
+
+Partitive (definite NP) ratio: $3{,}365 / (3{,}365 + 100 + 1) \approx\! 97.1\%$ raw, higher after filtering the \mention{for the rest of time} idiom.
+
+\subsection{Override-direction agreement}\label{sec:A-3}
+
+Test of the ``near-obligatory in central cases'' claim. Subject NP plus finite verb agreement, by complement number/count.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Subject
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Predicted
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Plural agr.
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Singular agr.
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+\% predicted
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\mention{a lot of people} & plural & 4,195 (ARE 3,406; WERE 789) & 85 (IS 72; WAS 13) & 98.0\% \\
+\mention{a lot of money} & singular & 1 (ARE, filtered) & 90 (IS 61; WAS 29) & 98.9\% \\
+\mention{a number of people} & plural & 100 (ARE 52; WERE 48) & 4 (IS 2; WAS 2) & 96.2\% \\
+\mention{lots of people} & plural & 348 (ARE 288; WERE 60) & 6 (IS 5; WAS 1) & 98.3\% \\
+\mention{lots of money} & singular & 1 (ARE 1) & 24 (IS 19; WAS 5) & 96.0\% \\
+\mention{plenty of people} & plural & 79 (ARE 65; WERE 14) & 0 & 100\% \\
+\mention{plenty of money} & singular & 0 & 6 (IS 4; WAS 2) & 100\% \\
+\mention{the rest of the people} & plural & 19 (ARE 15; WERE 4) & 0 & 100\% \\
+\mention{the rest of the money} & singular & 0 & 19 (IS 10; WAS 9) & 100\% \\
+\end{longtable}
+}
+
+Override is in the predicted direction at 96--100\% across all tested QN+complement combinations after filtering. \mention{A lot of money} required filtering: of 13 raw plural-agreement hits, 10 were parse-shifted (the surface string \mention{a lot of money are} appearing inside relative clauses modifying a plural-noun head, e.g., \mention{people who earn a lot of money are successful}; \mention{movies that make a lot of money are the biggest help}; \mention{times when we\ldots{} make a lot of money are gone}), 1 was the irrealis \mention{were} (\mention{if a lot of money were at stake}), and 1 \mention{'s} hit was singular \mention{has} (matches prediction); only 1 hit was a genuine plural override (\mention{a lot of money are being raised}). Filtered count: 1 plural / 90 singular = 98.9\% singular.
+
+Other small-count counter-direction cells (\mention{a number of people is/was} 4 hits; \mention{lots of people is/was} 6 hits; \mention{lots of money are} 1 hit) have not been spot-checked and may include similar artefacts; the headline pattern doesn't depend on filtering them.
+
+\subsection{\texorpdfstring{A.4 \mention{Bunch}: animate vs.~inanimate aggregates}{A.4 Bunch: animate vs.~inanimate aggregates}}\label{a.4-bunch-animate-vs.-inanimate-aggregates}
+
+CGEL claims that \mention{bunch} tilts collective for inanimate aggregates and transparent for groups of people. The COCA pilot supports the animate half but not the inanimate half.
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lrrr@{}}
+\toprule\noalign{}
+Subject & Total tokens & \mention{was} & \mention{were} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Animate aggregates} & & & \\
+\mention{a bunch of people} & 1,421 & 0 & 28 \\
+\mention{a bunch of kids} & 448 & 0 & 12 \\
+\mention{a bunch of hooligans} & 12 & 0 & 0 \\
+\textbf{Inanimate aggregates} & & & \\
+\mention{a bunch of flowers} & 68 & 0 & 0 \\
+\mention{a bunch of cars} & -- & 0 & 1 \\
+\mention{a bunch of papers} & -- & 0 & 0 \\
+\mention{a bunch of leaves} & -- & 0 & 0 \\
+\mention{a bunch of things} & -- & 0 & 1 \\
+\end{longtable}
+}
+
+Animates: 40 plural / 0 singular = 100\% plural. The CGEL ``transparent for groups of people'' claim is supported.
+
+Inanimates: 2 plural / 0 singular. The CGEL ``tilts collective for inanimate aggregates'' claim is not supported in COCA. Inanimate-bunch is mostly absent from subject position (typical use is as object: \mention{she gave him a bunch of flowers}); the two inanimate-bunch hits in subject position both took plural rather than the CGEL-predicted singular. \mention{A bunch of flowers was presented to the teacher} (the CGEL example) returns 0 hits in COCA. KWIC inspection of the 40 animate-plural hits for parse-shift is pending the wrapper fix.

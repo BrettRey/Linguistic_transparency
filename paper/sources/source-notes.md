@@ -1,0 +1,409 @@
+# Source notes
+
+Curation document for `sources.bib`. For each source, this file records summary, supportable claims, exact quotations, warning notes, and relevance rating. Sources do not enter `sources.bib` until they have been read and an entry here exists.
+
+## Template
+
+```
+### [citation key]
+
+**Full bibliographic entry:** [author, year, title, venue, pages, DOI/URL]
+
+**Status:** [unread / partial / read]
+
+**Relevance:** core / useful / background
+
+**Summary (3–6 bullets):**
+
+- ...
+- ...
+
+**Claims this source can support:**
+
+- ...
+
+**Quotations (≤25 words each, with page citation):**
+
+- "..." (p. NN)
+
+**Warnings / overinterpretation risks:**
+
+- ...
+
+**Cross-references:** [other sources in this set that bear on the same point]
+```
+
+---
+
+## Verification checklist (from PROJECT-BRIEF.md)
+
+The brief surfaces seven citations. **All carried `?utm_source=chatgpt.com` URL parameters**, indicating LLM-search-surfacing rather than hand verification. Each was verified 2026-04-30 against publisher pages and crosschecked against on-disk literature.
+
+### CGEL number transparency
+
+- [x] **The brief mis-attributes the term.** "Number transparent" is canonically from CGEL itself (Huddleston & Pullum 2002), §3.3 of the noun chapter and §18.2 of the agreement chapter. The *Cambridge Dictionary of English Grammar* (Peters 2013, DOI 10.1017/CBO9781139050623) is a separate book; whether Peters reproduces the term was not verified, but the substantive treatment is in CGEL. **Use CGEL; drop Peters.**
+
+### Construction Grammar
+
+- [x] **Goldberg, Construction Grammar overview** — the Princeton page resolves to Goldberg, A. E. (2006), "Construction Grammar," in *Encyclopedia of Cognitive Science*, ed. Nadel, Wiley (DOI 10.1002/0470018860.s00216). 4-page entry. Not on disk; substitutable with Goldberg (2006) *Constructions at Work* ch. 1, which is on disk and makes the same form-meaning-pairings claim more substantively.
+- [x] **Goldberg (1995), *Constructions: A Construction Grammar Approach to Argument Structure*** (UChicago Press). Not on disk; the 1995 monograph's argument-structure claims are restated in Goldberg (2006) ch. 1 (which Goldberg herself cross-references: "In an earlier book, *Constructions*, I focused primarily on arguments for adopting a constructionist approach to argument structure"). Skip 1995 unless an argument needs the original formulation.
+
+### Semantic transparency in compounds
+
+- [x] **Bell & Schäfer (2016)**, "Modelling semantic transparency," *Morphology* 26(2): 157–199, DOI 10.1007/s11525-016-9286-3. Open access. Downloaded to `literature/Bell_Schaefer_2016_modelling_semantic_transparency.pdf`.
+
+### Processing transparency
+
+- [x] **Heyer & Kornishova (2018)**, "Semantic transparency affects morphological priming . . . eventually," *Quarterly Journal of Experimental Psychology* 71(5): 1112–1124, DOI 10.1080/17470218.2017.1310915. On disk at `literature/heyerkornishova2018.pdf`. Specific paleness/business example confirmed; longer-SOA finding confirmed.
+
+### Typology
+
+- [x] **Haspelmath (2010)**, "Comparative concepts and descriptive categories in crosslinguistic studies," *Language* 86(3): 663–687, JSTOR 40961695. On disk (three duplicate copies; canonical is `haspelmath2010.md`). The Zenodo record `1303024` is a deposit of this paper.
+
+### Metaphysics of natural kinds
+
+- [x] **Khalidi (2018, online 2015)**, "Natural kinds as nodes in causal networks," *Synthese* 195(4): 1379–1396, DOI 10.1007/s11229-015-0841-y. On disk at `khalidi2015.md`/`.pdf` (the OnlineFirst version). PhilPapers KHANKA-4 corresponds to this paper.
+
+---
+
+## To inherit from sister project
+
+`papers/Field_relative_HPC_categories/paper/sources/sources.bib` has verified HPC-theory entries:
+
+- `boyd1991` — Boyd, "Realism, Anti-Foundationalism and the Enthusiasm for Natural Kinds"
+- `boyd1999` — Boyd, "Homeostasis, Species, and Higher Taxa"
+- `khalidi2013` — Khalidi, *Natural Categories and Human Kinds*
+- `hacking1999` — Hacking, *The Social Construction of What?*
+- `reynolds2025hpcbook` — Brett's HPC book
+
+Decision pending (per `DECISIONS.md`): whether to import these as the metaphysical foundation here, or maintain a separate set tuned to the brief's Khalidian framing. The Khalidi 2018 paper read here explicitly loosens Boyd's HPC by dropping mechanism and homeostasis; the choice is non-trivial.
+
+---
+
+## Quine 1956 (added 2026-04-30 for §4.3 controlled mention)
+
+Bibliographic data verified via JSTOR (53(5): 177–187, 1956); full text not read. Citation is used as a *historical pointer* for the de re/de dicto philosophical-semantics tradition, not as a content claim about Quine's argument. If the §4.3 boundary case is later expanded substantively, the paper should be sourced and read first.
+
+## Korean data sources
+
+The brief's §2 table lists Korean case stacking and Korean scrambling as morphosyntactic-transparency cases, but no specific sources. Either Brett source-grounds these against existing literature on Korean syntax, or the project becomes a Reynolds-Kim collaboration and Jongbok contributes the Korean sections. Decision noted in `DECISIONS.md`. **No Korean syntax literature has been pulled into the project yet.**
+
+---
+
+## Curation
+
+### huddleston-pullum-2002
+
+**Full bibliographic entry:** Huddleston, Rodney, and Geoffrey K. Pullum (2002). *The Cambridge Grammar of the English Language*. Cambridge: Cambridge University Press. ISBN 978-0521431460. (CGEL.)
+
+**Status:** partial (focused passages read: §3.3 of the noun chapter, the *number-transparent quantificational nouns* subsection; §18.2 of the agreement chapter, "Semantically motivated overrides with collective and number-transparent nouns")
+
+**Relevance:** core (empirical anchor for §1 of the paper)
+
+**Summary:**
+
+- A small class of nouns (*lot, plenty, lots, bags, heaps, loads, oodles, stacks, remainder, rest, number, couple*) is *number-transparent*: agreement on the verb is determined by the *of*-complement, not by the surface number of the head.
+- The class is divided structurally into singular forms taking *a*-determiner (*lot, number, couple*), plural-only forms without determiner (*lots, bags, heaps, ...*), and *the*-only forms (*remainder, rest*).
+- The override is *obligatory* in the number-transparent construction (contrast with collectives, where the override is optional and reflects a meaning difference).
+- CGEL takes the analysis as head + *of*-complement, not as complex quantifier; *number* is the head, *of protesters* is the complement; this requires positing a feature percolation / agreement-override mechanism rather than treating *a number of* as a flat quantifier.
+- *Percent* is also classed here, taking number from its oblique (*a lot of students are*, *a lot of the cheese is*).
+
+**Claims this source can support:**
+
+- That number transparency is a recognised, well-described English phenomenon, with a closed lexical class and a defined structural skeleton.
+- That at least *a lot of money is* and *a lot of tourists are* are not isolated agreement quirks but a systematic construction with count/non-count-sensitive agreement on the complement.
+- That the construction supports the umbrella schema of the brief: the determiner-position complex (*a lot of*) is the mediator X; the number/count profile of the complement is the property P; agreement is the relation R.
+
+**Quotations (≤25 words each):**
+
+- "The main number-transparent nouns are as follows: lot plenty / lots bags heaps loads oodles stacks / remainder rest / number couple" (CGEL §3.3, around the table at example [57]).
+- "Two of the most common overrides of the simple agreement rule are found with singular collective nouns and with the number-transparent quantificational noun construction" (CGEL §18.2).
+- "The essential difference between the two constructions is that with collectives the override is optional, whereas in the number-transparent construction it is obligatory" (CGEL §18.2).
+- "The clear cases of number-transparent singular nouns are *lot*, *number*, and *couple*. *Majority* and *minority* are borderline cases" (CGEL §18.2).
+
+**Warnings / overinterpretation risks:**
+
+- The term *number-transparent* is CGEL's own coinage; it should not be cited as if it were a generally-shared term in the wider linguistics literature without that context.
+- The brief originally attributed the term to the *Cambridge Dictionary of English Grammar* (Peters 2013). That attribution is unverified and probably wrong; cite CGEL.
+- Pages numbers cannot be quoted from the on-disk markdown extraction — verify against a paper copy of CGEL before submission.
+- The CGEL analysis is structurally compositional (head + complement, plus override). A CxG-friendly reframing would treat the whole *a-NUM-of-NP* pattern as a form-meaning pairing without override; the choice of formal apparatus is something the paper will need to flag.
+
+**Cross-references:** Goldberg (2006) for the CxG-style alternative to CGEL's override mechanism. Bell & Schäfer (2016) for an analogous *gradient-not-binary* treatment in a different morphological domain (compounds). Heyer & Kornishova (2018) cite CGEL (Bauer & Huddleston 2002, the lexical-word-formation chapter) as their linguistic baseline for English -*ness* nominalisations, providing an independent bridge between this paper and the priming literature.
+
+### goldberg-2006
+
+**Full bibliographic entry:** Goldberg, Adele E. (2006). *Constructions at Work: The Nature of Generalization in Language*. Oxford: Oxford University Press. ISBN 978-0199268511. DOI 10.1093/acprof:oso/9780199268511.001.0001.
+
+**Status:** partial (chapter 1, "Overview," pp. 3–18, read in full; rest of book skimmed via the brief's framing)
+
+**Relevance:** core (CxG framework underpins §3 of the paper)
+
+**Summary:**
+
+- Constructions are *learned form-meaning-or-discourse-function pairings*, ranging from morphemes to fully general phrasal patterns. Examples span morpheme (*pre-, -ing*), word, partly filled idiom (*jog <someone's> memory*), Covariational Conditional (*the Xer the Yer*), Ditransitive, Passive (Table 1.1, pp. 5).
+- Argument structure is provided by the construction, not by the verb alone: *slice* in transitive, caused-motion, ditransitive, way, and resultative constructions has the same lexical meaning, but the constructions provide the argument-structure semantics.
+- Constructions are stored if some aspect is non-predictable, *or* if they are fully predictable but sufficiently frequent (i.e. usage-based, not minimalist).
+- Constructionist grammar is "what you see is what you get": no derivations, no underlying levels, no phonologically null elements.
+- Subtle aspects of construal (e.g., DITRANSITIVE entails animate recipient, distinguishing *Liza sent Stan a book* from *??Liza sent storage a book*) are construction-specific, not lexical.
+- "It's constructions all the way down."
+
+**Claims this source can support:**
+
+- That CxG treats constructions as form-meaning pairings whose internal organisation can be more or less *transparent* (predictable from parts) — directly the constructional-transparency case in the paper's §3.
+- That a graded-compositionality scale across the constructicon (fully compositional → frozen idiom) is native to the CxG framework, not a foreign overlay.
+- That a *number-transparent* NP can be re-stated as a construction (*[a NUMBER-NOUN of NP]*) carrying its own agreement specification, without a feature-override mechanism.
+
+**Quotations (≤25 words each):**
+
+- "Constructions—form and meaning pairings—have been the basis of major advances in the study of grammar since the days of the ancient Stoics." (Goldberg 2006: 3)
+- "All levels of grammatical analysis involve constructions: learned pairings of form with semantic or discourse function." (Goldberg 2006: 5)
+- "Any linguistic pattern is recognized as a construction as long as some aspect of its form or function is not strictly predictable from its component parts" (Goldberg 2006: 5)
+- "Constructions are combined freely to form actual expressions as long as they are not in conflict." (Goldberg 2006: 10)
+- "It's constructions all the way down." (Goldberg 2006: 18)
+
+**Warnings / overinterpretation risks:**
+
+- Goldberg's chapter is a programmatic overview, not a worked argument; substantive evidence is referenced but located in later chapters (e.g. ch. 2 on argument structure, ch. 3 on usage-based learning).
+- "What you see is what you get" is a slogan; the chapter does posit inheritance hierarchies and argument-structure-construction abstractions that some critics would call covert structure.
+- The chapter does not engage Haspelmath's descriptive/comparative-concept distinction. Goldberg's typological remarks operate as if categories like DITRANSITIVE travel cross-linguistically; for a Haspelmath-aware paper, that's a tension to flag (see the *Cross-paper tensions* section below).
+
+**Cross-references:** CGEL §3.3 / §18.2 (number-transparent NPs as a candidate construction). Bell & Schäfer (2016) for a quantitative graded-transparency study within a constructionist-friendly framework. Khalidi (2018) for the metaphysical question of whether a CxG construction (a form-meaning pairing) is a *kind* of any sort.
+
+### bell-schafer-2016
+
+**Full bibliographic entry:** Bell, Melanie J., and Martin Schäfer (2016). "Modelling semantic transparency." *Morphology* 26(2): 157–199. DOI 10.1007/s11525-016-9286-3. Open access.
+
+**Status:** partial (introduction, lit review, semantic-relations and methodology sections read in full; statistical models section skimmed; conclusion not yet read)
+
+**Relevance:** core (compound semantic transparency, §4 of the paper)
+
+**Summary:**
+
+- Semantic transparency is treated as a *scalar* (continuous) variable, not the binary or four-fold category of earlier work (Sandra 1990; Libben et al. 2003).
+- Central hypothesis: perceived semantic transparency = degree of *expectedness* in the compound's internal semantic structure.
+- Three predictors of greater transparency: (1) higher frequency of N1 in the language; (2) higher frequency of the compound's semantic relation given N1; (3) higher productivity of N2 as the head of NN compounds.
+- Whole-compound transparency is a function of constituent transparencies, but N1 and N2 contribute asymmetrically.
+- Operationalisation: Reddy et al.'s (2011) database of 90 NN compounds with 8,100 human transparency ratings, scored against Levi's (1978) nine semantic relations (CAUSE1, CAUSE2, HAVE1, HAVE2, MAKE1, MAKE2, USE, BE, IN, FOR, FROM, ABOUT).
+- Bottom line: "perceived transparency may itself be a reflex of ease of processing" — the predictors of transparency are also independent predictors of processing speed.
+
+**Claims this source can support:**
+
+- That compound semantic transparency is well-modelled as a graded variable, not a binary or four-fold one.
+- That a quantitative model of transparency can be built from corpus-derivable predictors plus a small inventory of semantic relations.
+- That perceived transparency is plausibly grounded in processing — supporting the paper's metaphysical claim that some transparency profiles are *projectible local kinds* in Khalidi's sense (causally grounded, processing-relevant).
+- That CxG-style intuitions about graded compositionality are operationalisable.
+
+**Quotations (≤25 words each):**
+
+- "We view semantic transparency as falling on a continuum, with meaning predictability constituting one end of the scale and total semantic opacity, i.e. no discernible synchronic relation between the meaning of a complex word and the meaning of any of its constituents, constituting the other end." (Bell & Schäfer 2016: 158)
+- "Our central hypothesis is that the perceived semantic transparency of a compound can be understood as the degree of expectedness in its internal semantic structure" (Bell & Schäfer 2016: 158)
+- "Since all the significant predictors in our models of compound transparency are also known predictors of processing speed, perceived transparency may itself be a reflex of ease of processing." (Bell & Schäfer 2016: 157, abstract)
+
+**Warnings / overinterpretation risks:**
+
+- The paper is about NN compounds in English. Generalising to other compound types or other languages is the authors' speculation, not their finding.
+- Their model fits Reddy et al.'s ratings well; whether ratings *are* the right operationalisation of transparency is a separate question (psycholinguistic transparency may dissociate from rated transparency at short SOAs — see Heyer & Kornishova 2018).
+- Levi's (1978) relations are a coding scheme adopted from earlier work; their adequacy is debated (Downing 1977, Fanselow 1981 are cited as critics). Don't cite Levi without acknowledging the controversy.
+
+**Cross-references:** Heyer & Kornishova (2018) for processing-time evidence about when transparency matters. Goldberg (2006) for the CxG side of graded compositionality. Reddy et al. (2011), cited within Bell & Schäfer, for the underlying ratings database.
+
+### heyer-kornishova-2018
+
+**Full bibliographic entry:** Heyer, Vera, and Dana Kornishova (2018). "Semantic transparency affects morphological priming . . . eventually." *Quarterly Journal of Experimental Psychology* 71(5): 1112–1124. DOI 10.1080/17470218.2017.1310915.
+
+**Status:** read (full paper, 13 pp.)
+
+**Relevance:** useful (processing-transparency evidence, §5 of the paper)
+
+**Summary:**
+
+- Two masked-priming experiments: English -*ness* nominalisations (49 native speakers; SOAs 39 ms vs 77 ms) and Russian -*ost'* nominalisations (61 native speakers; SOAs 33 ms vs 67 ms).
+- Targets are adjective bases (*pale, dark, business-busy*); primes are: nominalisation (related), simplex noun (unrelated control), or adjective itself (identity).
+- Transparency was rated continuously by separate native-speaker pre-test groups (28 for English; 38 for Russian); items range across the transparency scale.
+- At short SOA: morphological priming is constant across the transparency scale (priming effects are 37-ms English, 16-ms Russian, but not modulated by transparency).
+- At long SOA: morphological priming *increases with transparency* (51-ms English, 35-ms Russian, with positive Transparency × Prime Type interaction); a three-way interaction Transparency × Prime Type × SOA confirms the SOA-dependent modulation.
+- Authors interpret this as evidence for an initial *morpho-orthographic* (semantically blind) decomposition phase, with semantic information entering only at later stages.
+- Aligns with the Rastle-and-Davis 2008 / Davis-and-Rastle 2010 camp; argues against Feldman et al.'s (2009, 2012, 2015) claim that morpho-semantic information is utilised immediately.
+
+**Claims this source can support:**
+
+- That semantic transparency is *cognitively consequential* (it affects processing), not merely an analyst-imposed gradient.
+- That transparency is a *time-course-sensitive* variable: which transparency distinctions show up depends on the processing window. This is a useful caveat for the paper's metaphysical claim that transparency-as-such is not a single psychological variable.
+- That priming-style transparency effects are robust across languages with quite different morphological systems (English -*ness*; Russian -*ost'*).
+- That CGEL's lexical-word-formation chapter (Bauer & Huddleston 2002) is the cited linguistic baseline for English -*ness* nominalisations, providing a within-paper bridge to CGEL.
+
+**Quotations (≤25 words each):**
+
+- "We found increased morphological priming for nominalisations at the transparent end of the scale (e.g. *paleness* – *pale*) in comparison to items at the opaque end (e.g. *business* – *busy*) but only at longer prime durations." (p. 1112, abstract)
+- "The present findings are in line with models that posit an initial phase of morpho-orthographic (semantically blind) decomposition." (p. 1112, abstract)
+- "It takes longer to access semantic information." (p. 1120, general discussion)
+- "Morpho-orthographic information is utilised before morpho-semantic information." (p. 1120, conclusion)
+
+**Warnings / overinterpretation risks:**
+
+- The paper is about masked priming with -*ness* / -*ost'* nominalisations in two specific languages. It does not license general claims about "all transparency processing".
+- The conclusion about a "semantically blind" first stage is contested (Feldman et al. cited internally are the rival camp); the meta-table on p. 1121 shows that the literature is genuinely mixed.
+- Effect sizes are modest (e.g. transparent-vs-opaque difference of 14 ms in English long-SOA — see Table 3 column "Difference"; statistical significance is the relevant measure, not absolute size).
+
+**Cross-references:** Bell & Schäfer (2016) for a non-priming, ratings-based approach to transparency that yields large effects without a time-course story. CGEL via Bauer & Huddleston (2002) for the linguistic description of -*ness*.
+
+### haspelmath-2010
+
+**Full bibliographic entry:** Haspelmath, Martin (2010). "Comparative concepts and descriptive categories in crosslinguistic studies." *Language* 86(3): 663–687. JSTOR 40961695. (Also deposited at Zenodo record `1303024`.)
+
+**Status:** partial (abstract, §1 introduction, §2 setup read in full; §3–§9 not yet read)
+
+**Relevance:** core (typological methodology, §6 of the paper)
+
+**Summary:**
+
+- *Categorial particularism*: each language's grammatical categories are defined by language-internal distribution; categories cannot be equated across languages.
+- *Comparative concepts* are analyst-created tools for crosslinguistic comparison; they are not language-particular descriptive categories and are not psychologically real.
+- Comparative concepts must be universally applicable; they are built from conceptual-semantic concepts, general formal concepts (e.g. "phonological word"), and other comparative concepts.
+- Relationship between comparative concepts and descriptive categories is many-to-many: one comparative concept can be realised by several descriptive categories within a language; one descriptive category can correspond to several comparative concepts.
+- Targets the *categorial universalist* assumption (categories like ADJECTIVE, PASSIVE, ACCUSATIVE travel across languages); critiques Newmeyer 2007 in particular.
+- Applies whether or not "typology" or "comparative linguistics" is the preferred label; Haspelmath uses them interchangeably.
+
+**Claims this source can support:**
+
+- That a paper claiming any cross-linguistic generalisation about *transparency* must distinguish the comparative concept (analyst's tool) from the language-particular descriptive categories it abstracts over.
+- That number-transparent-quantifier NPs in English and case-stacking transparency in Korean (if discussed) instantiate the same comparative concept of *mediated accessibility* without thereby being "the same category" in either language.
+- That the brief's umbrella schema (X transparent w.r.t. P for relation R) is a comparative concept in Haspelmath's sense, not a universal category.
+
+**Quotations (≤25 words each):**
+
+- "Each language has its own categories, and to describe a language, a linguist must create a set of descriptive categories for it." (p. 664)
+- "Comparative concepts are concepts created by comparative linguists for the specific purpose of crosslinguistic comparison." (p. 665)
+- "Unlike descriptive categories, they are not part of language systems and are not needed by descriptive linguists or by speakers. They are not psychologically real, and they cannot be right or wrong." (p. 665)
+
+**Warnings / overinterpretation risks:**
+
+- Haspelmath frames this as a programmatic distinction; he allows that in practice typologists already operate this way (Greenberg, Comrie, Croft, Dryer). The paper's polemical force is against the *categorial universalist* assumption embedded in much generative typology.
+- The descriptive/comparative split is itself contested (Newmeyer 2007 is the explicit foil; defenders of crosslinguistic categories include LFG and some HPSG work). Cite Haspelmath's framework in a way that acknowledges this.
+- The boundary between "general formal concepts" (admissible building blocks) and "language-particular formal categories" (not admissible across languages) is sharper in the abstract than in practice.
+
+**Cross-references:** Goldberg (2006) for a CxG framework that does work cross-linguistically without adopting Haspelmath's terminology — a tension to flag. Khalidi (2018) for the metaphysical question of whether comparative concepts can be *natural kinds* (Haspelmath would say no; Khalidi's framework leaves the question open at the local-kind level).
+
+### khalidi-2018
+
+**Full bibliographic entry:** Khalidi, Muhammad Ali (2018). "Natural kinds as nodes in causal networks." *Synthese* 195(4): 1379–1396. DOI 10.1007/s11229-015-0841-y. (Online first 2015; print 2018.)
+
+**Status:** partial (sections 1–4 read in full; sections 5 and references not yet read)
+
+**Relevance:** useful (metaphysical refinement for §7 of the paper, where transparency profiles have causal-processing grounding; not the umbrella — see Slater 2015 below and `DECISIONS.md` 2026-04-30 entry)
+
+**Summary:**
+
+- Natural-kind terms are projectible because the kinds themselves are implicated in causal processes.
+- Each natural kind is identified with one or more *core causal properties* that, when instantiated, cause the instantiation of *derivative properties* in structured causal networks.
+- Boyd's HPC view requires loosening: drop the *mechanism* and *homeostasis* requirements; keep the causal grounding. Boyd's view fits biological kinds with feedback loops better than chemical elements.
+- Kinds can have fuzzy boundaries; degrees of naturalness along two dimensions (generality of projections; variety of projections), corresponding to two ontological dimensions of causal connection.
+- Distinct from copying-based kinds (Millikan): copied kinds are still causal but the causal process is reproduction-plus-environmental-pressure-plus-function rather than mechanism-driven homeostasis.
+- "Pure" copied kinds (artefacts produced by fiat without function) are weak natural-kind candidates because their properties aren't causally structured.
+- Section 5 (not yet read) extends the account to kinds based in causal *history* rather than causal *power*.
+
+**Claims this source can support:**
+
+- That projectibility is a useful necessary-condition criterion for natural-kindhood.
+- That whether the umbrella concept of *transparency* picks out a natural kind reduces to whether it is grounded in causal-network structure rich enough to support projectible generalisations across the senses. (The brief's argument: it is not.)
+- That whether *local* transparency profiles (number-transparent NPs; compound-transparency-with-priming-effects; constructional compositionality gradients) are local kinds reduces to whether each is grounded in a recurrent causal network — answerable case-by-case.
+- That natural-kind boundaries can be fuzzy without compromising kindhood — useful for the boundary-phenomena cluster of the wider HPC programme.
+
+**Quotations (≤25 words each):**
+
+- "Natural kinds are not just concatenations of properties but ordered hierarchies of properties, whose instances are related to one another as causes and effects in recurrent causal processes." (p. 1379, abstract)
+- "Boyd's account has to be loosened in such a way as to retain the emphasis on causality without the mechanism or the homeostasis." (Khalidi 2018, online p. 6)
+- "What enables natural kind categories to play the role that they do in our inductive, explanatory, and taxonomic practices is that they consist of highly connected nodes in causal networks." (online p. 7)
+- "The account I am proposing is very similar to Boyd's when one drops the mechanism and homeostasis." (online p. 7, fn. 7)
+
+**Warnings / overinterpretation risks:**
+
+- Khalidi's causal-hierarchy commitment is strained for kinds whose stability is conventional, inherited, or multi-sourced. For most linguistic kinds — number-transparent NPs, constructional compositionality gradients — there is no clean "core property causes derivative properties" hierarchy; stability is overdetermined by entrenchment, learnability, processing, function, and convention. The paper uses Khalidi as a refinement for cases where stability *is* causal-processing-shaped (compound transparency, priming-graded morphological transparency), not as the umbrella.
+- "Causal network" is a powerful but elastic notion. Without commitments about what counts as a node, an edge, or a network, "transparency profiles are local nodes in causal networks" can become unfalsifiable.
+- The directed-causal-graph formalism (Fig. 1) is a sketch, not a worked-out framework; importing it into a linguistics paper is a choice that risks formalism-creep.
+- Khalidi 2018 ≠ Khalidi 2013 (the book *Natural Categories and Human Kinds*) — they are mutually consistent but the 2018 paper is the more focused statement of the causal-network view.
+
+**Cross-references:** Slater 2015 (in the central literature folder; entry below) for the maintenance/SPC umbrella the paper adopts. Boyd 1991, 1999 (in the central literature folder, not yet entered into this project) for the HPC view both Slater and Khalidi loosen, in different directions. Khalidi 2013 (in the central literature folder) for the book-length development.
+
+### slater-2015
+
+**Full bibliographic entry:** Slater, Matthew H. (2015). "Natural kindness." *British Journal for the Philosophy of Science* 66(2): 375–411. DOI 10.1093/bjps/axt033. (On disk at `literature/slater2015.md`/`.pdf`. The introduction names the view "Stable Property Cluster" account and credits its "Boydian origins.")
+
+**Status:** partial (introduction and §§1–4.1 read; §§4.2–7 not yet read)
+
+**Relevance:** core (metaphysical umbrella, §7 of the paper)
+
+**Summary:**
+
+- Proposes the *Stable Property Cluster* (SPC) account: a natural kind is a property cluster whose stability underwrites projection, regardless of *how* the stability is maintained.
+- Boyd's HPC retains causal-mechanism and homeostasis commitments that are sometimes false and often vague; SPC drops both, keeping just the cluster + stability.
+- Four motivations for the move: (i) methodological neutrality about the metaphysics of causation; (ii) HPC's mechanism-talk doesn't always accommodate epistemic practice; (iii) "homeostasis" is variably literal and metaphorical in Boyd's own writing; (iv) some kinds (quarks, electrons; some biological kinds) don't fit any precise causal-homeostatic-mechanism story.
+- Argues SPC can be the *general* account of natural kinds, with HPC kinds and essentialist kinds as special cases, rather than HPC being a parallel "kind of natural kind."
+- Stability is anchored to projectibility: a cluster is stable enough to count as a kind if it underwrites reliable inductive inference. The mechanism behind the stability — homeostasis, microstructural essence, conventional reproduction, usage entrenchment — is a downstream empirical question.
+
+**Claims this source can support:**
+
+- That natural-kindhood is most ontologically honestly stated as stable property clustering, with the source of stability left as a separate question.
+- That linguistic kinds, whose stability is multi-sourced (entrenchment, learnability, processing, function, convention), are a natural fit for SPC and an awkward fit for both Boyd's HPC and Khalidi's causal-hierarchy account.
+- That asking "is this transparency profile a local kind?" reduces to: is the cluster stable enough to project over? — answerable case-by-case, with the source of stability identified empirically rather than stipulated.
+- That Slater's framework absorbs HPC and essentialist kinds as special cases, allowing the paper to remain neutral on the deeper metaphysics of causation while still doing real ontological work.
+
+**Quotations (≤25 words each):**
+
+- "Rather than emphasizing homeostasis or causal mechanism, the SPC account emphasizes the stability of a property cluster over the various ways stability may be maintained." (Slater 2015: §1)
+- "Homeostatic causal mechanisms are but one way to achieve the stability of a bunch of clustered properties." (Slater 2015: §4)
+- "It is, I think, an attractive candidate for a general natural kind concept, able to accommodate the diversity of natural kinds we find in the world." (Slater 2015: §1)
+
+**Warnings / overinterpretation risks:**
+
+- "Stability" is itself elastic; without an anchor in projectibility (Slater's anchor) it can sound trivial. Be precise about what stability the paper is claiming for each transparency profile.
+- Slater is more honest about *what* natural-kindhood requires; Khalidi is more honest about *why* a particular cluster earns kindhood. The paper uses Slater as umbrella but should not be silent about the source of stability for each profile — that's where Khalidi (or usage-based-linguistics vocabulary) earns its keep.
+- Slater 2015 is an article-length development of an extended argument; the bibliographic source includes the on-disk markdown but the publisher-of-record metadata should be re-confirmed against the BJPS page before submission. The version on disk is dated "Draft of 10 April 2011"; the published version may differ in places.
+
+**Cross-references:** Khalidi 2018 (above) for the rival loosening of Boyd. Boyd 1991, 1999 (central literature folder) for the original HPC view. Brett's HPC book ch.~7 (NPI-as-class-not-kind passage) for the closest in-house structural analogue: a cluster of properties that doesn't earn natural-kindhood at the umbrella because the stability isn't there at the right grain.
+
+---
+
+## Cross-paper tensions
+
+These are the contradictions and methodological mismatches surfaced by the intake. Use them to navigate the literature, not as a hit-list to settle in this paper.
+
+### Time course of semantic transparency in lexical processing
+
+**Heyer & Kornishova (2018)** versus **Bell & Schäfer (2016)**.
+
+Heyer & Kornishova find that morpho-semantic information is *not* used at short SOAs (33–39 ms) and only becomes effective at longer SOAs (67–77 ms); the first decomposition stage is "semantically blind." Bell & Schäfer report that "perceived transparency may itself be a reflex of ease of processing," appealing to Marelli & Luzzatti's (2012) finding that semantic-transparency effects appear in *very early* stages of compound processing.
+
+Direct empirical contradiction. The paper cannot uncritically claim "transparency affects processing" without flagging which stage of processing and which morphological domain is meant. Suggested resolution: present transparency as cognitively consequential (Bell & Schäfer's bottom line), but note Heyer & Kornishova's stage-specific qualification when discussing the time-course.
+
+### CxG vs CGEL on agreement override
+
+**Goldberg (2006)** versus **CGEL (Huddleston & Pullum 2002)**.
+
+CGEL analyses the number-transparent NP as head + complement plus a feature-override on the simple agreement rule. CxG's "what you see is what you get" approach prefers to state the whole pattern as a form-meaning pairing without override.
+
+Methodological/terminological mismatch, not direct contradiction. Both reject Abney-style DPs and both treat the construction as a proper object of analysis. The choice of formalism does not affect the data. The paper should be explicit about its choice.
+
+### Slater vs Khalidi on what natural-kindhood requires (resolved)
+
+**Slater (2015)** asserts clustering + stability; the source of stability is a separate empirical question. **Khalidi (2018)** asserts clustering + causal hierarchy (core properties cause derivative properties).
+
+Both loosen Boyd's HPC, in different directions. Slater is more honest about *what* natural-kindhood requires (asserts only what observation warrants); Khalidi is more honest about *why* a particular cluster earns kindhood (gives an ontological account of projectibility). The most ontologically honest move depends on the question being asked: for stating the criterion, Slater; for explaining why a particular kind meets it, Khalidi.
+
+**Resolved 2026-04-30 (see `DECISIONS.md`):** Slater's SPC + maintenance-as-umbrella is the metaphysical umbrella for this paper, with Khalidi 2018 as a finer-grain refinement for cases whose stability has identifiable causal-processing grounding. This matches the sister paper `Field_relative_HPC_categories/` and Brett's HPC book; it also fits linguistic kinds better, since their stability is overdetermined by entrenchment, learnability, processing, communicative function, and conventional inheritance, with no single mechanism constitutive.
+
+### Goldberg's cross-linguistic remarks vs Haspelmath's particularism
+
+**Goldberg (2006)** versus **Haspelmath (2010)**.
+
+Goldberg's chapter uses category labels (DITRANSITIVE, PASSIVE, ARGUMENT-STRUCTURE-CONSTRUCTION) cross-linguistically without flagging the descriptive/comparative-concept distinction. Haspelmath would say these are comparative concepts and should be labelled as such.
+
+Scope disagreement. Inferred — neither paper engages the other directly. The paper's §6 should follow Haspelmath's discipline; if §3 leans on Goldberg's CxG framework, the connection between language-particular constructions and the comparative concept of *mediated accessibility* needs to be made explicit.
+
+### Aggregate ratings models vs stage-specific processing models
+
+**Bell & Schäfer (2016)** versus the priming/eye-tracking literature cited within both Bell & Schäfer and Heyer & Kornishova (Libben 1998; Frisson et al. 2008; Marelli & Luzzatti 2012).
+
+Bell & Schäfer's quantitative model fits aggregate transparency ratings well (R² up to ~0.95 in Reddy et al.'s combined-constituent model). The priming and eye-tracking literature reveals stage-specific exceptions that ratings can't see (e.g. opaque-component compounds suppressed by whole-word meaning).
+
+Scope disagreement, not direct contradiction. Different operationalisations of transparency are sensitive to different things. The paper should treat ratings-based and processing-based transparency as complementary measurements of the same underlying gradient, not as competitors.
