@@ -28,6 +28,23 @@ Kyung Hee University}
 \providecommand{\real}[1]{#1}
 \providecommand{\pandocbounded}[1]{#1}
 
+\definecolor{schemablue}{RGB}{239,247,255}
+\definecolor{schemabluerule}{RGB}{185,211,230}
+\newsavebox{\schemaboxbox}
+\newenvironment{schemabox}{%
+  \begin{center}
+  \setlength{\fboxsep}{8pt}%
+  \setlength{\fboxrule}{0.4pt}%
+  \begin{lrbox}{\schemaboxbox}%
+  \begin{minipage}{0.88\linewidth}
+  \centering
+}{%
+  \end{minipage}%
+  \end{lrbox}%
+  \fcolorbox{schemabluerule}{schemablue}{\usebox{\schemaboxbox}}%
+  \end{center}
+}
+
 % \Cref / \cref auto-prefix section references with the right word/symbol.
 \usepackage[capitalize,nameinlink]{cleveref}
 \crefname{section}{§}{§§}
