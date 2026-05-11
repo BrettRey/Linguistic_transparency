@@ -34,21 +34,18 @@ def wilson_ci(k: int, n: int, z: float = 1.96) -> tuple[float, float]:
 
 # (label, plural_count, singular_count, predicted_direction)
 # Predicted-singular rows on the bottom; predicted-plural rows on the top.
-# *a lot of money* counter-direction count is filtered: of 13 raw plural-agreement hits,
-# 10 were parse-shifted (relative-clause modification of a plural-noun head: e.g.,
-# "people who earn a lot of money are successful"), 1 was irrealis "were"
-# (CGEL §3.5.1), and 1 *'s* hit was singular "has" (matches prediction); only 1 hit
-# was genuine plural override (*a lot of money are being raised*).
+# Counter-direction cells are KWIC-filtered where contexts were checked. The
+# large *a lot of people is/was* cell remains raw and conservative.
 DATA = [
     # Predicted singular (non-count complement)
     ('the rest of the money',   0,    19,  'sg'),
     ('plenty of money',         0,    6,   'sg'),
-    ('lots of money',           1,    24,  'sg'),
+    ('lots of money',           0,    24,  'sg'),
     ('a lot of money',          1,    90,  'sg'),
     # Predicted plural (plural complement)
-    ('a number of people',      100,  4,   'pl'),
+    ('a number of people',      100,  0,   'pl'),
     ('a lot of people',         4195, 85,  'pl'),
-    ('lots of people',          348,  6,   'pl'),
+    ('lots of people',          348,  0,   'pl'),
     ('plenty of people',        79,   0,   'pl'),
     ('the rest of the people',  19,   0,   'pl'),
 ]

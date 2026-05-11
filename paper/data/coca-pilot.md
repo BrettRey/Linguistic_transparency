@@ -1,7 +1,7 @@
 # COCA pilot — partitive vs non-partitive *of*-complements for number-transparent QNs
 
 Run: 2026-05-02. Source: COCA (https://www.english-corpora.org/coca/).
-Queries are surface strings; counts are raw COCA frequencies, not filtered for head vs modifier use, idiom contamination, or sense disambiguation. Caveats are noted per cell where relevant.
+Queries are surface strings; counts are raw COCA frequencies unless marked as filtered. Caveats are noted per cell where relevant. Follow-up KWIC checks are archived in `paper/data/kwic-checks.md`.
 
 ## Plural-only forms (*lots, bags, heaps, loads, oodles, stacks, piles*)
 
@@ -24,7 +24,7 @@ Queries are surface strings; counts are raw COCA frequencies, not filtered for h
 | PILES OF PEOPLE | 1 |
 | **Total** | **6311** |
 
-Coding caveat: the small-count *X of day* hits almost certainly include modifier uses (e.g. *lots of day-care*) rather than QN non-partitive heads. Filtering would reduce the non-partitive total slightly but doesn't change the headline contrast (~6,300 non-partitive vs 13 partitive).
+KWIC check: *lots of day* hits are modifier uses (*day-to-day*, *day hikes*, *day trips*). *Heaps of time* and *piles of time* are genuine mass-complement uses; *piles of people* is literal piling rather than the quantificational use. Filtering the modifier/literal cells doesn't change the headline contrast (~6,300 non-partitive vs 13 partitive).
 
 ### Partitive (X of the N)
 
@@ -89,7 +89,7 @@ Partitive ratio: 2 / (6252 + 2) ≈ 0.03%.
 | THE REST OF MONEY | 1 |
 | **Total** | **100** |
 
-Coding caveat: *the rest of time* (75 hits) is heavily contaminated by idiomatic *for the rest of time* (≈ "forever"), *till the rest of time*, and similar. Spot-checking head uses only would lower the figure substantially. *The rest of people* (12) may include generic uses (*the rest of people don't care*) that aren't classic non-partitive QN constructions.
+KWIC check: the raw non-partitive total is conservative. *The rest of time* is mostly fixed or duration-level temporal use (*for the rest of time*, *spend the rest of time*), not the partitive-count contrast targeted here. *The rest of people* contains possessives and non-standard "other people" uses. *The rest of day* is temporal ellipsis or *day* as a modifier. The *remainder* hits are technical or duration expressions.
 
 ### Partitive (the X of the N)
 
@@ -111,7 +111,7 @@ Coding caveat: *the rest of time* (75 hits) is heavily contaminated by idiomatic
 | THE REMAINDER OF A DAY | 1 |
 | **Total** | **1** |
 
-Partitive (definite NP) ratio: 3365 / (3365 + 100 + 1) ≈ 97.1% (raw). Filtering the *for the rest of time* idiom from the non-partitive count would push this even higher.
+Partitive (definite NP) ratio: 3365 / (3365 + 100 + 1) ≈ 97.1% (raw). KWIC filtering of the non-target temporal, possessive, and generic uses in the raw non-partitive cells would push this higher.
 
 ## Override direction
 
@@ -121,19 +121,21 @@ Subject NP + finite verb agreement, by complement number/count. Tests the "near-
 | --- | --- | ---: | ---: | ---: |
 | *a lot of people* | plural | 4,195 (ARE 3,406; WERE 789) | 85 (IS 72; WAS 13) | 98.0% |
 | *a lot of money* | singular | 1 (ARE 1, filtered) | 90 (IS 61; WAS 29) | 98.9% |
-| *a number of people* | plural | 100 (ARE 52; WERE 48) | 4 (IS 2; WAS 2) | 96.2% |
-| *lots of people* | plural | 348 (ARE 288; WERE 60) | 6 (IS 5; WAS 1) | 98.3% |
-| *lots of money* | singular | 1 (ARE 1) | 24 (IS 19; WAS 5) | 96.0% |
+| *a number of people* | plural | 100 (ARE 52; WERE 48) | 0 (4 false positives) | 100% |
+| *lots of people* | plural | 348 (ARE 288; WERE 60) | 0 (6 false positives/non-standard) | 100% |
+| *lots of money* | singular | 0 (1 false positive) | 24 (IS 19; WAS 5) | 100% |
 | *plenty of people* | plural | 79 (ARE 65; WERE 14) | 0 | 100% |
 | *plenty of money* | singular | 0 | 6 (IS 4; WAS 2) | 100% |
 | *the rest of the people* | plural | 19 (ARE 15; WERE 4) | 0 | 100% |
 | *the rest of the money* | singular | 0 | 19 (IS 10; WAS 9) | 100% |
 
-Override is in the predicted direction at 96–100% across all tested QN+complement combinations after filtering. *A lot of money* required the most filtering: of 13 raw plural-agreement hits, 10 were parse-shifted (the surface string *a lot of money are* appearing inside relative clauses modifying a plural-noun head, e.g., *people who earn a lot of money are successful*; *movies that make a lot of money are the biggest help*; *times when we... make a lot of money are gone*), 1 was the irrealis *were* (*if a lot of money were at stake*; not plural agreement, see CGEL §3.5.1), and 1 *'s* hit was singular *has* (matches prediction); only 1 hit was a genuine plural override (*a lot of money are being raised*). Filtered count: 1 plural / 90 singular = 98.9% singular. Other small-count counter-direction cells in the table may include similar artefacts that haven't been spot-checked here.
+Override is in the predicted direction at 98–100% across all tested QN+complement combinations after filtering. *A lot of money* required the most filtering: of 13 raw plural-agreement hits, 10 were parse-shifted (the surface string *a lot of money are* appearing inside relative clauses modifying a plural-noun head, e.g., *people who earn a lot of money are successful*; *movies that make a lot of money are the biggest help*; *times when we... make a lot of money are gone*), 1 was the irrealis *were* (*if a lot of money were at stake*; not plural agreement, see CGEL §3.5.1), and 1 *'s* hit was singular *has* (matches prediction); only 1 hit was a genuine plural override (*a lot of money are being raised*). Filtered count: 1 plural / 90 singular = 98.9% singular.
+
+The other checked counter-direction cells are artefacts. *A number of people is/was* is headed by *condition*, *suggestion*, *ability*, or *counsel*, not by *number*. *Lots of people is/was* is headed by expressions such as *murder*, *hauling*, or *disappearance*, with one non-standard existential hit. *Lots of money are* occurs inside a PP modifying plural *men*. The large *a lot of people is/was* cell remains unfiltered, so the 98.0% row is conservative.
 
 ## *Bunch*: animate vs inanimate aggregates
 
-Tests CGEL's claim that *bunch* tilts collective for inanimate aggregates and transparent for groups of people. Queries via the wrapper at `tools/english-corpora/bin/ecorg.mjs`; KWIC mode is broken in the wrapper (cannot spot-check contexts for parse-shifts).
+Tests CGEL's claim that *bunch* tilts collective for inanimate aggregates and transparent for groups of people. Queries via the wrapper at `tools/english-corpora/bin/ecorg.mjs`; follow-up KWIC checks were done manually.
 
 | Subject | Total tokens | *was* | *were* |
 | --- | ---: | ---: | ---: |
@@ -148,6 +150,6 @@ Tests CGEL's claim that *bunch* tilts collective for inanimate aggregates and tr
 | *a bunch of leaves* | – | 0 | 0 |
 | *a bunch of things* | – | 0 | 1 |
 
-Animates: 40 plural / 0 singular = 100% plural. The CGEL "transparent for groups of people" claim is supported.
+Animates: 40 plural / 0 singular = 100% plural. KWIC checks found no parse-shift confound in these animate-plural hits. The CGEL "transparent for groups of people" claim is supported.
 
 Inanimates: 2 plural / 0 singular. The CGEL "tilts collective for inanimate aggregates" claim is not supported — there are no singular-agreement hits with inanimate complements. Inanimate-bunch is mostly absent from subject position (typical use is as object: *she gave him a bunch of flowers*); the two inanimate-bunch hits in subject position both took plural rather than the CGEL-predicted singular. *A bunch of flowers was presented to the teacher* (the CGEL example) returns 0 hits in COCA.
