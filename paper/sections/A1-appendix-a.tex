@@ -1,8 +1,8 @@
-\section{Number-transparent NP empirical apparatus}\label{sec:A}
+\section{Number-transparent NP empirical apparatus}
 
 This appendix collects the COCA pilot data behind the §\ref{sec:2} claims about the number-transparent quantificational noun class. The body of the paper carries the qualitative claims; the audit trail lives here. Full machine-readable data: \texttt{paper/data/coca-pilot.md}; KWIC spot-checks: \texttt{paper/data/kwic-checks.md}.
 
-\subsection{Methodology}\label{sec:A-1}
+\subsection{Methodology}
 
 Queries were issued through the local Playwright wrapper at \path{tools/english-corpora/bin/ecorg.mjs} (May 2026). Each query is a surface string; counts are raw COCA frequencies, not filtered for head versus modifier use, idiom contamination, or sense disambiguation, except where noted. Two filtering issues recur:
 
@@ -19,7 +19,7 @@ The wrapper's KWIC mode is unreliable for API-driven retrieval from this script 
 
 The contrast: \term{partitive} \mention{of}-complements have definite complements (\mention{of the money}, \mention{of those books}); \term{non-partitive} \mention{of}-complements have indefinite complements (\mention{of money}, \mention{of soldiers}, \mention{of some paintings}).
 
-\subsubsection{\texorpdfstring{Plural-only forms (\mention{lots, bags, heaps, loads, oodles, stacks, piles})}{Plural-only forms (lots, bags, heaps, loads, oodles, stacks, piles)}}\label{plural-only-forms-lots-bags-heaps-loads-oodles-stacks-piles}
+\subsubsection{\texorpdfstring{Plural-only forms (\mention{lots, bags, heaps, loads, oodles, stacks, piles})}{Plural-only forms (lots, bags, heaps, loads, oodles, stacks, piles)}}
 
 Non-partitive (X of N): \mention{lots of people} 3,878; \mention{lots of money} 1,376; \mention{lots of time} 703; \mention{loads of money} 109; \mention{piles of money} 91; \mention{loads of people} 90; \mention{loads of time} 34; \mention{heaps of money} 15; \mention{heaps of people} 7; plus single-digit hits for several other combinations. \textbf{Total: 6,311.} KWIC checks of the single-digit cells show the expected mixture: \mention{lots of day} is modifier use (\mention{day-to-day}, \mention{day hikes}, \mention{day trips}); \mention{heaps of time} and \mention{piles of time} are genuine non-partitive mass-complement uses; \mention{piles of people} is literal piling rather than the quantificational use.
 
@@ -29,7 +29,7 @@ Indefinite-NP complement (X of a N): \mention{lots of a day} 0; \mention{piles o
 
 Partitive ratio: $13 / (6{,}311 + 13) \approx\! 0.2\%$.
 
-\subsubsection{\texorpdfstring{\mention{Plenty}}{Plenty}}\label{plenty}
+\subsubsection{\texorpdfstring{\mention{Plenty}}{Plenty}}
 
 Non-partitive: \mention{plenty of time} 4,017; \mention{plenty of people} 1,563; \mention{plenty of money} 668; \mention{plenty of day} 4 (likely modifier). \textbf{Total: 6,252.}
 
@@ -37,7 +37,7 @@ Partitive: \mention{plenty of the time} 1; \mention{plenty of the people} 1. \te
 
 Partitive ratio: $2 / 6{,}254 \approx\! 0.03\%$.
 
-\subsubsection{\texorpdfstring{\mention{Rest, remainder}}{Rest, remainder}}\label{rest-remainder}
+\subsubsection{\texorpdfstring{\mention{Rest, remainder}}{Rest, remainder}}
 
 Non-partitive (the X of N): \mention{the rest of time} 75; \mention{the rest of people} 12; \mention{the rest of day} 7; \mention{the remainder of time} 3; \mention{the remainder of day} 2; \mention{the rest of money} 1. \textbf{Total: 100 raw.} KWIC checks confirm that this raw total is conservative. \mention{The rest of time} is mostly fixed or duration-level temporal use (\mention{for the rest of time}, \mention{spend the rest of time}), not the partitive-count contrast targeted here; \mention{the rest of people} contains possessives and non-standard \enquote{other people} uses; \mention{the rest of day} is temporal ellipsis or \mention{day} as a modifier; and the \mention{remainder} hits are technical or duration expressions.
 
