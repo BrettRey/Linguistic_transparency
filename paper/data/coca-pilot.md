@@ -153,3 +153,18 @@ Tests CGEL's claim that *bunch* tilts collective for inanimate aggregates and tr
 Animates: 40 plural / 0 singular = 100% plural. KWIC checks found no parse-shift confound in these animate-plural hits. The CGEL "transparent for groups of people" claim is supported.
 
 Inanimates: 2 plural / 0 singular. The CGEL "tilts collective for inanimate aggregates" claim is not supported — there are no singular-agreement hits with inanimate complements. Inanimate-bunch is mostly absent from subject position (typical use is as object: *she gave him a bunch of flowers*); the two inanimate-bunch hits in subject position both took plural rather than the CGEL-predicted singular. *A bunch of flowers was presented to the teacher* (the CGEL example) returns 0 hits in COCA.
+
+## Negative control: referential `the number of` vs quantificational `a number of` (June 2026)
+
+COCA list queries, finite-verb adjacency (is / are):
+
+- the number of people: is 3, are 1
+- the number of cases: is 20, are 1
+- the number of women: is 0, are 1
+- the number of students: is 0, are 0
+- a number of people: is 0, are 52
+- a number of cases: is 0, are 3
+- a number of women: are 5
+- a number of students: are 0
+
+`the number of X` is head-driven (singular); `a number of X` shows categorical plural override. Counts small (bare subject-verb adjacency is rare); the clean, non-zero cells are people and cases. The contrast sits on one lexeme (`number`), so the override is construction-specific, not lexical or a general N-of-N attraction effect. The rare plural with `the number of` is at attraction level (1 token each).
