@@ -10,7 +10,7 @@ Queries were issued through the local Playwright wrapper at \path{tools/english-
 \item
   \term{Modifier confound}. Surface strings of the form X \mention{of} N may include cases where N is a modifier inside a larger NP rather than the head of the \mention{of}-complement (e.g., \mention{lots of day-care} rather than \mention{lots of day}). The countability paper \autocite{reynolds2026countability} handles the same coding issue for \mention{three police} and \mention{three cattle}. Where small counts fall in the predicted-counter direction, the modifier confound likely inflates them.
 \item
-  \term{Parse-shift}. Surface strings containing a number-transparent QN plus a verb form may include cases where the QN sits inside a relative clause modifying a different head-noun, with the visible verb agreeing with that other head. \mention{A lot of money are} is the textbook case: of 13 raw plural-agreement hits, 10 are parse-shifted (people/parents/movies/times \mention{are}; \mention{a lot of money} in a relative clause), 1 is irrealis \mention{were} (CGEL §3.5.1), 1 \mention{'s} hit is contracted \mention{has} (singular, matches prediction), and 1 is a genuine plural override.
+  \term{Parse-shift}. Surface strings containing a number-transparent QN plus a verb form may include cases where the QN sits inside a relative clause modifying a different head-noun, with the visible verb agreeing with that other head. \mention{A lot of money are} is the textbook case: of 13 raw plural-agreement hits, 10 are parse-shifted (people/parents/movies/times \mention{are}; \mention{a lot of money} in a relative clause), 1 is irrealis \mention{were} (\textit{CGEL} §3.5.1), 1 \mention{'s} hit is contracted \mention{has} (singular, matches prediction), and 1 is a genuine plural override.
 \end{itemize}
 
 The wrapper's KWIC mode is unreliable for API-driven retrieval from this script as of May 2026 (Playwright internal error on every attempted call), but that doesn't mean KWIC is unavailable for human use. Counts in the tables below were generated via list-mode queries; KWIC checks were then used to filter selected small cells where raw surface counts were likely to overstate the target construction.
@@ -59,15 +59,15 @@ Test of the \enquote{near-obligatory in central cases} claim. Subject NP plus fi
   >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}
   >{\raggedleft\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2222}}@{}}
 \toprule\noalign{}
-\begin{minipage}[b]{\linewidth}\raggedright
+\begin{minipage}[t]{\linewidth}\raggedright
 Subject
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedright
 Predicted
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedleft
 Plural agr.
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedleft
 Singular agr.
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+\end{minipage} & \begin{minipage}[t]{\linewidth}\raggedleft
 \% predicted
 \end{minipage} \\
 \midrule\noalign{}
@@ -86,13 +86,13 @@ Singular agr.
 \end{longtable}
 }
 
-Override is in the predicted direction at 98--100\% across all tested QN+complement combinations after filtering. \mention{A lot of money} required filtering: of 13 raw plural-agreement hits, 10 were parse-shifted (the surface string \mention{a lot of money are} appearing inside relative clauses modifying a plural-noun head, e.g., \mention{people who earn a lot of money are successful}; \mention{movies that make a lot of money are the biggest help}; \mention{times when we\ldots{} make a lot of money are gone}), 1 was the irrealis \mention{were} (\mention{if a lot of money were at stake}), and 1 \mention{'s} hit was singular \mention{has} (matches prediction); only 1 hit was a genuine plural override (\mention{a lot of money are being raised}). Filtered count: 1 plural / 90 singular = 98.9\% singular.
+Override is in the predicted direction at 98--100\% across all tested QN+complement combinations after filtering. Of these, the discriminating cells, where the head's number and the complement's diverge (\mention{a lot of people}, \mention{a number of people}, \mention{lots of money}, \mention{the rest of the people}), are what evidence the override; the matched cells (\mention{a lot of money}, \mention{lots of people}, \mention{the rest of the money}) confirm the predicted direction but are equally consistent with head-driven agreement, so they don't discriminate. The filtering below was applied to counter-direction cells; predicted-direction cells were not hand-scrubbed to the same depth, so these figures are exploratory corroboration of the categorical override, not estimated rates. \mention{A lot of money} required filtering: of 13 raw plural-agreement hits, 10 were parse-shifted (the surface string \mention{a lot of money are} appearing inside relative clauses modifying a plural-noun head, e.g., \mention{people who earn a lot of money are successful}; \mention{movies that make a lot of money are the biggest help}; \mention{times when we\ldots{} make a lot of money are gone}), 1 was the irrealis \mention{were} (\mention{if a lot of money were at stake}), and 1 \mention{'s} hit was singular \mention{has} (matches prediction); only 1 hit was a genuine plural override (\mention{a lot of money are being raised}). Filtered count: 1 plural / 90 singular = 98.9\% singular.
 
 The other checked counter-direction cells are artefacts. \mention{A number of people is/was} is headed by \mention{condition}, \mention{suggestion}, \mention{ability}, or \mention{counsel}, not by \mention{number}; \mention{lots of people is/was} is headed by expressions such as \mention{murder}, \mention{hauling}, or \mention{disappearance}, with one non-standard existential hit; and \mention{lots of money are} occurs inside a PP modifying plural \mention{men}. The large \mention{a lot of people is/was} cell remains unfiltered, so the 98.0\% row is conservative.
 
 \subsection{\texorpdfstring{A.4 \mention{Bunch}: animate vs.~inanimate aggregates}{A.4 Bunch: animate vs.~inanimate aggregates}}\label{a.4-bunch-animate-vs.-inanimate-aggregates}
 
-CGEL claims that \mention{bunch} tilts collective for inanimate aggregates and transparent for groups of people. The COCA pilot supports the animate half but not the inanimate half.
+\textit{CGEL} claims that \mention{bunch} tilts collective for inanimate aggregates and transparent for groups of people. The COCA pilot supports the animate half but not the inanimate half.
 
 {\def\LTcaptype{none} % don't increment counter
 \begin{longtable}[]{@{}lrrr@{}}
@@ -115,6 +115,6 @@ Subject & Total tokens & \mention{was} & \mention{were} \\
 \end{longtable}
 }
 
-Animates: 40 plural / 0 singular = 100\% plural. KWIC checks found no parse-shift confound in these animate-plural hits. The CGEL \enquote{transparent for groups of people} claim is supported.
+Animates: 40 plural / 0 singular = 100\% plural. KWIC checks found no parse-shift confound in these animate-plural hits. The \textit{CGEL} \enquote{transparent for groups of people} claim is supported.
 
-Inanimates: 2 plural / 0 singular. The CGEL \enquote{tilts collective for inanimate aggregates} claim isn't supported in COCA. Inanimate-bunch is mostly absent from subject position (typical use is as object: \mention{she gave him a bunch of flowers}); the two inanimate-bunch hits in subject position both took plural rather than the CGEL-predicted singular. \mention{A bunch of flowers was presented to the teacher} (the CGEL example) returns 0 hits in COCA.
+Inanimates: 2 plural / 0 singular. The \textit{CGEL} \enquote{tilts collective for inanimate aggregates} claim isn't supported in COCA. Inanimate-bunch is mostly absent from subject position (typical use is as object: \mention{she gave him a bunch of flowers}); the two inanimate-bunch hits in subject position both took plural rather than the \textit{CGEL}-predicted singular. \mention{A bunch of flowers was presented to the teacher} (the \textit{CGEL} example) returns 0 hits in COCA.
