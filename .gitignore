@@ -19,3 +19,6 @@
 
 # Keep PDF
 !main.pdf
+
+# Review-board scratch (internal working notes; not for the shared repo)
+reviews/
