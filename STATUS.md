@@ -82,3 +82,14 @@ Recommend in order:
 - Polish: gloss convention (`..' not `\enquote{}`); category-vs-class footnote (Haspelmath descriptive vs HPC kind, §6.1); Croft 2001 + Hoeksema 2012 + Levi 1978 citations (web-verified) and §6.1 name-drop trim and "the present" fix; the label-isn't-projectible point made explicit (abstract/§1/§7); redundancy pass (6 trims); Table 1 reformatted with `\multicolumn` sub-group rows.
 - Venue: see `paper/notes/possible-venues.md` (targets *Language Sciences*, Elsevier). Discussed LSA *Language* as a higher-bar aim contingent on de-encumbering the framework and delivering the Korean test.
 - Both repos shipped this session.
+
+### 2026-06-17 Session Notes — rhetoric/clarity pass (intro, conclusion, §2)
+
+- Two-part rhetoric/clarity/exposition pass on the umbrella paper. §1 (intro) + §6 (conclusion) shipped as `562d721`; §2 (morphosyntactic) edited but **uncommitted** at shutdown (4 edits in the working tree, pending ship).
+- §6 conclusion now names the non-instance "could-have-concealed-P" diagnostic as the schema's distinctive contribution (both review boards flagged it as the genuine contribution; it was previously only implied). §1's QN-cluster preview aligned to §2's canonical wording (partitive availability / restricted premodification).
+- §1 clarity fixes: opaque "across mediators with opposite morphological number" rephrased; gapping fix in the contribution sentence; clause-initial comma; articles. Cadence thinned 4→3 openers.
+- §2 edits (uncommitted): trimmed a back-to-back "P is on the complement, not the head" restatement (§2.1); "Where the non-singular construal is sourced differs" → "The source of the non-singular construal differs" (§2.2); contractions (§2.2); fixed a garbled §2.4 sentence (doubled "within-domain" + a clause that had §2.4 cross-referencing its own falsification condition).
+- Judgment calls held (logged): "lexical class" kept (HPC term, check-style false positive per the category-vs-class decision); §2's 9-opener "The X is Y" cadence warning left as a length artifact rather than mechanically rewriting board-approved prose.
+- Build clean throughout (single-pass XeLaTeX, no errors). DECISIONS.md current for both passes.
+- Next: ship the §2 working-tree changes (`DECISIONS.md`, `main.pdf`, `paper/sections/02-morphosyntactic-transparency.tex`); untracked `paper/sections/main.tex` remains the known carryover.
+- Kim replied later on 2026-06-17: he wants to coauthor the umbrella paper as well as the TFR-focused companion, accepts the stage-setting direction, and will read carefully in early July after travel; unavailable until July 8.
