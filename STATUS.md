@@ -110,3 +110,10 @@ Recommend in order:
 - Added Aleut as a positive null-source/anaphoric subpart case with the Merchant pro-movement qualification; kept the overt intact-NP head-marking caution for Chimane/Nez Perce/Yucatec.
 - Added source notes and BibTeX entries for Merchant 2011, Nordlinger & Sadler 2004, Chung 1998/2004, and Dryer 1992; downloaded accessible PDFs for Merchant, Nordlinger/Sadler, Chung 2004, and Dryer into `paper/sources/head-marked-transparency/`.
 - Verification: `git diff --check` passed; `make -B` rebuilt `main.pdf` (34 pp.) with no undefined citations/references and no overfull boxes. Remaining warnings are pre-existing duplicate local bib keys and ordinary underfull boxes.
+
+### 2026-06-25 Evening Shutdown — topology integration shipped
+
+- Shipped the §6 topology integration as `7e48eee` (`Integrate exotic transparency topologies`) and then updated the abstract, introduction, and conclusion to match the new topology map.
+- The framing update is shipped as `5a5dba7` (`Update framing for transparency topology`) on `main`. It keeps English QNs and TFRs as the worked syntactic core while naming Spanish/Tsez, Aleut, Lardil/Kayardild, Chamorro, and Algonquian/Kutenai as topology pressure tests or boundaries.
+- Verification before the framing commit: `git diff --check`, a focused house-style scan, and `make -B` passed; final log scan found no undefined citations/references, no overfull boxes, and no rerun loop. Remaining warnings are the known duplicate local bib keys, package warnings, and underfull boxes.
+- Current open carryovers: decide whether to send/revise the Pedro Mateo Pedro Yucatec Maya query; duplicate local bib keys remain for later bibliography cleanup.
