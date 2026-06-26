@@ -90,6 +90,292 @@ The brief's §2 table lists Korean case stacking and Korean scrambling as morpho
 
 ---
 
+## Head-marked agreement and possessor near misses (added 2026-06-25)
+
+PDFs are stored in `paper/sources/head-marked-transparency/`. The purpose of this source cluster is narrow: it supports the caution in §6 that head-marked agreement does not by itself guarantee English-style NP transparency. The positive-looking cases are mostly possessor constructions, and the strongest analyses introduce a clause-level relation.
+
+### ritchie-2014-chimane-possessor-agreement
+
+**Full bibliographic entry:** Sandy Ritchie (2014), "Possessor co-reference marking and agreement in Chimane," in Aicha Belkadi, Kakia Chatsiou, and Kirsty Rowan (eds.), *Proceedings of Conference on Language Documentation and Linguistic Theory 4*, London: SOAS, 133--148.
+
+**Status:** partial (front matter, introduction, Chimane example, and analysis framing read)
+
+**Relevance:** useful (strongest near-positive head-marked case)
+
+**Summary:**
+
+- Chimane predicate-possessor agreement lets possessors that appear internal to possessive object NPs control object agreement on the verb.
+- The core example has masculine verbal agreement tracking possessor Benjamin while the possessed noun `frog' is feminine.
+- Ritchie treats the construction as formally different from standard external possession but still discourse-sensitive, especially to possessor topicality.
+
+**Claims this source can support:**
+
+- Chimane is a surface-positive near case for embedded possessor control of verbal agreement.
+- The source itself presents the construction as locality-challenging and not a straightforward English-style transparency case.
+
+**Quotations (≤25 words each):**
+
+- "possessors which appear to be internal to possessive object NPs can control object agreement on the verb" (p. 133)
+- "What we appear to have here is an internal possessor which can control object agreement on the verb" (p. 134)
+
+**Warnings / overinterpretation risks:**
+
+- Do not present Chimane as a clean positive for intact-NP transparency. Ritchie's later HPSG/LFG paper introduces a clause-level proxy.
+
+### ritchie-2016-prominent-internal-possessors
+
+**Full bibliographic entry:** Sandy Ritchie (2016), "Two cases of prominent internal possessor constructions," in Doug Arnold, Miriam Butt, Berthold Crysmann, Tracy Holloway King, and Stefan Müller (eds.), *Proceedings of the Joint 2016 Conference on Head-driven Phrase Structure Grammar and Lexical Functional Grammar*, Stanford, CA: CSLI Publications, 620--640. DOI 10.21248/hpsg.2016.32.
+
+**Status:** partial (abstract, introduction, Chimane analysis, and conclusion read)
+
+**Relevance:** useful (analysis of why Chimane is mediated)
+
+**Summary:**
+
+- PIPCs involve an apparently non-local agreement relation between verbs and possessors internal to possessive NPs.
+- In Chimane, the possessor agreement pattern is restricted to object NPs and accompanied by applicative-like verbal morphology.
+- Ritchie analyzes the controller relation through a clause-level proxy object of the internal possessor, tied to secondary-topic status.
+
+**Claims this source can support:**
+
+- Chimane is the strongest near case, but Ritchie's analysis explicitly mediates the agreement through a clause-level proxy.
+- Prominent internal possessors are information-structure-sensitive, not simple probes into arbitrary NP-internal dependents.
+
+**Quotations (≤25 words each):**
+
+- "internal possessors are able to control object agreement via a clause-level 'proxy' of the internal possessor" (p. 621)
+- "possessors in PIPCs can participate in phrase-external syntax" (p. 622)
+
+**Warnings / overinterpretation risks:**
+
+- The paper includes Maithili as well as Chimane; cite only for the Chimane claims unless the Maithili comparison is developed.
+
+### deal-2013-possessor-raising
+
+**Full bibliographic entry:** Amy Rose Deal (2013), "Possessor Raising," *Linguistic Inquiry* 44(3): 391--432. DOI 10.1162/LING_a_00133.
+
+**Status:** partial (abstract, introduction, diagnostic summary, and conclusion read)
+
+**Relevance:** core negative control
+
+**Summary:**
+
+- Nez Perce object possessor raising has the right surface shape for transparency: the possessor controls object agreement.
+- Deal argues the possessor moves from a possessum-DP-internal position to an athematic A-position in vP.
+- The construction is diagnosed by objective case on the possessor, plural object agreement, separability of possessor and possessum, and special possessor-raising morphology.
+
+**Claims this source can support:**
+
+- Some strong surface positives are not transparency, because the possessor is no longer merely embedded inside the possessive DP.
+- Nez Perce is a negative control for the diagnostic.
+
+**Quotations (≤25 words each):**
+
+- "The possessor phrase moves from a possessum-DP-internal position to an athematic A-position within vP" (p. 391)
+- "controls plural object agreement" (p. 392)
+
+**Warnings / overinterpretation risks:**
+
+- Nez Perce is mixed in the relevant domain: objective case and object agreement both matter.
+
+### deal-2017-external-possession
+
+**Full bibliographic entry:** Amy Rose Deal (2017), "External possession and possessor raising," in Martin Everaert and Henk C. van Riemsdijk (eds.), *The Wiley Blackwell Companion to Syntax*, 2nd ed. DOI 10.1002/9781118358733.wbsyncom047.
+
+**Status:** partial (introduction, historical analysis, Swahili/Mohawk sections, conclusion read)
+
+**Relevance:** useful typological frame
+
+**Summary:**
+
+- External possession mismatches syntax and possession semantics: the possessor behaves syntactically as a verbal dependent but semantically as possessor of a co-argument.
+- Deal surveys possessor raising, external possession, incorporation, control-like, raising-like, and other dependency types.
+- The survey supports treating many apparent possessor-agreement effects as clause-level syntax rather than intact-NP transparency.
+
+**Claims this source can support:**
+
+- Apparent head-marked possessor transparency is often external possession, possessor raising, incorporation, or a related clause-level dependency.
+
+**Quotations (≤25 words each):**
+
+- "External possession is a phenomenon where a nominal is syntactically encoded as a verbal dependent" (p. 1)
+- "Two major types of external possession constructions have emerged" (p. 30)
+
+**Warnings / overinterpretation risks:**
+
+- The chapter is a survey and theoretical synthesis; use language-specific primary sources for detailed claims where possible.
+
+### bohnemeyer-butler-jaeger-2015-yucatec-head-marking
+
+**Full bibliographic entry:** Jürgen Bohnemeyer, Lindsay K. Butler, and T. Florian Jaeger (2015), "Head-marking and agreement: Evidence from Yucatec Maya," in Jens Fleischhauer, Anja Latrouite, and Rainer Osswald (eds.), *Exploring the Syntax-Semantics-Pragmatics Interface*, Düsseldorf: Düsseldorf University Press, 49--82.
+
+**Status:** partial (introduction and §2.2 read)
+
+**Relevance:** background negative-control language type
+
+**Summary:**
+
+- Yucatec Maya is described as exclusively head-marking, with no nominal case marking.
+- Cross-reference markers appear on predicates and on possessed nominals.
+
+**Claims this source can support:**
+
+- Yucatec is an appropriate head-marking backdrop for the typological check.
+
+**Quotations (≤25 words each):**
+
+- "Yucatec is an exclusively head-marking language" (p. 51)
+- "there is no nominal case marking of any kind" (p. 51)
+
+**Warnings / overinterpretation risks:**
+
+- This source is not itself about transparency or possessor raising. Pair it with Lehmann for the possession-specific point.
+
+### lehmann-2002-yucatec-possession
+
+**Full bibliographic entry:** Christian Lehmann (2002), *Possession in Yucatec Maya*, 2nd rev. ed., ASSidUE 10, Erfurt: Seminar für Sprachwissenschaft der Universität Erfurt. ISSN 1612-0612.
+
+**Status:** partial (front matter; §4 and §5.2 targeted by text search)
+
+**Relevance:** useful negative-control possession source
+
+**Summary:**
+
+- Lehmann distinguishes internal and external possessor strategies.
+- Yucatec Maya consistently uses the internal possessor strategy in situations of indirect possessor affection.
+- The verbal grammar generally provides no place for an independent possessor constituent apart from the existential `yàan' construction.
+
+**Claims this source can support:**
+
+- In a head-marking Mayan language, ordinary possessor sensitivity does not automatically create clause-level transparency.
+
+**Quotations (≤25 words each):**
+
+- "YM consistently uses the internal possessor strategy" (p. 117)
+- "There is no possessive dative outside ascription of possession in YM" (p. 121)
+- "possessors of inalienable possessa are not dissociated from these" (p. 128)
+
+**Warnings / overinterpretation risks:**
+
+- The source is a detailed grammar of Yucatec possession, not a typological survey of head-marked transparency.
+
+### merchant-2011-aleut-case-matters
+
+**Full bibliographic entry:** Jason Merchant (2011), "Aleut case matters," in Etsuyo Yuasa, Tista Bagchi, and Katharine Beals (eds.), *Pragmatics and Autolexical Grammar: In Honor of Jerry Sadock*, Linguistik Aktuell/Linguistics Today 176, Amsterdam: John Benjamins, 193--210. DOI 10.1075/la.176.12mer.
+
+**Status:** partial (abstract, core alternation, missing-possessor example, and analysis read)
+
+**Relevance:** core typological pressure test
+
+**Summary:**
+
+- Aleut has a case/agreement alternation when a non-subject argument is syntactically unexpressed.
+- The missing-possessor example contrasts an overt possessor, with ordinary agreement, and an unpronounced possessor, with relative marking on the subject and an anaphoric suffix on the verb.
+- Merchant analyzes the missing element as syntactically present pro that moves into a local relation with T.
+- The case is therefore a strong null-source/anaphoric accessibility case, but not a simple case of an overt NP-internal dependent controlling verbal morphology while remaining in place.
+
+**Claims this source can support:**
+
+- Aleut supplies a named positive case where a recoverable possessor subpart conditions clause-level morphology.
+- The source status of `P' can be null/anaphoric rather than overt.
+
+**Quotations (<=25 words each):**
+
+- "Further examples illustrating the Aleut Effect are given in (6)--(8)" (p. 195)
+- "Missing possessor of a non-subject" (p. 195)
+
+**Warnings / overinterpretation risks:**
+
+- Do not call this transparency "without structure" without qualification. Merchant's analysis rests on unpronounced syntactic pro.
+
+### nordlinger-sadler-2004-tense-beyond-verb
+
+**Full bibliographic entry:** Rachel Nordlinger and Louisa Sadler (2004), "Tense beyond the verb: Encoding clausal tense/aspect/mood on nominal dependents," *Natural Language and Linguistic Theory* 22(3): 597--641. DOI 10.1023/B:NALA.0000027720.41506.fe.
+
+**Status:** partial (abstract, Lardil and Kayardild sections read)
+
+**Relevance:** core inward-topology comparison
+
+**Summary:**
+
+- The paper surveys languages in which nominal dependents carry tense/aspect/mood morphology interpreted with respect to the clause.
+- In Lardil, verbal TAM marking can require matching tense marking on non-subject NPs.
+- In Kayardild, non-subject NPs carry modal case, and clausal TAM can be computed from both verbal and nominal morphology.
+- The descriptive fact is independent of the LFG analysis: clausal information is morphologically visible on dependent nominals.
+
+**Claims this source can support:**
+
+- Mediated accessibility needn't be only inward-to-outward. Clause-level features can be visible on embedded/dependent nominals.
+- Kayardild should be treated as an inward or concord-like topology, not as simple copying.
+
+**Quotations (<=25 words each):**
+
+- "properties of the clausal head ... being marked on clausal dependents" (p. 602)
+- "clausal TAM features arise as a composite" (p. 602)
+
+**Warnings / overinterpretation risks:**
+
+- Avoid making the paper depend on a generative or LFG analysis. The typology claim uses the surface distribution and its interpretation.
+
+### chung-1998-design-agreement / chung-2004-restructuring-chamorro
+
+**Full bibliographic entry:** Sandra Chung (1998), *The Design of Agreement: Evidence from Chamorro*, Chicago: University of Chicago Press. Supporting source: Sandra Chung (2004), "Restructuring and verb-initial order in Chamorro," *Syntax* 7(3): 199--233.
+
+**Status:** partial (publisher record for 1998; 2004 wh-agreement and restructuring sections read)
+
+**Relevance:** useful path-topology comparison
+
+**Summary:**
+
+- Chung's Chamorro work treats wh-agreement as special morphology associated with wh-dependencies.
+- The morphology varies with the grammatical relation/case of the extracted item.
+- Long-distance examples can show agreement morphology on multiple predicates along the dependency path.
+- The current paper leaves extraction aside, so Chamorro is best used as one typology row and one sentence.
+
+**Claims this source can support:**
+
+- Some accessibility relations are path-distributed rather than located at a single endpoint.
+- Chamorro should remain a scoped comparison, not a new worked case in this paper.
+
+**Quotations (<=25 words each):**
+
+- "the special agreement characteristic of wh-dependencies in Chamorro" (Chung 2004, p. 209)
+- "wh-agreement must occur" (Chung 2004, p. 210)
+
+**Warnings / overinterpretation risks:**
+
+- The 2004 article is generative in analysis. For this paper, use it only for the observable morphology and locality contrast.
+
+### dryer-1992-kutenai-algonquian-obviation
+
+**Full bibliographic entry:** Matthew S. Dryer (1992), "A Comparison of the Obviation Systems of Kutenai and Algonquian," in William Cowan (ed.), *Papers of the Twenty-Third Algonquian Conference*, Ottawa: Carleton University, 119--163.
+
+**Status:** partial (possessor/possessed-noun obviation comparison read)
+
+**Relevance:** useful boundary case
+
+**Summary:**
+
+- Dryer compares Kutenai and Algonquian obviation systems.
+- In the relevant comparison, possessed nouns can bear obviation morphology reflecting the possessor.
+- The possessed noun can still be syntactically obviative and can trigger obviative subject marking on the verb.
+- This looks like possessor access at first, but it is better treated as feature relay through the possessed noun.
+
+**Claims this source can support:**
+
+- Algonquian/Kutenai obviation is a negative control: the possessor's feature is transformed/relayed onto the head rather than directly accessed by the predicate.
+
+**Quotations (<=25 words each):**
+
+- "the possessed noun bears obviative marking if and only if the possessor is obviative" (p. 125)
+- "the verbs in both (19) and (20) inflect for an obviative subject" (p. 125)
+
+**Warnings / overinterpretation risks:**
+
+- This is a boundary case, not evidence for a fourth positive transparency topology.
+
+---
+
 ## Curation
 
 ### huddleston-pullum-2002

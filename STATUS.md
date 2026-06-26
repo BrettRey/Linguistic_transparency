@@ -93,3 +93,20 @@ Recommend in order:
 - Build clean throughout (single-pass XeLaTeX, no errors). DECISIONS.md current for both passes.
 - Next: ship the §2 working-tree changes (`DECISIONS.md`, `main.pdf`, `paper/sections/02-morphosyntactic-transparency.tex`); untracked `paper/sections/main.tex` remains the known carryover.
 - Kim replied later on 2026-06-17: he wants to coauthor the umbrella paper as well as the TFR-focused companion, accepts the stage-setting direction, and will read carefully in early July after travel; unavailable until July 8.
+
+
+### 2026-06-25 Session Notes — head-marked transparency check
+
+- Incorporated Bert/Otto's Shilluk result as a negative: no transparency in the serialization diagnostic; the pronominal subject had to be singular and plural was rejected despite the embedded plural possessor. The Shilluk fact is not currently added as a main-text example, but it guides the interpretation.
+- Added a short §6 paragraph on head-marked agreement systems after the Tsez discussion. The paragraph says genuine English-style NP transparency is not securely attested in the gathered head-marked sources; apparent positives cluster around possessors and are usually possessor raising, external possession, applicative promotion, incorporation, or null-argument mediation.
+- Gathered valid PDFs under `paper/sources/head-marked-transparency/`; added six BibTeX entries to `references-local.bib`; added source notes for Ritchie/Chimane, Deal/external possession and possessor raising, Bohnemeyer et al./Yucatec, and Lehmann/Yucatec. The attempted Tyler/Choctaw PDF was HTML, so it was not copied.
+- Drafted an email to Pedro Mateo Pedro asking whether Yucatec Maya allows an NP-internal possessor to control clause-level agreement while remaining inside the possessed NP.
+- Build: `make quick` completed and final log check found no unresolved citation/reference/biblatex warnings. Current working tree remains uncommitted: `main.pdf`, `paper/sections/06-typological-transparency.tex`, `paper/sources/source-notes.md`, `references-local.bib`, and untracked `paper/sources/head-marked-transparency/`.
+
+### 2026-06-26 Session Notes — exotic transparency topologies
+
+- Used Roughdraft to review the integration plan at `paper/notes/exotic-transparency-geometries-plan.md`; Brett approved Aleut as a named main-text positive, agreed Chamorro should stay scoped to one table row/one sentence, and asked for explicit $X$--$P$--$R$ mappings with falsification conditions.
+- Reworked §6 from "two cross-linguistic cases" to "cross-linguistic cases and topologies." Added Table 2 with outward endpoint, null-source subpart, inward dependent, path-distributed, and feature-relay boundary topologies.
+- Added Aleut as a positive null-source/anaphoric subpart case with the Merchant pro-movement qualification; kept the overt intact-NP head-marking caution for Chimane/Nez Perce/Yucatec.
+- Added source notes and BibTeX entries for Merchant 2011, Nordlinger & Sadler 2004, Chung 1998/2004, and Dryer 1992; downloaded accessible PDFs for Merchant, Nordlinger/Sadler, Chung 2004, and Dryer into `paper/sources/head-marked-transparency/`.
+- Verification: `git diff --check` passed; `make -B` rebuilt `main.pdf` (34 pp.) with no undefined citations/references and no overfull boxes. Remaining warnings are pre-existing duplicate local bib keys and ordinary underfull boxes.
