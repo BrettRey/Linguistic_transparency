@@ -20,5 +20,8 @@
 # Keep PDF
 !main.pdf
 
+# Local source PDFs live in the central literature store.
+paper/sources/**/*.pdf
+
 # Review-board scratch (internal working notes; not for the shared repo)
 reviews/
