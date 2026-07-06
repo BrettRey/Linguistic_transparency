@@ -21,6 +21,9 @@ Kyung Hee University}
 \usepackage{booktabs}
 \usepackage{calc}
 \usepackage{array}
+\usepackage[mathlines]{lineno}
+% Pandoc-style longtables set \LTcaptype to none; lineno expects that counter.
+\newcounter{none}
 % Tightlist for compact lists; pandocbounded/real are legacy compatibility
 % from earlier markdown→pandoc pipeline; harmless if unused.
 \providecommand{\tightlist}{%
@@ -61,6 +64,7 @@ Kyung Hee University}
 
 \begin{document}
 \maketitle
+\linenumbers
 
 \begin{abstract}
 \input{paper/sections/00-abstract.tex}
