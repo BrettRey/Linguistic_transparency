@@ -1,4 +1,5 @@
 # STATUS
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Kim's July review triaged and implemented, awaiting Kim's Korean draft + tracked-changes round · status: revising with coauthor · updated: 2026-07-14 -->
 
 ## Current state (2026-04-30)
 
@@ -117,3 +118,10 @@ Recommend in order:
 - The framing update is shipped as `5a5dba7` (`Update framing for transparency topology`) on `main`. It keeps English QNs and TFRs as the worked syntactic core while naming Spanish/Tsez, Aleut, Lardil/Kayardild, Chamorro, and Algonquian/Kutenai as topology pressure tests or boundaries.
 - Verification before the framing commit: `git diff --check`, a focused house-style scan, and `make -B` passed; final log scan found no undefined citations/references, no overfull boxes, and no rerun loop. Remaining warnings are the known duplicate local bib keys, package warnings, and underfull boxes.
 - Current open carryovers: decide whether to send/revise the Pedro Mateo Pedro Yucatec Maya query; duplicate local bib keys remain for later bibliography cleanup.
+
+### 2026-07-14 Session Notes — Kim's review round implemented
+
+- Triaged Kim's line-numbered July comments (`reviews/kim-2026-07-triage.md`): ~22 adopts, 6 adapts, 0 rejections. Brett ratified the scope compromise (fold §2.6 into §4, compress §1 typology preview, keep §4 intact), Kim drafts the Korean himself, and Kim's book stays 2026-with-asterisk in the bib.
+- Implemented across all six sections. Highlights: sentential examples added wherever agreement is the point (Kim's *a lot of* pair, CGEL [53i], CGEL [8]/[10] verbatim, per-sub-group sentences after Table 1); CGEL locators now carry verified page numbers; "fused-head behaviour" corrected to "complement ellipsis" per CGEL's own analysis (pp. 349, 412, 503) with a disambiguating footnote; projectibility-profile intro rebuilt around the (1a) worked example; §3 restructured (no lone subsection); §4 gains "Korean as the deferred cross-linguistic test" (`sec:6-korean`) as Kim's landing pad; QN-vs-quantifier-noun terminology footnote (VE&K 2023 verified, PDF now in `literature/`); Kim's measure/quantity/collection classification cited (flagged `% VERIFY` pending his chapter); loose-property list corrected against Reynolds 2026a.
+- Verification: `make -B` clean (35 pp., no undefined citations/references, no overfull boxes); check-style flags only pre-existing held judgment calls. Working tree uncommitted; ship when Brett says.
+- Open: reply to Kim (confirm he'll draft Korean into §4.5; ask for his book chapter pp. 98–103 and the final pub year); he'll use track changes on the `.tex` next round.
