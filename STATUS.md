@@ -135,4 +135,12 @@ Recommend in order:
 - §5: light concretize (Brett's call) — SPC definition sharpened with Slater's wording; cliquishness made concrete via the QN cluster. Structure and the non-instance contribution kept.
 - Terminology: "collective" (Kim's book) in §2, "collection" (Van Eynde & Kim 2023) in §1 footnote — the sources differ, each cited to its own term.
 - Bib: corrected the central `kim-2026-form-function` entry in place (title "Mapping" not "Mismatches" / "Construction Grammar" not "Construction-Grammar"; place "New York" not the wrong "New York and London"; dropped the redundant `edition`; added DOI; year 2026). Applied via a targeted script scoped to the one entry, since `/push-bib` can't correct existing keys.
-- Build clean (`make`, no undefined citations/references, 36 pp.). Not yet shipped; awaiting Kim's Korean draft + track-changes round.
+- Build clean (`make`, no undefined citations/references, 36 pp.). Shipped as `70d79a3` to origin/main.
+
+### 2026-07-23 Session Notes — cross-section audit and revision
+
+- Ran a 28-pair cross-section audit (background workflow) and implemented the surviving findings, then a scar-tissue pass (full log: DECISIONS 2026-07-23 cross-section audit implementation).
+- Correctness fixes: de-referenced a Russian `-ost'` deadjectival-nominalization case that was invoked in §4/§5 but never delivered (no source; stale from the form--meaning spin-out); re-analogized Spanish `mayoría` to boundary cognates `majority`/`minority`; reconciled `piles` (App A tests seven plural-only forms, body followed CGEL's six).
+- Framing/coverage: abstract now names the non-instance requirement + Korean and grades the typological cases; appendix cross-referenced from §5/§6 with a scope note; QN stabilizer terminology standardized (observable base / stabilizing source); §3 coordination non-instance made analysis-relative; §7-4 "four windows" → "four measures"; TFR verb classes named in §2.5; Table 2 gains Spanish + TFRs; `mass` → `non-count`.
+- **Open (Brett's call):** reinstate the Russian case in §3 with a source if wanted; the §4/§5 three-level-scheme and §5/§6 conclusion redundancy (invasive on board-approved framing).
+- Build clean; this revision round is **uncommitted** (awaiting a ship).
