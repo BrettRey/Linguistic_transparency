@@ -1,5 +1,5 @@
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Kim's July review triaged and implemented, awaiting Kim's Korean draft + tracked-changes round · status: revising with coauthor · updated: 2026-07-14 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Kim's second (2026-07-23) review implemented (data/glosses/SPC/bib); awaiting Kim's Korean draft + tracked-changes round · status: revising with coauthor · updated: 2026-07-23 -->
 
 ## Current state (2026-04-30)
 
@@ -123,5 +123,16 @@ Recommend in order:
 
 - Triaged Kim's line-numbered July comments (`reviews/kim-2026-07-triage.md`): ~22 adopts, 6 adapts, 0 rejections. Brett ratified the scope compromise (fold §2.6 into §4, compress §1 typology preview, keep §4 intact), Kim drafts the Korean himself, and Kim's book stays 2026-with-asterisk in the bib.
 - Implemented across all six sections. Highlights: sentential examples added wherever agreement is the point (Kim's *a lot of* pair, CGEL [53i], CGEL [8]/[10] verbatim, per-sub-group sentences after Table 1); CGEL locators now carry verified page numbers; "fused-head behaviour" corrected to "complement ellipsis" per CGEL's own analysis (pp. 349, 412, 503) with a disambiguating footnote; projectibility-profile intro rebuilt around the (1a) worked example; §3 restructured (no lone subsection); §4 gains "Korean as the deferred cross-linguistic test" (`sec:6-korean`) as Kim's landing pad; QN-vs-quantifier-noun terminology footnote (VE&K 2023 verified, PDF now in `literature/`); Kim's measure/quantity/collection classification cited (flagged `% VERIFY` pending his chapter); loose-property list corrected against Reynolds 2026a.
-- Verification: `make -B` clean (35 pp., no undefined citations/references, no overfull boxes); check-style flags only pre-existing held judgment calls. Working tree uncommitted; ship when Brett says.
-- Open: reply to Kim (confirm he'll draft Korean into §4.5; ask for his book chapter pp. 98–103 and the final pub year); he'll use track changes on the `.tex` next round.
+- Verification: `make -B` clean (35 pp., no undefined citations/references, no overfull boxes); check-style flags only pre-existing held judgment calls.
+- Scar-tissue pass over the round's own edits (see DECISIONS), then shipped as `3d502b5` to origin/main.
+- Reply to Kim sent 2026-07-14 (`correspondence/2026-07-14-reply-to-kim-july-comments.md`). Awaiting from Kim: Korean draft into §4.5; book chapter pp. 98–103 + pub year (2026 vs 2027); OK on CGEL pair replacing his suggested sentences. He'll use track changes next round.
+
+### 2026-07-23 Session Notes — Kim's second review round implemented
+
+- Triaged and implemented Kim's second round of line-numbered comments (~10 items; full log in DECISIONS 2026-07-23). Kim also sent his book (Routledge, releasing 2026-07-29) as the source for the pseudo-partitive examples.
+- Mechanical fixes: umbrella schema de-numbered; ungrammatical examples italicised (`\ungram`+`\mention`); one-sentence paragraph merged; *nurse/nurses* pair enumerated; "both routes" named; "rare" not "zero" for inanimate *bunch*; §3.1 three/two/three counts spelled out.
+- Source-grounded additions (verified against primaries via three extraction agents + hand-check of every gloss): §2.1 three-subtype example from Kim's book (COCA, pp. 99–102), `% VERIFY` cleared; §4.1 Haspelmath's own examples (dative, future); §4.5 glossed examples for Spanish (*mayoría*), Aleut (Merchant 2011: 195), Chimane (Ritchie 2016: 622–623, framed as applicative-mediated), Yucatec (Lehmann 2002: 110), matching the existing Tsez interlinear.
+- §5: light concretize (Brett's call) — SPC definition sharpened with Slater's wording; cliquishness made concrete via the QN cluster. Structure and the non-instance contribution kept.
+- Terminology: "collective" (Kim's book) in §2, "collection" (Van Eynde & Kim 2023) in §1 footnote — the sources differ, each cited to its own term.
+- Bib: corrected the central `kim-2026-form-function` entry in place (title "Mapping" not "Mismatches" / "Construction Grammar" not "Construction-Grammar"; place "New York" not the wrong "New York and London"; dropped the redundant `edition`; added DOI; year 2026). Applied via a targeted script scoped to the one entry, since `/push-bib` can't correct existing keys.
+- Build clean (`make`, no undefined citations/references, 36 pp.). Not yet shipped; awaiting Kim's Korean draft + track-changes round.
