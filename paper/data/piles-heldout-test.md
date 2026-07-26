@@ -1,5 +1,5 @@
 # Held-out projection test: quantificational *piles*
-<!-- SUMMARY: Pre-registered candidate-member test for the QN profile; predictions fixed before COCA queries, Google Books pre-test already partly disconfirming · status: awaiting hand-run COCA/COHA queries · updated: 2026-07-26 -->
+<!-- SUMMARY: Pre-registered candidate-member test for the QN profile; determiner-frame prediction confirmed and sense-discriminating, agreement prediction untestable for subject-position rarity · status: P4/P5/control still to run · updated: 2026-07-26 -->
 
 The QN profile's weakness is that projection has only been shown over known members, which is close to lexical lookup. This is the candidate-member test the paper has specified but not run. *Piles* is the right subject: it is **not** on *CGEL*'s [57] core list, and it entered the appendix totals only because it appeared to pattern with the plural-only subgroup.
 
@@ -43,9 +43,9 @@ Not a substitute for COCA: different register and period mix, no KWIC filtering,
 | piles of books **were** / **was** | 4.96e-10 / 0.0 |
 | piles of papers **were** / **was** | 3.90e-10 / 3.99e-11 |
 
-**P1 is not confirmed and looks disconfirmed.** With non-count *money*, singular takes about 22% of finite-*be* tokens (1.01 against 3.52), so plural dominates roughly 3.5:1. The profile predicts the reverse.
+**P1 is not confirmed here.** With non-count *money*, singular takes about 22% of finite-*be* tokens (1.01 against 3.52), so plural dominates roughly 3.5:1, where the profile predicts the reverse. The direction of the contrast does survive: singular's share is ~22% with non-count *money* against 0–9% with count *books*/*papers*.
 
-**But the direction of the contrast survives.** Singular's share is ~22% with non-count *money* against 0–9% with count *books*/*papers*. So the complement's count status does shift agreement the predicted way; it simply doesn't produce the near-categorical override that core members show. On this evidence *piles* looks like a **weak or boundary member**, not a core one.
+**Reinterpreted after the COCA run in §6, this reading doesn't hold up either way.** The COCA determiner data shows that literal *piles* is productive across 174 complements while the quantificational use concentrates on a handful, so most Google Books tokens of *piles of money are* are plausibly literal (stacks of banknotes), which would give plural agreement without bearing on the quantificational use at all. Exact-string frequency can't separate the senses, and that is the limitation, not the profile.
 
 P4 is consistent (`piles of the money` below threshold). P3 is contradicted by a non-zero `a piles of`, which is almost certainly OCR or scanning noise, and is a reason to distrust small Google Books cells rather than to conclude anything about English.
 
@@ -122,3 +122,46 @@ piles of *                   (by decade, to see whether abstract/non-count compl
 - **No contrast at all, or the control behaves the same**: the input criteria don't pick out class membership, and the profile claim should be weakened further.
 
 Either of the first two outcomes is publishable. The third would matter a great deal, which is the point of running it.
+
+## 6. COCA results (run by hand, 2026-07-26)
+
+### P1/P2, agreement: the test cannot be run on *piles*
+
+The combined `[be]` queries returned **five hits in total** across all nine complements:
+
+| String | Freq |
+|---|---|
+| PILES OF MONEY **IS** | 1 |
+| PILES OF SNOW **ARE** | 1 |
+| PILES OF PAPERS **WERE** | 1 |
+| PILES OF BOOKS **ARE** | 1 |
+| PILES OF BODIES **WERE** | 1 |
+
+- **Discriminating cell (non-count complement): n = 2, split 1–1.** *Piles of money is* and *piles of snow are*.
+- Count complements: 3/3 plural, as predicted, but this cell never discriminated.
+
+**P1 is untestable, not disconfirmed.** Two tokens support no verdict either way, and the Google Books ~22%/78% split in §3 was on a similarly thin base with no way to separate literal from quantificational uses. Reading either result as evidence against the profile would repeat exactly the error Appendix A.2 used to make.
+
+**Why the data isn't there, and why that matters.** COCA has 91 tokens of *piles of money*, of which **one** is followed by a finite form of *be*. Quantificational *piles* almost never appears as a subject; its typical use is as an object (*he made piles of money*). This is structurally the same problem as inanimate *bunch* (§2.2), and it generalises: **the agreement-override prediction is only corpus-testable for class members that occur in subject position**, which is a real limitation on the profile's testability rather than a fact about *piles*. Candidate-member discovery may need acceptability judgments rather than corpus frequency.
+
+### P3, determiner frame: confirmed, and it discriminates the two senses
+
+- `a piles of` = **0**. Confirmed: no singular determiner, as the plural-only subgroup predicts.
+- `some piles of` = **8**. Attested. *Some* is not a singular determiner, so this doesn't violate the prediction, but it does distinguish *piles* from *lot*, where §2.1 reports \*_some lot of it_ as blocked. Worth checking whether *some* is generally available across the plural-only subgroup.
+- `the piles of [n*]` = **340 tokens, 174 unique complements**.
+
+That last figure is the most informative result in the whole test, and it wasn't among the predictions. The determined frame is robustly available and highly productive, but its complements are overwhelmingly **concrete**: paper 17, books 14, papers 13, debris 12, junk 9, boxes 8, clothes 8, cash 7, garbage 7, rubble 7, sand 6, laundry 5, bodies 5, trash 5, corpses 4, stones 4, snow 4, leaves 4. Eighteen of the top nineteen denote physical objects or substances that can literally be heaped.
+
+So *the piles of N* selects the **literal** reading, where bare *piles of money* leans quantificational. The determiner frame separates the two senses of *piles*, and the productivity is lopsided: the literal use spreads across 174 complements, while the quantificational use concentrates on a handful (*money*, *cash*, *time*).
+
+**That is a genuine held-out result.** The input criteria (quantity meaning plus frequent *of*-complement distribution) picked out a use that a withheld behaviour does distinguish. It just isn't the withheld behaviour the profile leads with.
+
+### Still to run
+
+- **P4, partitive:** `piles of the *`, `piles of the money`, `piles of the cash`. Note this is *not* the same query as `the piles of [n*]` above: P4 puts the determiner on the complement, testing partitivity, where the query already run puts it on *piles*.
+- **P5, premodification:** `* piles of money`, `huge piles of money`.
+- **Negative control:** `sacks of money [be]`, `boxes of money [be]`, `crates of money [be]`. Given the P1 sparsity, expect these to be empty too, which would confirm that the emptiness is about subject position rather than about *piles*.
+
+### Verdict so far
+
+*Piles* is a **partially confirmed candidate member**. The determiner-frame prediction holds and does real work; the agreement prediction is untestable on this member for reasons that generalise to any member rare in subject position. The paper's claim should stay at "specifies a falsifiable basis for inductive extension", with the added and more interesting point that the basis is falsifiable only where the corpus supplies subject-position tokens.
