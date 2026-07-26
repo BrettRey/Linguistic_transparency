@@ -281,3 +281,35 @@ Traces the editing left in the prose, found and removed:
 - Checked and clean: the §4.2/§4.3 merge seam, Appendix B's intro against its reduced contents, the conclusion after the §5.6 merge (no duplication), "Two off-list projections" against the two that remain, and §5.3's "small inventory" against the four stabilizers that survive.
 
 38pp, build clean, no undefined citations or references.
+
+## 2026-07-26 (Sol second review)
+
+Second review received after the first implementation. Verdict: "now a plausible *Language Sciences* paper", send to Kim but don't submit yet. Four blockers named: enforce the role/diagnostic distinction throughout, separate relational from profile verdicts, align the QN corpus claims, and make the real cut. Implemented all but the last.
+
+**Eleven flat defects, most of them introduced by the morning's edits.**
+- The role display said "three variables but five roles" and showed seven entries. Restated as three variables, two participant roles (bearer, mediator), two evidential controls (diagnostic, concealing baseline).
+- Table 1 coded the plural-only partitive cell × while the prose and appendix now say the frame is attested but dispreferred. Changed to a dispreferred tick with the rate.
+- The conclusion said the partitive claim rests on the COCA pilot; availability rests on descriptive analysis and judgment, and the pilot shows relative preference only.
+- The Figure 1 paragraph said counter-direction tokens "resolve on inspection" while the largest such cell was never filtered. Now says the checked ones largely resolve, and names the exception.
+- Spanish "has the number-transparent profile itself" contradicted the later statement that only the access pattern travels. Now an analogous agreement-access pattern.
+- The Leufkens close inferred that agreement-based access transparency "is available almost everywhere" and explained why Korean is hard. Prevalence of agreement makes it a likely place to look, nothing more; the inference is cut.
+- The Korean paragraph still said the unsettled verdict "cuts in the schema's favour". Now: a useful stress test, showing the procedure doesn't mechanically convert a non-English case into a positive, but not evidence of validity, since an underspecified test would also return indeterminacy.
+- §4.6 said a transparency attribution is demoted when projection fails; it's the profile claim that's demoted, which is what §2.2 already said about *bunch*.
+- The conclusion said Lardil/Kayardild and Chamorro "show" their topologies while Appendix B calls them candidates lacking a concealing control. Now candidate topologies illustrated by those systems.
+- "Framework-neutral" replaced throughout by **framework-portable**: the schema instantiates in different frameworks, but any verdict is conditional on an independently motivated analysis of bearer, mediator, and path. The coordination and TFR conditionals already admitted this.
+- The Kim 2011 entry rendered its `note` field as bracketed metadata after the title; note dropped, the DOI disambiguates.
+
+**Role/diagnostic distinction propagated**, which was the point of the morning's typing and hadn't reached the case studies.
+- *Korean*: case-stacking availability was assigned to $R$. It's a diagnostic for the experiencer's disputed status, as are `caki`-binding and quantifier float; honorification is a relation only if it's grammatical agreement. So Korean may have candidate diagnostics without an established $R$, which is a cleaner reason for the open verdict than the one the section gave.
+- *§5*: masked priming was listed as an $R$-value. $R$ is lexical access; priming magnitude is the diagnostic. Same correction for compounds: $R$ is compositional interpretation, rated transparency the diagnostic.
+- *TFRs*: category flexibility was called the second $R$-relation. The relation is matrix selection; category flexibility is the outcome.
+
+**Collectives are now a near case, not a full instance (substantive; Brett may veto).** The typed schema requires one element within $X$ to bear $P$ and another to conceal it. In *the committee have decided* the singular morphology and the member-level plurality are two representations of one lexical head, so there's no second element concealing anything. The alternative, broadening "element" to cover representational layers, would cost the non-instance test its grip, since almost any property could then conceal another representation of itself. This aligns the subsection's conclusion with its title, which already said "transitional case".
+
+**Added Table 3, relational and profile verdicts** for all eleven cases, with applicability, relational verdict, and profile verdict separated. That resolves the frozen-idiom-versus-coordination puzzle structurally (applicable-but-opaque against not-applicable) and lets §5.2 shrink to what the table can't carry, which is which field each profile is projectible for.
+
+**Spanish metonymy excursus deleted.** Added the same morning and wrong: it isn't the same $X$, the same $R$, or a same-type concealing variant of the *mayoría* construction, so it couldn't strengthen the concealment control for subject-verb agreement with quantificational subjects. The English deferred-reference non-instance makes the bearer point on the same relation as the QN case. The three RAE sources are consequently uncited here; they remain cited in the HPC book's chapter 12, which is where that claim belongs.
+
+**TFR rivals now cited** rather than gestured at (Wilder 1999 parenthetical-with-backward-deletion, van Riemsdijk 2006 graft, Grosu 2003 unified), each relocating the mediator. And the *dimwitted* example no longer claims the construction occupies an AP-only slot, since predicative position admits both NPs and APs; it shows the nucleus's category, and a category-discriminating environment is left to the joint corpus work.
+
+**Not done.** The *piles* held-out test still needs hand corpus queries. And the real cut: the body is 14,218 words, up slightly, because the verdict table and the collectives re-analysis cost more than the Spanish deletion and the §5.2 compression saved. The reviewer's remaining cut list (Figure 1 and its paragraph to Appendix A, the *bunch* pilot to supplementary, merging §§5.1--5.3 and §5.5 further) is unstarted and is where the 3,000 words are.
