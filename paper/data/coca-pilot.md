@@ -35,7 +35,37 @@ KWIC check: *lots of day* hits are modifier uses (*day-to-day*, *day hikes*, *da
 | LOADS OF THE DAY | 1 |
 | **Total** | **13** |
 
-Partitive ratio: 13 / (6311 + 13) ≈ 0.2%. *Lots* is the only form with non-zero partitive uses; *piles, heaps* return 0 partitive hits with the complements tested here (but see `piles-heldout-test.md`: a wildcard query returns 12 for *piles*, mostly literal or engineering senses) with any tested complement.
+**Superseded as a measure of availability.** These four hand-picked complements (*day, afternoon, time, people*) understate the frame by a factor of ~36. See the wildcard sweep below.
+
+### Partitive, wildcard sweep (X of the \*) — run 2026-07-26
+
+One query per form, all unique complement types returned (COCA reported TOTAL 622 / UNIQUE 502 for the six forms below run together; the per-form sums reconcile exactly to those figures). *Piles* is from the earlier held-out test (`piles-heldout-test.md`).
+
+| Query | Tokens | Distinct complements |
+| --- | ---: | ---: |
+| LOTS OF THE \* | 313 | 235 |
+| STACKS OF THE \* | 47 | 42 |
+| LOADS OF THE \* | 38 | 33 |
+| BAGS OF THE \* | 38 | 35 |
+| HEAPS OF THE \* | 14 | 14 |
+| PILES OF THE \* | 12 | 12 |
+| OODLES OF THE \* | 3 | 3 |
+| **Total (plural-only subgroup)** | **465** | **374** |
+
+(`PLENTY OF THE *` = 169 / 140 is tabulated under *Plenty* below. The 622/502 COCA totals cover the six plural-only forms plus *plenty*; *piles* was queried separately.)
+
+Leading complements per form:
+
+- **lots**: the same 11, the time 7, the women 5, the other 5, the people 5, the little 4, the things 4, the big 4; then *the drug* 3, *the steroid* 2, *the plasma* 1, *the methylprednisolone* 1 (pharmaceutical batch sense).
+- **stacks**: the library 4, the feed 2, the mill 2; singletons in *the plant, the power, the coal, the oil, the factories, the museum, the university, the Inquirer*. Library stacks and smokestacks, not the quantificational sense.
+- **loads**: the stuff 3, the same 2, the items 2; literal cargo in *the soil, the biosolids, the shellfish, the yard, the seaward*.
+- **bags**: the stuff 3, the chips 2; the rest literal containers (*the greens, the dried, the crop, the toys, the washers*).
+- **heaps**: 14 singletons; *the stuff* is quantificational, the rest literal (*the dead, the brush, the dross, the discarded*, and colliery spoil in *the Rhondda, the Shropshire*).
+- **oodles**: the cute, the sheeple, the stuff — all three quantificational. *Oodles* has no literal homonym.
+
+**Finding.** The partitive frame is attested for every member of the subgroup, so the earlier zeros were artefacts of the complement set. But the determined frame recruits the literal homonym wherever a member has one, replicating the *piles* result across the subgroup; *oodles*, the only member with no literal homonym, returns quantificational hits exclusively. The clearly quantificational partitives concentrate on complements naming an already-established set: *the same* (lots 11, loads 2), *the stuff* (lots 3, bags 3, loads 3, heaps 1, oodles 1), *the latter*, *the usual*, *the other*, and definite human plurals (*the women, the people, the kids, the guests, the members, the children*). Sense assignment here is read off the complement types, not off inspected concordance lines.
+
+**No partitive share is computable from these numbers.** The numerator (wildcard, all complements) and the denominator (four hand-picked complements) come from different inventories. Either both frames need a wildcard sweep or the comparison stays qualitative.
 
 ### Indefinite-NP complement (X of a N)
 
@@ -51,7 +81,7 @@ Partitive ratio: 13 / (6311 + 13) ≈ 0.2%. *Lots* is the only form with non-zer
 | LOADS OF AN AFTERNOON | 0 |
 | **Total** | **0** |
 
-Plural-only forms reject *of [Det NP]* whether the determiner is definite (*the*) or indefinite (*a/an*); their *of*-complements are bare/non-determined.
+No indefinite-determiner complement turned up for any plural-only form tested. That is a null result over eight specific strings, not evidence that the frame is unavailable: the definite-determiner cells in the wildcard sweep above are non-zero for every form, so the subgroup does admit *of [Det NP]*. Testing the indefinite frame properly would need its own wildcard sweep.
 
 ## *Plenty*
 
@@ -71,9 +101,12 @@ Plural-only forms reject *of [Det NP]* whether the determiner is definite (*the*
 | --- | ---: |
 | PLENTY OF THE TIME | 1 |
 | PLENTY OF THE PEOPLE | 1 |
-| **Total** | **2** |
+| **Total (two hand-picked complements)** | **2** |
+| PLENTY OF THE \* (wildcard, 2026-07-26) | 169 |
 
-Partitive ratio: 2 / (6252 + 2) ≈ 0.03%.
+The wildcard returns 169 tokens across 140 distinct complements, led by *the latter* 7, *the same* 6, *the usual* 4, *the things* 4, *the tools* 3, *the real* 3, *the old* 3, *the most* 2, *the good* 2, *the women* 2, *the world* 2. Both hand-picked strings sit at 1, confirming that the reported near-absence of partitive *plenty* was an artefact of testing two complements. *Plenty* has no literal homonym, so the sense confound that affects *stacks, heaps, bags, loads*, and *piles* does not arise here.
+
+No ratio is given, for the reason stated in the plural-only section: the two frames were sampled over different complement inventories.
 
 ## *Rest, remainder*
 
@@ -87,9 +120,26 @@ Partitive ratio: 2 / (6252 + 2) ≈ 0.03%.
 | THE REMAINDER OF TIME | 3 |
 | THE REMAINDER OF DAY | 2 |
 | THE REST OF MONEY | 1 |
-| **Total** | **100** |
+| **Total (four hand-picked complements)** | **100** |
 
-KWIC check: the raw non-partitive total is conservative. *The rest of time* is mostly fixed or duration-level temporal use (*for the rest of time*, *spend the rest of time*), not the partitive-count contrast targeted here. *The rest of people* contains possessives and non-standard "other people" uses. *The rest of day* is temporal ellipsis or *day* as a modifier. The *remainder* hits are technical or duration expressions.
+### Non-partitive, wildcard sweep — run 2026-07-26
+
+`the rest of [nn*]` and `the remainder of [nn*]`, COCA reporting TOTAL 2,946 / UNIQUE 792 for the two run together. Per-form split (reconciles exactly):
+
+| Query | Tokens | Distinct bare complements |
+| --- | ---: | ---: |
+| THE REST OF [nn\*] | 2820 | 696 |
+| THE REMAINDER OF [nn\*] | 126 | 96 |
+| **Total** | **2946** | **792** |
+
+Leading complements, *rest*: society 442, humanity 248, US 187, life 150, nature 78, mankind 77, time 75, eternity 73, world 63, creation 42, Americans 41, government 31, baseball 26, civilization 26, Congress 21, class 15, science 15, humankind 14.
+Leading complements, *remainder*: life 5, class 4, then *Mr, page, part, president, season, section, time* at 3 each.
+
+**This overturns the starred cells.** The four hand-picked strings captured 100 of 2,946 attestations, about 3%. The bare-complement frame is not rejected: it is common and productive across ~790 distinct complements. What the leading complements share is that none needs a determiner to denote uniquely — non-count generics (*society, humanity, life, nature, time, eternity, creation*), kind-denoting bare plurals (*Americans*), and institution nouns definite without an article (*Congress, government, class, school*). So *rest* and *remainder* do not require an overtly determined complement; they require one whose denotation is already uniquely identifiable. What they resist is a bare complement that would have to be read as a novel indefinite subset. The condition is semantic, on the complement's denotation, not syntactic, on the presence of a determiner.
+
+Caveat on the wildcard: `[nn*]` matches a string position, so some hits are the first word of a longer nominal (*the rest of day one*, *the rest of tuition/books/housing*), and *the rest of US* is mostly the country rather than the pronoun. The top of the list (*society, humanity, life, nature, mankind*) is unambiguous and carries the finding on its own.
+
+KWIC check on the four hand-picked cells: the raw non-partitive total is conservative. *The rest of time* is mostly fixed or duration-level temporal use (*for the rest of time*, *spend the rest of time*), not the partitive-count contrast targeted here. *The rest of people* contains possessives and non-standard "other people" uses. *The rest of day* is temporal ellipsis or *day* as a modifier. The *remainder* hits are technical or duration expressions.
 
 ### Partitive (the X of the N)
 
@@ -111,7 +161,7 @@ KWIC check: the raw non-partitive total is conservative. *The rest of time* is m
 | THE REMAINDER OF A DAY | 1 |
 | **Total** | **1** |
 
-Partitive (definite NP) ratio: 3365 / (3365 + 100 + 1) ≈ 97.1% (raw). KWIC filtering of the non-target temporal, possessive, and generic uses in the raw non-partitive cells would push this higher.
+Partitive (definite NP) share **on matched complements only**: 3365 / (3365 + 100 + 1) ≈ 97.1% (raw). Numerator and denominator here draw on the same four complements (*day, time, people, money*), so unlike the plural-only and *plenty* figures this one is a genuine matched comparison, and it still shows *rest* / *remainder* preferring the determined complement for these four. It says nothing about the bare frame's availability across the ~790 complements in the wildcard sweep above.
 
 ## Override direction
 
