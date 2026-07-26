@@ -1,0 +1,40 @@
+<!-- DRAFT for Brett. This version reflects the second Korean pass: §4.5 is now grounded in
+Yoon 2004 and Park & Kim 2022 and reports an open verdict rather than a positive case. The
+substantive question to Kim has changed accordingly. Check before sending: (1) the §4.5
+reframe is the biggest thing here and he may push back, which is the point of asking;
+(2) the venue paragraph leaves the wait-or-not question to him; (3) PDF and .tex attached. -->
+
+**To:** Jong-Bok Kim
+**Subject:** Re: transparency paper: Korean, and a question about the honorific diagnostic
+
+Jongbok,
+
+Korean is in as §4.5, and I went looking for published sources rather than leave the example resting on the book citation. That search changed the section, so the substantive question below is different from the one I would have asked you yesterday. There's also a title problem in the book preprint you'll want to fix, and some news on §2.5.
+
+**§4.5 as it now stands.** I cut the external possession construction, taking you up on the offer. Beyond length, it pulls against §4.4 and the new Appendix B, where possessor raising and external possession (Deal 2017, Ritchie 2016) are treated as externalized near misses rather than as instances of the NP-internal pattern the paper is chasing. Yoon's analysis of the same construction as Major Object plus Grammatical Object points the same way. If you'd rather keep it, the route is to present it as the externalized topology with a row in the Appendix B table, and I'd want to read the *Languages in Contrast* paper first.
+
+For the dative-subject case I added your and Chongwon Park's (32) as the displayed example alongside your stacked one, since it makes the honorific point directly, and cited Yoon (2004) for the stacking pattern, which he reports on the same predicate (*Cheli-hanthey-ka ton-i philyoha-ta*).
+
+**The question.** Reading the two sources, I couldn't keep the section's original claim, which was that dative marking conceals subjecthood and the construction overrides it on two diagnostics at once. Three things got in the way, and two of them are yours.
+
+Park and Kim (2022: 1504) introduce the diagnostic with the statement that "the case marker itself does not determine subjecthood." At 1505 you caution that honorification is a discourse phenomenon whose agreement pattern "often defies a grammatical relation," and *ton-i manh-usi-neyyo* has *-usi-* on an inanimate nominative subject, which you take to support Lim's addressee-honorific analysis; footnote 16 calls the subject-agreement assumption "not foolproof." And Yoon reports the stacking as marginal and dialect-variable, shows nominative stacking on locatives and temporals, and concludes that what it marks is major-subject status rather than grammatical subjecthood.
+
+Put together, that removes the concealment the schema needs. If case marking and subject-oriented morphosyntax simply aren't coupled in Korean, dative marking hides nothing, there's no override, and the construction is a non-instance by our own §2.3 test, for the same reason English coordination is. So §4.5 now reports both constructions with both sources, states the three qualifications, and leaves the verdict open, naming what would settle it: whether R tracks grammatical subjecthood, which dative marking would misreport, or major-subject status, which it wouldn't.
+
+I think this is the better section, and not only because it's more careful. §4.6 answers the objection that our schema smuggles in an English-shaped default, and an open Korean verdict is stronger evidence for that reply than a clean positive would have been: a test carrying an English default would have returned a confident yes. But you're the one who works on this, and if you want to defend the subjecthood reading against Yoon's major-subject analysis, say so and I'll write it that way. If there's a diagnostic that isolates grammatical subjecthood from major-subject status, that's the thing to put in.
+
+**Your book preprint has a stale title page.** The copy I have reads *Form and Function Mismatches in English Syntax: A Construction-Grammar Perspective* on the inner title page, while the blurb page, the running heads, and the chapter 2 title all read *Form and Function Mapping in English Syntax: A Construction Grammar Perspective*. Taylor & Francis has the second, 2026, New York, 422 pages, so that's what we cite. If the PDF you're circulating still leads with the old page, it's worth swapping.
+
+Two smaller things in the indeterminacy manuscript. Its reference list carries two works under nearly the same title, Kim 2017 (the Kyung Hee University Press volume you edited) and Kim 2025 (the Routledge monograph), so anyone citing from it will run them together; the monograph is also dated 2025 and placed in London there, against Routledge's 2026 and New York. I suspect that stray 2025 is what prompted your note to me, since our paper has read Kim (2026) since mid-July. And the cross-references in §5.5 have gone stale: §5.5.2 points at "(a)" and "(b)" for examples (169) and (170), §5.5.5 at "(66a)" and "(66b)" for (180) and (181), and §5.5.6 at "(67a)" for (182).
+
+**§2.5 changed too, because of that manuscript.** We'd been calling the daughter-level relation "syntactic-category transparency" and putting the whole relation at the daughter. On your hierarchy (p. 46) that's wrong: selection transparency sits at the parent across both verb classes, and what the attributional daughter adds is category flexibility. The section now says category flexibility and treats it as the marked sub-case of your wider selection transparency (pp. 36–37), which also squares us with the title of our joint note. I've taken attributional and evidential in place of our "the *seem*/*appear* type," and your six transparency effects are cited, with four of them holding at the parent. That last part helps: §2.5 claims constructional sub-type predicts a cluster, and your catalogue makes the cluster bigger than we'd claimed. It's cited as Kim (2026b), with the book as Kim (2026a).
+
+While we're on citations, how should we cite the joint TFR work? Your list has it as the WRAPP Göttingen paper on the polyfunctionality of *what*; our bibliography has "Two Kinds of Transparency: Category Flexibility and the Verb Inventory in TFRs" as a working note. One output under two names, or two?
+
+**Length.** You're right, though the arithmetic is less favourable than the proposal assumes: §4.7 and §4.8 come to 244 words between them, half a page out of 38. What I've done instead is move §4.4's topology survey (the table, Aleut, Chimane, Nez Perce, Yucatec) into Appendix B, which takes the body from about 32 pages to 29 and leaves Spanish, Tsez, and Korean in the section itself. That still leaves roughly 14,000 body words against the 10,000 *Language Sciences* expects, so a real cut is owed. I'd take it from §2, whose corpus detail can go to the appendix, rather than from §5, which is where the paper's claim lives. Happy to be argued out of that.
+
+**Venue.** *Language Sciences*, for the same reasons the companion paper went there. It does publish this kind of work, including a 2022 piece challenging "definite article" as a comparative concept, close to what our §4 does. The complication is that the companion paper has been in that queue since early May, so we'd have two submissions of similar shape in front of one editor. My inclination is to make the cut first and decide once that decision lands, a few weeks either way. If you'd rather not wait, *Linguistics* is the better content fit and you know the house. What gives me pause there is De Gruyter Brill's policy that they don't accept AI-generated papers. Our acknowledgement discloses LLM drafting assistance, and I read the policy as an authorship rule that honest disclosure satisfies, but I'd rather not test it at the desk. What's your preference?
+
+PDF and .tex attached. The Korean examples are now (17) and (18), and §2.5 is worth a look as well as §4.5.
+
+Brett

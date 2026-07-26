@@ -1,5 +1,5 @@
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Kim's second (2026-07-23) review implemented (data/glosses/SPC/bib); awaiting Kim's Korean draft + tracked-changes round · status: revising with coauthor · updated: 2026-07-23 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Kim's Korean §4.5 integrated then source-grounded against Yoon 2004 + Park & Kim 2022 and reframed as an open verdict; §4.4 survey moved to Appendix B; blocked on a ~4k-word cut + page-one reframe before any venue commitment (record: submission/venue-decision-2026-07-26.md) · status: revising with coauthor · updated: 2026-07-26 -->
 
 ## Current state (2026-04-30)
 
@@ -49,7 +49,7 @@ Recommend in order:
 
 ## Submission target
 
-*Language Sciences* (per sister-paper precedent and the metaphysical-linguistic shape of the argument). Subject to revision.
+*Language Sciences* (per sister-paper precedent and the metaphysical-linguistic shape of the argument). Subject to revision. **Superseded 2026-07-26 by the full screen in `submission/venue-decision-2026-07-26.md`:** same primary recommendation, now conditional on a ~4,000-word cut and a page-one reframe, with the timing question of the sister paper's pending submission at the same journal left open.
 
 ## Sister projects
 
@@ -145,3 +145,23 @@ Recommend in order:
 - **Russian case reinstated (grounded):** the `-ness`/`-ost'` deadjectival-nominalization parallel is grounded in Heyer & Kornishova (2018), already the §3 priming citation and a direct study of this English--Russian pair's semantic transparency. Concrete materials added to §3; §4 references and §5 `-ost'` X-value restored.
 - **Open (Brett's call):** the §4/§5 three-level-scheme and §5/§6 conclusion redundancy (invasive on board-approved framing).
 - Audit round shipped as `5bc55db`; the Russian reinstatement is a later uncommitted change.
+
+### 2026-07-26 Session Notes (Kim's third round + venue screen)
+
+**Kim's email (2026-07-26)** delivered the promised Korean material and raised length and venue. Implemented:
+
+- §4.5 now carries his dative-nominative case-stacking case (example (20)) and the subject-honorification diagnostic; retitled "Korean as a cross-linguistic test." Seven places that framed Korean as un-run were brought into line (§4 opener, §4.2, §4.3, §4.6, §5.7, abstract, §1 roadmap, conclusion).
+- His second construction (external possession, his (21)) cut, per his own offer. It cut against §4.4/Appendix B, which class possessor raising and external possession as *externalized* near misses; Aranovich & Kim's own analysis makes the Korean possessor an unselected external argument.
+- "Kim 2025 → 2026" needed no change; the draft has said Kim (2026) since `70d79a3`. He is reading an older PDF.
+- §4.4's topology survey (Table 2, Aleut, Chimane, Nez Perce, Yucatec) moved to **Appendix B**. Body now ends p. 29 (was ~32); total 39pp (was 38), so the move reclassifies pages rather than deleting them.
+- Build clean: xelatex + biber + 2×xelatex, no undefined citations or references.
+
+**Open, Kim-side:**
+
+- The reference and page for the dative-experiencer subjecthood diagnostics. His draft cited "Kim 2026," but that book is *English* syntax and carries none of this material (`% TODO(kim)` in `06-typological-transparency.tex`). Candidates: *Syntactic Structure of Korean* (CUP 2016), *English and Korean in Contrast* (Wiley 2023).
+- Optional numbered examples for the `-si-` diagnostic and the ordinary-dative baseline, if we want them displayed rather than described.
+- The §2 index-agreement citation is still open (`% TODO(brett)` at line 89 of `02-morphosyntactic-transparency.tex`).
+
+**Venue: no commitment yet.** Full screen in `submission/venue-decision-2026-07-26.md`. Recommends *Language Sciences* conditional on two stop conditions that are owed for any venue: a cut from ~14,000 to ~10,000 body words (the figure recorded when the sister paper was compressed for the same journal), and a page-one reframe that leads with the comparative-concept/category-diagnostic payoff rather than projectibility. Complications named there: all three top candidates already hold a pending Reynolds submission (*Language Sciences* `language-langsci` 81 days out, *Linguistics* `countability-linguistics` 117 days, *Journal of Linguistics* `definiteness-jol` 45 days), and De Gruyter Brill's current AI policy is prohibition-model, which bears on *Linguistics* and *Linguistic Typology* given this paper's LLM-drafting acknowledgement.
+
+**Korean, second pass (same day).** The §4.5 data turned out to be published, and reading the sources changed the section's verdict. Yoon 2004 (author's manuscript, now in `literature/`) has the stacked dative-nominative pattern on the same predicate, but reports it as marginal and dialect-variable, shows nominative stacking on locatives and temporals, and analyses it as marking major-subject rather than grammatical-subject status. Park and Kim 2022 (Kim's own paper, *Linguistics* 60(5), now in `literature/`) supplies the dative-subject-plus-`-(u)si-` diagnostic at p. 1504, but states that "the case marker itself does not determine subjecthood" and cautions at p. 1505 that honorification is a discourse phenomenon. Both together remove the concealment the schema needs, so §4.5 now reports an open verdict and names what would settle it, and §4.6 uses that openness as evidence that the baseline is fixed language-internally. Seven places walked back from "worked case" accordingly. The remaining Kim-side question is no longer "what's the reference" but whether he wants to defend the subjecthood reading against Yoon's major-subject analysis.
