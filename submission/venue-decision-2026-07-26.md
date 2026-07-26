@@ -1,5 +1,5 @@
 # Venue Decision Record
-<!-- SUMMARY: Venue screen for the umbrella transparency paper; recommends Language Sciences conditional on a ~4k-word cut, a page-one reframe, and a call on doubling up while the sister paper is pending there · status: proposed, awaiting Brett · updated: 2026-07-26 -->
+<!-- SUMMARY: Venue screen for the umbrella transparency paper; recommends Language Sciences conditional on a page-one reframe and a call on doubling up while the sister paper is pending there (the ~4k-word cut condition is VOID: the journal has no word limit) · status: proposed, awaiting Brett · updated: 2026-07-26 -->
 
 ## Record
 
@@ -12,7 +12,7 @@
 - [x] Decision owner: Brett (co-author Jong-Bok Kim asked the question on 2026-07-26)
 - [x] Assisting agent/model: Claude Opus 5 (1M context), Claude Code session
 - [x] Recommendation status: **proposed**
-- [x] Final decision: **deferred to Brett.** The recommendation is: revise before committing (the ~4,000-word cut has to happen for any of the top three venues), then choose between *Language Sciences* now and *Language Sciences* after the sister paper's decision lands.
+- [x] Final decision: **deferred to Brett.** The recommendation is: do the page-one reframe before committing, then choose between *Language Sciences* now and *Language Sciences* after the sister paper's decision lands. (The ~4,000-word cut originally listed here as a precondition is void; see the length item below.)
 
 ## Journal-Reader Contract
 
@@ -26,7 +26,7 @@
 ## Fit Evidence
 
 - [ ] Current aims/scope checked on the submission day. Scope evidence gathered from published content (below); the aims-and-scope text itself was not re-read today.
-- [ ] Article type, length, abstract, keywords, reference style, figures/tables, supplements, source-file expectations: **not checked today** (403). Working length figure: **9,500–10,000 body words**, recorded in `papers/queue/what-do-we-mean-by-language/STATUS.md` (2026-04-27) when that paper was compressed to 9,609 words "comfortably within the *Language Sciences* budget." **This manuscript is ~14,000 body words** (39pp, ~18,900 words including references), so it is roughly 40% over. Re-verify the figure, then cut.
+- [x] Article type, length, abstract, keywords, reference style, figures/tables, supplements, source-file expectations: length **checked and resolved 2026-07-26**. ~~Working length figure: 9,500–10,000 body words... roughly 40% over. Re-verify the figure, then cut.~~ **Struck.** The re-verification was done and it went the other way: *Language Sciences* has **no word limit**. Retrieved the full author guide via Wayback (2022, pre-Elsevier-SPA, 48,792 chars); the only length rule anywhere in it is 85 characters per highlights bullet. The 9,500–10,000 figure came from the sister paper's own compression note in `papers/queue/what-do-we-mean-by-language/STATUS.md` and was never a journal requirement, so it should not have been carried into this record as one. **The cut condition below is void.** The manuscript is now 44pp; length is not a submission obstacle and Brett confirmed on 2026-07-26 that it isn't a concern. Remaining sub-items (abstract, keywords, reference style, figures, supplements, source files) still unchecked (403 on the live page).
 - [ ] AI-use, preprint, anonymity, data/code, simultaneous-submission policies: **not checked today.** Elsevier runs a disclosure model, which suits this paper; but see the manuscript-side item in Risk Test (the AI acknowledgement is still in the old end-of-paper form, not the house-default page-one `\aidisclosure{}`, and its model list needs Brett's confirmation).
 - [x] Recent venue articles making the match concrete.
 

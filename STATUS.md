@@ -1,55 +1,52 @@
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Sol review implemented in full (A.2 contradiction fixed, schema typed, Leufkens mapping-vs-access added, Spanish upgraded, §3.2 cut); body still 14,258 words against a ~10,000 target, so a scope decision is owed · status: revising with coauthor · updated: 2026-07-26 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; blocked on Kim's honorification ruling and Brett's venue approval · status: revising with coauthor · updated: 2026-07-26 -->
 
-## Current state (2026-04-30)
+## Current state (2026-07-26)
 
-Project scaffolded per `PROJECT-BRIEF.md`. No drafting started. No sources verified. No bibliography built.
+Drafted, revising with the coauthor. 44pp, clean build (xelatex + biber + 2x xelatex),
+no undefined citations or references, no overfull boxes. Latest commit `fe707a5`.
 
-## What exists
+Structure: §1 intro, §2 morphosyntactic (the delivered result), §3 form--meaning
+(compressed; substance lives in the sibling repo `Form-meaning_transparency`),
+§4 typological, §5 projectibility profiles, §6 conclusion, Appendices A and B.
 
-- `PROJECT-BRIEF.md` — Brett's full project package preserved verbatim (canonical brief)
-- `CLAUDE.md` — role, purpose, source-grounding, sister-project relationships, style, terminology, workflow, non-negotiable argumentative discipline
-- `STATUS.md` — this file
-- `DECISIONS.md` — initial decisions logged
-- `README.md` — orientation
-- `paper/sources/sources.bib` — empty placeholder
-- `paper/sources/source-notes.md` — curation template + checklist of brief's seven citations + sister-paper bib entries to inherit
-- `paper/draft/00-abstract.md` through `paper/draft/08-conclusion.md` — nine section stubs, each with section-level argument-map sketch from the brief + TODO marker
-- `paper/notes/argument-map.md` — section-by-section argument plus the umbrella schema as the single piece all sections must trace back to
-- `paper/notes/claims-to-verify.md` — every brief citation needs verification (LLM-surfaced)
-- `paper/notes/terminology.md` — technical-term decisions
-- `paper/notes/possible-venues.md` — venue list
+Everything the scaffolding-era version of this section listed as missing now exists:
+LaTeX build, verified bibliography, worked examples per sense, Korean data with
+published sources, public GitHub repo (`BrettRey/Linguistic_transparency`). The
+Bell & Schafer and Heyer & Kornishova verifications were completed; the seven
+LLM-surfaced brief citations were all checked or dropped.
 
-## What does not exist yet
+## What is blocked, and on whom
 
-- LaTeX scaffolding (Makefile, `.house-style/` snapshot, `references.bib` symlink). Deferred to step 4 (conversion stage).
-- Verified bibliography. The brief's seven citations all need verification before they enter `sources.bib`.
-- Worked examples for each sense.
-- Korean data with sources. Cases in §2 of the brief are placeholders; either Brett sources-grounds them or co-author Jongbok contributes.
-- A 1,500-word expanded proposal.
-- Risk register.
-- A git repository (local or remote).
+**Kim.** Whether Korean supplies a transparency case at all turns on his ruling on
+subject honorification: Kim & Sells (2007) §3 argues honorification is *not*
+agreement, while *Syntactic Structures* ch. 14 gives it a grammatical core. The two
+point opposite ways, and §4.5 currently reports an open verdict for that reason
+(plus Yoon 2004's major-subject analysis, which he may want to contest). Also open:
+whether he wants the `-si-` contrast displayed as numbered examples, and whether the
+Elements book will carry the TFR corpus work. The scrambling half of the Korean
+material is still unwritten.
 
-## Next action
+**Brett.** Venue approval (`submission/venue-decision-2026-07-26.md` is *proposed*,
+not approved) and sending the reply at
+`correspondence/2026-07-26-reply-to-kim-korean-and-venue.md`, whose repo copy has
+diverged from the edits Brett pasted on 24 July and needs reconciling first.
 
-Recommend in order:
+## Not blocked, and no longer owed
 
-1. Verify the brief's seven citations against publishers' authoritative pages. Drop or replace any that don't survive verification. Particular attention to Bell & Schäfer and Heyer & Kornishova; LLM web-search citation tools regularly mis-author or mis-date psycholinguistics papers.
-2. Decide the Korean question with Jongbok: solo-authored with brief-mention Korean cases vs. co-authored with substantive Korean section. This decision shapes §2's scope significantly.
-3. Decide on the metaphysical framing: pure Khalidian (per brief) or HPC-book's maintenance/SPC framework (for consistency with sister papers). This is a §7-and-conclusion decision; can stay open until then but shouldn't drift.
-4. Build out the worked example for *a lot of* (the brief's anchor case) source-grounded against CGEL.
-
-## Open carryovers
-
-- Project folder name `Linguistic_transparency/` to be confirmed.
-- GitHub repo decision pending.
-- Bell & Schäfer reference: confirm authors, year, journal volume, DOI, and that the paper actually says what the brief reports.
-- Heyer & Kornishova reference: same.
-- Whether to import HPC-theory bib entries from `papers/Field_relative_HPC_categories/paper/sources/sources.bib` (Boyd 1991, Boyd 1999, Khalidi 2013, Hacking 1999, Reynolds HPC book) or maintain a separate set.
+- **Length.** Retired 2026-07-26. *Language Sciences* has no word limit; the only
+  length rule in the full author guide is 85 characters per highlights bullet
+  (verified via Wayback against the 2022 pre-SPA Elsevier guide, 48,792 chars). The
+  ~10,000-word target was inherited from the sister paper's compression note and was
+  never a journal requirement. Do not re-open a cut on that basis.
+- **The *piles* held-out test.** Run 2026-07-26 by hand in a browser (the
+  English-Corpora wrapper is Turnstile-blocked). All five predictions and the control
+  are complete; P1 returns no verdict, and the token distribution explains why.
+  Protocol and results: `paper/data/piles-heldout-test.md`.
 
 ## Submission target
 
-*Language Sciences* (per sister-paper precedent and the metaphysical-linguistic shape of the argument). Subject to revision. **Superseded 2026-07-26 by the full screen in `submission/venue-decision-2026-07-26.md`:** same primary recommendation, now conditional on a ~4,000-word cut and a page-one reframe, with the timing question of the sister paper's pending submission at the same journal left open.
+*Language Sciences*, per the full screen in `submission/venue-decision-2026-07-26.md`. **Proposed, not approved.** One stop condition survives: a page-one reframe leading with the comparative-concept and category-diagnostic payoff rather than projectibility. The record's other condition, a ~4,000-word cut, was **voided later the same day** when the journal turned out to have no word limit; the record has been corrected. Also live: all three top candidates already hold a pending Reynolds submission (*Language Sciences* 81 days out, *Linguistics* 117, *Journal of Linguistics* 45), and De Gruyter Brill's prohibition-model AI policy bears on *Linguistics* and *Linguistic Typology* given this paper's LLM-drafting acknowledgement.
 
 ## Sister projects
 
@@ -178,3 +175,15 @@ Full punch list from `reviews/gpt-5.6-sol-2026-07-26-triage.md` executed; per-it
 **Open, Kim-side, unchanged:** the reference and page for the dative-experiencer subjecthood diagnostics; whether he wants the 2007 (Kim and Sells) or 2016 (*Syntactic Structures* ch. 14) position on honorification cited, since they point opposite ways; and whether the Elements book will carry the TFR corpus work. The reply drafted at `correspondence/2026-07-26-reply-to-kim-korean-and-venue.md` is still unsent.
 
 **Sources added to `literature/` this session:** Kim 2004, Kim & Sells 2015, Kim's indeterminacy MS, Park & Kim 2022, Yoon 2004, Yoon 2007, Levin 2017, Kim & Findlay 2023, Kim & Sells 2007, Kim 2016 (four chapters), Wu 2025, Warren 2002 (both versions) and 2006, San Julián 2018 (×2), Leufkens 2015, and three RAE sources. All bib entries pushed to the central bibliography across three `/push-bib` runs.
+
+### 2026-07-26 Session Notes (second Sol review, piles test, A.2 rebuild)
+
+- **Second Sol review implemented in full.** §4 cut 4,230 → ~3,570 (§4.2/§4.3 merged, §4.1 compressed, Newmeyer halved and given the slot/value distinction); new §4.5 on Leufkens's mapping transparency vs this paper's access transparency; §5 gains Table 3 (roles filled case by case) and Table 4 (relational vs profile verdicts); §5.6 folded into the conclusion; §3.2 (referential transparency) cut; a Spanish metonymy excursus I had written was cut on the review's correct showing that it isn't the same X, R, or a same-type concealing variant.
+- **The *piles* held-out test was run** by hand in a browser. Determiner frame confirmed and sense-discriminating; agreement untestable (n=3). P5 later confirmed on COCA too. Generalizable finding: the override prediction is corpus-testable only for members that occur in subject position.
+- **Appendix A.2 rebuilt on wildcard queries** (`bf31bb0`). The four hand-picked complements had understated the determined frame ~36× for the plural-only subgroup (13 → 465 tokens / 374 complements) and ~85× for *plenty* (2 → 169 / 140). All frequency shares dropped except the one matched-complement figure, since a wildcard numerator over a hand-picked denominator measures the sampling.
+- **Table 1's `×` cells for *rest* / *remainder* were wrong and are fixed.** `the rest of [nn*]` returns 2,820 tokens over 696 distinct bare complements (*society* 442, *humanity* 248, *life* 150, *nature* 78, *mankind* 77). The constraint is semantic (the complement must already denote uniquely), not syntactic (an overt determiner). The starred `*the remainder of time` example was replaced with attested *the rest of society*.
+- **The *piles* sense-split generalized to a subgroup regularity** (§2.5): the determined frame recruits the literal homonym for every plural-only member that has one, while *oodles*, the only member without one, returns quantificational hits exclusively. That yields a new held-out prediction rather than a restatement.
+- **P5 closed** (`fe707a5`): `* piles of money` = 91 tokens / 56 unique left contexts, 15 attributive-modifier tokens across 11 modifiers, degree and size modifiers carrying 12 of the 15. §2.4's premodification claim rewritten as a restriction on modifier *type*, dropping an unsupported comparative about the plural-only forms. The positional breakdown also moved §2.5's P1 sparsity claim from an empty-control inference to measured distribution (41 verb objects, 13 prepositional complements, one preceding finite *be* and that one copular).
+- Both logged TODOs are genuinely closed, checked this session: the Kim dative reference (resolved by Park & Kim 2022: 1504–1505 and Yoon 2004) and the §2 index-agreement citation (Wechsler & Zlatić 2003, Kim 2004, Kim & Sells 2015: 64–65).
+- **Housekeeping done this session:** this file's scaffolding-era top blocks (dated 2026-04-30, still claiming no drafting, an empty `sources.bib`, and no git repo) replaced with current state; the venue record's ~4,000-word cut condition struck as void.
+- **Still open and not actionable by me:** the acknowledgement is in the old end-of-paper form rather than the house-default page-one `\aidisclosure{}`, and its model list (`Claude Opus 4.7 ... 1M-context; OpenAI Codex 5.5`) is stale, since this session used Claude Opus 5 (1M) and the reviews came from GPT-5.6 Sol (pro). Placement is mechanical; the model list is Brett's disclosure to confirm.
