@@ -1,5 +1,5 @@
 # Held-out projection test: quantificational *piles*
-<!-- SUMMARY: Pre-registered candidate-member test for the QN profile; determiner-frame prediction confirmed and sense-discriminating, agreement prediction untestable for subject-position rarity · status: P4/P5/control still to run · updated: 2026-07-26 -->
+<!-- SUMMARY: Pre-registered candidate-member test for the QN profile; determiner-frame prediction confirmed and sense-discriminating, premodification confirmed on COCA, agreement prediction untestable because 59% of tokens sit in complement position · status: all predictions and control run; P1 returns no verdict · updated: 2026-07-26 -->
 
 The QN profile's weakness is that projection has only been shown over known members, which is close to lexical lookup. This is the candidate-member test the paper has specified but not run. *Piles* is the right subject: it is **not** on *CGEL*'s [57] core list, and it entered the appendix totals only because it appeared to pattern with the plural-only subgroup.
 
@@ -203,12 +203,30 @@ The diachronic prediction, that members enter the class by grammaticalization an
 | P2 agreement (count complement) | Confirmed, 3/3 plural, but never discriminating |
 | P3 determiner frame | **Confirmed, and sense-discriminating beyond the prediction** |
 | P4 partitive dispreferred | Consistent on its stated criterion; corrected an appendix over-claim, and its "≈0.2%" comparator is now superseded (see §5) |
-| P5 premodification | **Confirmed** (Google Books; COCA `* piles of money` still worth running) |
+| P5 premodification | **Confirmed** on both Google Books and COCA (15/91 attributive-modifier tokens, 11 distinct); degree/size modifiers carry 12 of the 15 |
 | Control (container nouns) | Empty, confirming the sparsity is structural |
 
 ### P5, premodification: confirmed
 
-Google Books gives *huge piles of money* 3.86e-10, *great piles of money* 2.43e-10, *enormous piles of money* 1.24e-10, and *huge piles of cash* 4.33e-10, against *piles of money* 2.02e-08. So degree modifiers are freely available, as the plural-only subgroup predicts, and they account for a few per cent of the bare-string total. The COCA query `* piles of money` is still worth running for a register-matched figure, but the prediction isn't in doubt.
+Google Books gives *huge piles of money* 3.86e-10, *great piles of money* 2.43e-10, *enormous piles of money* 1.24e-10, and *huge piles of cash* 4.33e-10, against *piles of money* 2.02e-08. So degree modifiers are freely available, as the plural-only subgroup predicts, and they account for a few per cent of the bare-string total.
+
+**COCA, register-matched (run 2026-07-26).** `* piles of money` returns 91 tokens across 56 unique left contexts, reconciling to the same 91 the P1 query reported. Breakdown of the `*` slot:
+
+| Left context | Tokens | Unique |
+|---|---:|---:|
+| Attributive modifier | 15 | 11 |
+| Determinative / genitive | 12 | 8 |
+| Verb, NP as object | 41 | 23 |
+| Finite *be* (*are*) | 1 | 1 |
+| Preposition | 13 | 9 |
+| Coordinator / other | 9 | 4 |
+| **Total** | **91** | **56** |
+
+The 15 attributive-modifier tokens: *huge* 4, *enormous* 2, then *vast, great, large, little, jumbo, absurd, million-dollar, new, extra* at 1 each. **P5 is confirmed on COCA**, and with a detail worth keeping: degree and size modifiers carry 12 of the 15, so the class's "restricted premodification" property looks like a restriction on modifier *type* rather than on premodification as such, which is what *CGEL*'s *a whole/huge lot* vs. \**a remarkable plenty* contrast already suggested. (*Absurd piles of money* is the one clearly evaluative token, at n = 1.)
+
+Determinatives: *the* 3, *their* 3, then *that, these, his, my, your*, and a genitive *'s* at 1 each. Note these coexist with the P3 result that `a piles of` is absent: the plural-only subgroup rejects the singular determinative specifically, not determiners in general.
+
+**The positional breakdown also upgrades the P1 diagnosis from a negative to a positive.** The sparsity was previously inferred from an empty container-noun control. Here it is measured directly: 41 tokens have *piles of money* as the object of a verb (*make, spend, earn, amass, inherit, withdraw*) and 13 as the complement of a preposition, so at least 54 of 91 (59%) sit in complement position. Exactly one token has a preceding finite *be*, and that one is copular or existential (*are piles of money*), where agreement runs from a different subject and so cannot test the override at all. The claim that quantity expressions of this shape occur as complements rather than as subjects of finite *be* now rests on the distribution of the tokens themselves.
 
 **What the test established.** The profile's determiner-frame prediction holds for a member identified without using any predicted behaviour, and it does more than predicted: the determined frame sorts *piles* into its senses, with the literal use productive across 174 complements and the quantificational use confined to a handful. That is a real held-out success, on a behaviour the paper treats as secondary. The follow-up sweep then showed the sorting isn't specific to *piles* but holds across the plural-only subgroup, which converts the incidental finding into a further prediction (§5).
 
