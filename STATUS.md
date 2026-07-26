@@ -1,5 +1,5 @@
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; blocked on Kim's honorification ruling and Brett's venue approval · status: revising with coauthor · updated: 2026-07-26 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; venue approved (Language Sciences) and AI disclosure moved to page 1; blocked on Kim's honorification ruling · status: revising with coauthor · updated: 2026-07-26 -->
 
 ## Current state (2026-07-26)
 
@@ -27,10 +27,11 @@ whether he wants the `-si-` contrast displayed as numbered examples, and whether
 Elements book will carry the TFR corpus work. The scrambling half of the Korean
 material is still unwritten.
 
-**Brett.** Venue approval (`submission/venue-decision-2026-07-26.md` is *proposed*,
-not approved) and sending the reply at
+**Brett.** Sending the reply at
 `correspondence/2026-07-26-reply-to-kim-korean-and-venue.md`, whose repo copy has
-diverged from the edits Brett pasted on 24 July and needs reconciling first.
+diverged from the edits Brett pasted on 24 July and needs reconciling first. Also
+owed: confirming the AI-disclosure model list (it was assembled from the repo log,
+not from him), and deciding submission *timing* now that the venue itself is settled.
 
 ## Not blocked, and no longer owed
 
@@ -46,7 +47,7 @@ diverged from the edits Brett pasted on 24 July and needs reconciling first.
 
 ## Submission target
 
-*Language Sciences*, per the full screen in `submission/venue-decision-2026-07-26.md`. **Proposed, not approved.** One stop condition survives: a page-one reframe leading with the comparative-concept and category-diagnostic payoff rather than projectibility. The record's other condition, a ~4,000-word cut, was **voided later the same day** when the journal turned out to have no word limit; the record has been corrected. Also live: all three top candidates already hold a pending Reynolds submission (*Language Sciences* 81 days out, *Linguistics* 117, *Journal of Linguistics* 45), and De Gruyter Brill's prohibition-model AI policy bears on *Linguistics* and *Linguistic Typology* given this paper's LLM-drafting acknowledgement.
+*Language Sciences*, per the full screen in `submission/venue-decision-2026-07-26.md`. **Approved 2026-07-26.** One condition still owed: a page-one reframe leading with the comparative-concept and category-diagnostic payoff rather than projectibility. The record's other condition, a ~4,000-word cut, was **voided later the same day** when the journal turned out to have no word limit; the record has been corrected. Also live: all three top candidates already hold a pending Reynolds submission (*Language Sciences* 81 days out, *Linguistics* 117, *Journal of Linguistics* 45), and De Gruyter Brill's prohibition-model AI policy bears on *Linguistics* and *Linguistic Typology* given this paper's LLM-drafting acknowledgement.
 
 ## Sister projects
 

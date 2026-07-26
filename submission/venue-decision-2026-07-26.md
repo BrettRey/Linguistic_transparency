@@ -1,18 +1,18 @@
 # Venue Decision Record
-<!-- SUMMARY: Venue screen for the umbrella transparency paper; recommends Language Sciences conditional on a page-one reframe and a call on doubling up while the sister paper is pending there (the ~4k-word cut condition is VOID: the journal has no word limit) · status: proposed, awaiting Brett · updated: 2026-07-26 -->
+<!-- SUMMARY: Venue decision for the umbrella transparency paper: Language Sciences, APPROVED 2026-07-26; page-one reframe still owed, submission timing vs the pending sister paper still Brett's call (the ~4k-word cut condition is VOID: the journal has no word limit) · status: approved · updated: 2026-07-26 -->
 
 ## Record
 
 - [x] Project: `papers/drafting/linguistic-transparency`
 - [x] Manuscript title: Linguistic transparency as mediated accessibility
-- [x] Proposed venue: *Language Sciences* (Elsevier), conditional (see Risk Test)
+- [x] Venue: *Language Sciences* (Elsevier). **Approved 2026-07-26.** One condition still owed: the page-one reframe (see Risk Test).
 - [x] Article type / section: Research Paper
 - [x] Venue URL / author instructions checked: **partially.** ScienceDirect's guide-for-authors returns HTTP 403 to automated fetch (and `elsevier.com` 301s to it), so the length/abstract/format rules were **not** re-verified today. The working figure below is Brett's own project record, not a fresh reading of the guide. Open the guide in a browser before packaging.
 - [x] Date checked: 2026-07-26 (scope evidence via OpenAlex; guide not readable)
 - [x] Decision owner: Brett (co-author Jong-Bok Kim asked the question on 2026-07-26)
 - [x] Assisting agent/model: Claude Opus 5 (1M context), Claude Code session
-- [x] Recommendation status: **proposed**
-- [x] Final decision: **deferred to Brett.** The recommendation is: do the page-one reframe before committing, then choose between *Language Sciences* now and *Language Sciences* after the sister paper's decision lands. (The ~4,000-word cut originally listed here as a precondition is void; see the length item below.)
+- [x] Recommendation status: **approved** (was proposed; confirmed by Brett 2026-07-26)
+- [x] Final decision: ***Language Sciences*, approved by Brett 2026-07-26.** Still owed before packaging: the page-one reframe. Still Brett's call: whether to submit now or after the sister paper's decision lands. (The ~4,000-word cut originally listed here as a precondition is void; see the length item below.)
 
 ## Journal-Reader Contract
 
@@ -27,7 +27,7 @@
 
 - [ ] Current aims/scope checked on the submission day. Scope evidence gathered from published content (below); the aims-and-scope text itself was not re-read today.
 - [x] Article type, length, abstract, keywords, reference style, figures/tables, supplements, source-file expectations: length **checked and resolved 2026-07-26**. ~~Working length figure: 9,500–10,000 body words... roughly 40% over. Re-verify the figure, then cut.~~ **Struck.** The re-verification was done and it went the other way: *Language Sciences* has **no word limit**. Retrieved the full author guide via Wayback (2022, pre-Elsevier-SPA, 48,792 chars); the only length rule anywhere in it is 85 characters per highlights bullet. The 9,500–10,000 figure came from the sister paper's own compression note in `papers/queue/what-do-we-mean-by-language/STATUS.md` and was never a journal requirement, so it should not have been carried into this record as one. **The cut condition below is void.** The manuscript is now 44pp; length is not a submission obstacle and Brett confirmed on 2026-07-26 that it isn't a concern. Remaining sub-items (abstract, keywords, reference style, figures, supplements, source files) still unchecked (403 on the live page).
-- [ ] AI-use, preprint, anonymity, data/code, simultaneous-submission policies: **not checked today.** Elsevier runs a disclosure model, which suits this paper; but see the manuscript-side item in Risk Test (the AI acknowledgement is still in the old end-of-paper form, not the house-default page-one `\aidisclosure{}`, and its model list needs Brett's confirmation).
+- [ ] AI-use, preprint, anonymity, data/code, simultaneous-submission policies: **not checked today.** Elsevier runs a disclosure model, which suits this paper. Manuscript side now compliant: the disclosure moved to page 1 via `\aidisclosure{}` on 2026-07-26 (**model list still needs Brett's confirmation**: currently "Claude Opus 4.7 & Opus 5 (1M context); OpenAI Codex 5.5; and GPT-5.6 Sol (pro)", assembled from the repo log rather than from Brett).
 - [x] Recent venue articles making the match concrete.
 
 Recent comparable venue articles or signals (OpenAlex, ISSN 0388-0001):
@@ -89,14 +89,14 @@ Append `event` and `forecast` records to `Project-Management/prediction-ledger/l
 
 ## Package Authorization
 
-- [ ] Venue decision approved before target-specific package work begins. **Not yet: proposed only.**
-- [ ] Brett has approved the target or explicitly delegated the decision.
-- [x] Unresolved risks copied into the pre-submission checklist: length cut to ~10,000 body words; page-one reframe; page-one `\aidisclosure{}` migration with a confirmed model list; Kim's outstanding Korean citation (`% TODO(kim)` in `06-typological-transparency.tex`); confirmation of the citable form of the joint TFR work (Kim's own list gives it as a WRAPP Göttingen conference paper, the bib as a working note).
+- [x] Venue decision approved before target-specific package work begins. **Approved 2026-07-26: *Language Sciences*.**
+- [x] Brett has approved the target. He confirmed the venue was already agreed; this record had lagged behind the decision rather than the decision being open. **Timing is the one sub-question still live** (submit now vs. after the sister paper's *Language Sciences* decision lands, 81 days out), and the unsent reply to Kim currently says the latter.
+- [x] Unresolved risks copied into the pre-submission checklist: ~~length cut to ~10,000 body words~~ (void, no word limit); page-one reframe; ~~page-one `\aidisclosure{}` migration~~ (**done 2026-07-26**, page 1 after the abstract, plural-responsibility variant defined locally since the repo's preamble snapshot predates the central macro; **model list still needs Brett's confirmation**); Kim's outstanding Korean citation (`% TODO(kim)` in `06-typological-transparency.tex`); confirmation of the citable form of the joint TFR work (Kim's own list gives it as a WRAPP Göttingen conference paper, the bib as a working note).
 - Closed since this record was written: the §2 index-agreement citation (Kim 2004 plus Kim and Sells 2015, both verified and cited); the Kim book record (Taylor & Francis confirms *Form and Function **Mapping*** …, New York, 2026, 422 pp., DOI 10.4324/9781003711919, so `kim-2026-form-function` stands as written and the preprint's "Mismatches" title page is a stale artifact).
 - [x] Linked from `DECISIONS.md`; `STATUS.md` updated.
 
-Decision summary for `DECISIONS.md` (once approved):
+Decision summary, logged to `DECISIONS.md` 2026-07-26:
 
 ```markdown
-2026-07-26 - Venue decision: [venue] for "Linguistic transparency as mediated accessibility". Owner: Brett, agent-assisted (Claude Opus 5). Record: `submission/venue-decision-2026-07-26.md`. Reason: [journal-reader contract]. Risks accepted: [none / summary].
+2026-07-26 - Venue decision: *Language Sciences* for "Linguistic transparency as mediated accessibility". Owner: Brett, agent-assisted (Claude Opus 5). Record: `submission/venue-decision-2026-07-26.md`. Reason: the journal-reader contract holds - the paper changes how descriptive and theoretical grammarians handle multi-sense grammatical labels by supplying a comparative concept with a non-instance test, and the venue publishes exactly this (incl. the 2022 piece challenging "definite article" as a comparative concept). Risks accepted: doubling up while a sister paper is pending there, so a framing rejection on the first could transfer; timing left to Brett.
 ```

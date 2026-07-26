@@ -31,6 +31,20 @@ Kyung Hee University}
 \providecommand{\real}[1]{#1}
 \providecommand{\pandocbounded}[1]{#1}
 
+% The local .house-style snapshot predates the central \aidisclosure macro
+% (added centrally 2026-07-16), so define it here. Deliberate divergence from
+% the central version: that one reads "I am responsible", which is wrong for a
+% co-authored paper. Plural here. Worth fixing centrally with a plural variant.
+\providecommand{\aidisclosure}[1]{}
+\renewcommand{\aidisclosure}[1]{%
+  \par\medskip
+  \noindent{\small\textsc{AI use.}\enspace The large language models #1 served as
+  drafting and editing aids throughout the preparation of this paper. The authors
+  are responsible for all theoretical claims, arguments, errors, and interpretive
+  choices.\par}%
+  \medskip
+}
+
 \definecolor{schemablue}{RGB}{239,247,255}
 \definecolor{schemabluerule}{RGB}{185,211,230}
 \newsavebox{\schemaboxbox}
@@ -69,6 +83,8 @@ Kyung Hee University}
 \input{paper/sections/00-abstract.tex}
 \end{abstract}
 
+\aidisclosure{Claude Opus 4.7 \& Opus 5 (1M context); OpenAI Codex 5.5; and GPT-5.6 Sol (pro)}
+
 \input{paper/sections/01-introduction.tex}
 \input{paper/sections/02-morphosyntactic-transparency.tex}
 \input{paper/sections/03-constructional-transparency.tex}
@@ -84,10 +100,6 @@ Kyung Hee University}
 \section*{Data availability}
 
 The corpus material behind §\ref{sec:2} and Appendix~\ref{sec:A-3} is the COCA and COHA pilot described there: the full query list, raw returns, per-cell coding decisions, and the pre-registered protocol and results for the \mention{piles} candidate-member test. These files travel with the paper as supplementary material and are versioned in the project repository at \url{https://github.com/BrettRey/Linguistic_transparency}. A citable archive with a persistent identifier will be deposited on acceptance; the repository commit corresponding to this manuscript is recorded in the supplementary README so that every count reported here can be traced to the query that produced it.
-
-\section*{Acknowledgements}
-
-This paper was drafted with the assistance of large language models (Claude Opus 4.7 with the 1M-context configuration; OpenAI Codex 5.5). All content has been reviewed and revised by the authors, who take full responsibility for the final text.
 
 \clearpage
 \printbibliography
