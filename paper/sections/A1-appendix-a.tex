@@ -4,18 +4,11 @@ This appendix collects the COCA pilot data behind the §\ref{sec:2} claims about
 
 \subsection{Methodology}
 
-Queries were issued through the local Playwright wrapper at \path{tools/english-corpora/bin/ecorg.mjs} (May 2026). Each query is a surface string; counts are raw COCA frequencies, not filtered for head versus modifier use, idiom contamination, or sense disambiguation, except where noted. Two filtering issues recur:
+Queries were issued through the local Playwright wrapper at \path{tools/english-corpora/bin/ecorg.mjs} (May 2026). Each query is a surface string and the counts are raw COCA frequencies, filtered for head-versus-modifier use, idiom contamination, and sense only where noted. Two confounds recur and both inflate counts in the counter-predicted direction: a \term{modifier confound}, where N in X \mention{of} N is a modifier inside a larger NP (\mention{lots of day-care} for \mention{lots of day}), and a \term{parse-shift}, where the QN sits in a relative clause and the visible verb agrees with a different head (of 13 raw plural hits for \mention{a lot of money are}, 10 are parse-shifted, 1 is irrealis, 1 is contracted \mention{has}, and 1 is a genuine override).
 
-\begin{itemize}
-\item
-  \term{Modifier confound}. Surface strings of the form X \mention{of} N may include cases where N is a modifier inside a larger NP rather than the head of the \mention{of}-complement (e.g., \mention{lots of day-care} rather than \mention{lots of day}). The countability paper \autocite{reynolds2026countability} handles the same coding issue for \mention{three police} and \mention{three cattle}. Where small counts fall in the predicted-counter direction, the modifier confound likely inflates them.
-\item
-  \term{Parse-shift}. Surface strings containing a number-transparent QN plus a verb form may include cases where the QN sits inside a relative clause modifying a different head-noun, with the visible verb agreeing with that other head. \mention{A lot of money are} is the textbook case: of 13 raw plural-agreement hits, 10 are parse-shifted (people/parents/movies/times \mention{are}; \mention{a lot of money} in a relative clause), 1 is irrealis \mention{were} (\textit{CGEL} §3.5.1), 1 \mention{'s} hit is contracted \mention{has} (singular, matches prediction), and 1 is a genuine plural override.
-\end{itemize}
+Filtering was applied asymmetrically: counter-predicted cells were checked by hand more thoroughly than predicted ones, because the wrapper's KWIC mode was returning a Playwright error on every scripted call and checks had to be done manually and selectively. The counts below should therefore be read as attestation with a known bias in the paper's favour, not as an estimated grammatical rate. The full query list, the raw returns, and the per-cell coding decisions are in \path{paper/data/coca-pilot.md} and \path{paper/data/kwic-checks.md}, which travel with the paper as supplementary material.
 
-The wrapper's KWIC mode is unreliable for API-driven retrieval from this script as of May 2026 (Playwright internal error on every attempted call), but that doesn't mean KWIC is unavailable for human use. Counts in the tables below were generated via list-mode queries; KWIC checks were then used to filter selected small cells where raw surface counts were likely to overstate the target construction.
-
-\subsection{\texorpdfstring{A.2 Partitive vs.~pseudo-partitive \mention{of}-complements}{A.2 Partitive vs.~pseudo-partitive of-complements}}\label{a.2-partitive-vs.-pseudo-partitive-of-complements}
+\subsection{\texorpdfstring{Partitive vs.~pseudo-partitive \mention{of}-complements}{Partitive vs. pseudo-partitive of-complements}}\label{a.2-partitive-vs.-pseudo-partitive-of-complements}
 
 The contrast: \term{partitive} \mention{of}-complements have definite complements (\mention{of the money}, \mention{of those books}); \term{pseudo-partitive} \mention{of}-complements have bare or otherwise non-definite complements in the QN frame (\mention{of money}, \mention{of soldiers}, \mention{of some paintings}).
 
@@ -25,9 +18,9 @@ Pseudo-partitive (X of N): \mention{lots of people} 3,878; \mention{lots of mone
 
 Partitive (X of the N): \mention{lots of the time} 7; \mention{lots of the people} 5; \mention{loads of the day} 1. \textbf{Total: 13.} \mention{Piles} and \mention{heaps} return 0 partitive hits with any complement tested.
 
-Indefinite-NP complement (X of a N): \mention{lots of a day} 0; \mention{piles of a day} 0; \mention{heaps of a day} 0; \mention{loads of a day} 0; \mention{lots/piles/heaps/loads of an afternoon} 0. \textbf{Total: 0.} Plural-only forms reject \mention{of} [Det NP] whether the determiner is definite (\mention{the}) or indefinite (\mention{a/an}); their \mention{of}-complements are bare/non-determined.
+Indefinite-NP complement (X of a N): \mention{lots of a day} 0; \mention{piles of a day} 0; \mention{heaps of a day} 0; \mention{loads of a day} 0; \mention{lots/piles/heaps/loads of an afternoon} 0. \textbf{Total: 0.} No indefinite-determiner complement turned up for any plural-only form tested. That is a null result in a small sample of specific strings, not evidence that the frame is unavailable: the definite-determiner cells above are non-zero, so the class does admit \mention{of} [Det NP].
 
-Partitive ratio: $13 / (6{,}311 + 13) \approx\! 0.2\%$.
+Partitive share of the sampled strings: $13 / (6{,}311 + 13) \approx\! 0.2\%$. This is a frequency comparison among the strings queried, not a measure of grammatical availability. Bare and determined complements are licensed under different discourse-semantic conditions, and these counts supply no denominator of occasions on which a partitive reading was intended, so a low share shows a strong lexical preference and nothing stronger.
 
 \subsubsection{\texorpdfstring{\mention{Plenty}}{Plenty}}
 
@@ -90,7 +83,7 @@ Override is in the predicted direction at 98--100\% across all tested QN+complem
 
 The other checked counter-direction cells are artefacts. \mention{A number of people is/was} is headed by \mention{condition}, \mention{suggestion}, \mention{ability}, or \mention{counsel}, not by \mention{number}; \mention{lots of people is/was} is headed by expressions such as \mention{murder}, \mention{hauling}, or \mention{disappearance}, with one non-standard existential hit; and \mention{lots of money are} occurs inside a PP modifying plural \mention{men}. The large \mention{a lot of people is/was} cell remains unfiltered, so the 98.0\% row is conservative.
 
-\subsection{\texorpdfstring{A.4 \mention{Bunch}: animate vs.~inanimate aggregates}{A.4 Bunch: animate vs.~inanimate aggregates}}\label{a.4-bunch-animate-vs.-inanimate-aggregates}
+\subsection{\texorpdfstring{\mention{Bunch}: animate vs.~inanimate aggregates}{Bunch: animate vs. inanimate aggregates}}\label{a.4-bunch-animate-vs.-inanimate-aggregates}
 
 \textit{CGEL} claims that \mention{bunch} tilts collective for inanimate aggregates and transparent for groups of people. The COCA pilot supports the animate half but not the inanimate half.
 

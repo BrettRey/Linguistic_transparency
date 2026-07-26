@@ -1,5 +1,5 @@
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Kim's Korean §4.5 integrated then source-grounded against Yoon 2004 + Park & Kim 2022 and reframed as an open verdict; §4.4 survey moved to Appendix B; blocked on a ~4k-word cut + page-one reframe before any venue commitment (record: submission/venue-decision-2026-07-26.md) · status: revising with coauthor · updated: 2026-07-26 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Sol review implemented in full (A.2 contradiction fixed, schema typed, Leufkens mapping-vs-access added, Spanish upgraded, §3.2 cut); body still 14,258 words against a ~10,000 target, so a scope decision is owed · status: revising with coauthor · updated: 2026-07-26 -->
 
 ## Current state (2026-04-30)
 
@@ -165,3 +165,16 @@ Recommend in order:
 **Venue: no commitment yet.** Full screen in `submission/venue-decision-2026-07-26.md`. Recommends *Language Sciences* conditional on two stop conditions that are owed for any venue: a cut from ~14,000 to ~10,000 body words (the figure recorded when the sister paper was compressed for the same journal), and a page-one reframe that leads with the comparative-concept/category-diagnostic payoff rather than projectibility. Complications named there: all three top candidates already hold a pending Reynolds submission (*Language Sciences* `language-langsci` 81 days out, *Linguistics* `countability-linguistics` 117 days, *Journal of Linguistics* `definiteness-jol` 45 days), and De Gruyter Brill's current AI policy is prohibition-model, which bears on *Linguistics* and *Linguistic Typology* given this paper's LLM-drafting acknowledgement.
 
 **Korean, second pass (same day).** The §4.5 data turned out to be published, and reading the sources changed the section's verdict. Yoon 2004 (author's manuscript, now in `literature/`) has the stacked dative-nominative pattern on the same predicate, but reports it as marginal and dialect-variable, shows nominative stacking on locatives and temporals, and analyses it as marking major-subject rather than grammatical-subject status. Park and Kim 2022 (Kim's own paper, *Linguistics* 60(5), now in `literature/`) supplies the dative-subject-plus-`-(u)si-` diagnostic at p. 1504, but states that "the case marker itself does not determine subjecthood" and cautions at p. 1505 that honorification is a discourse phenomenon. Both together remove the concealment the schema needs, so §4.5 now reports an open verdict and names what would settle it, and §4.6 uses that openness as evidence that the baseline is fixed language-internally. Seven places walked back from "worked case" accordingly. The remaining Kim-side question is no longer "what's the reference" but whether he wants to defend the subjecthood reading against Yoon's major-subject analysis.
+
+### 2026-07-26 Session Notes (Sol review implemented)
+
+Full punch list from `reviews/gpt-5.6-sol-2026-07-26-triage.md` executed; per-item detail in `DECISIONS.md`. Build clean at 40pp, no undefined citations or references, house-style linter clean on the edited lines.
+
+**Two things Brett needs to decide on return.**
+
+1. **The length gap is now a scope decision.** Every compression on the agreed list is done (§2.2, §4.1, Newmeyer, §5.2, §5.6, both appendices) and saved ~1,100 words, but the approved additions cost ~1,350, so the body is 14,258 words against roughly 10,000. Closing it means taking material out of §2 (4,920), §4 (4,230), or §5 (2,159), which is a judgment about what the paper is rather than a cleanup task.
+2. **The *piles* held-out projection test** wasn't run: the English-Corpora wrapper is Turnstile-blocked, so it needs hand queries in a browser. §2.4 currently states that the demonstrated projection is within-domain over known members, with candidate-member extension set up but untested. That is the honest position, and it is weaker than "projectibility profile" unqualified.
+
+**Open, Kim-side, unchanged:** the reference and page for the dative-experiencer subjecthood diagnostics; whether he wants the 2007 (Kim and Sells) or 2016 (*Syntactic Structures* ch. 14) position on honorification cited, since they point opposite ways; and whether the Elements book will carry the TFR corpus work. The reply drafted at `correspondence/2026-07-26-reply-to-kim-korean-and-venue.md` is still unsent.
+
+**Sources added to `literature/` this session:** Kim 2004, Kim & Sells 2015, Kim's indeterminacy MS, Park & Kim 2022, Yoon 2004, Yoon 2007, Levin 2017, Kim & Findlay 2023, Kim & Sells 2007, Kim 2016 (four chapters), Wu 2025, Warren 2002 (both versions) and 2006, San Julián 2018 (×2), Leufkens 2015, and three RAE sources. All bib entries pushed to the central bibliography across three `/push-bib` runs.
