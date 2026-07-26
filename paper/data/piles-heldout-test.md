@@ -165,3 +165,45 @@ So *the piles of N* selects the **literal** reading, where bare *piles of money*
 ### Verdict so far
 
 *Piles* is a **partially confirmed candidate member**. The determiner-frame prediction holds and does real work; the agreement prediction is untestable on this member for reasons that generalise to any member rare in subject position. The paper's claim should stay at "specifies a falsifiable basis for inductive extension", with the added and more interesting point that the basis is falsifiable only where the corpus supplies subject-position tokens.
+
+### P4, partitive: consistent, and it corrects the appendix
+
+`piles of the *` returns **12 tokens, every one at frequency 1**: bags, beans, blankets, bridge, cactus, letters, mine, papers, pounds, quartz, stuff, trial.
+
+Two of these aren't *pile* in either sense the paper cares about. *Piles of the bridge* and *piles of the mine* use *pile* for a driven structural support, a third homonym alongside the quantificational and heap senses. Most of the remainder are literal heaps. So the partitive count for **quantificational** *piles* is at or near zero, which is consistent with P4.
+
+**But this falsifies a claim in Appendix A.2.** The appendix said *piles* and *heaps* "return 0 partitive hits with any complement tested"; the wildcard shows 12 once the complement set isn't restricted to *money*, *time*, *people*, and *day*. The zero was an artefact of the narrow query set, which is the same failure mode as the "reject" claim already corrected. Appendix A.2 and `coca-pilot.md` now say so.
+
+### Negative control: empty, and that's informative
+
+`sacks of money [be]`, `boxes of money [be]`, and `crates of money [be]` all return nothing. The control was meant to show head-driven plural with no override available; instead it shows that container nouns with non-count complements don't appear as subjects of finite *be* either. **That confirms the P1 sparsity is structural rather than a fact about *piles*.** Quantity and container expressions of this shape are objects, not subjects.
+
+### COHA, and the combined agreement tally
+
+`piles of ... [be]` across 200 years of COHA returns **three tokens**: *piles of papers were* ×2 (1970s, 1980s) and *piles of money were* ×1 (1930s).
+
+Combining both corpora for the discriminating non-count cell:
+
+| Direction | Tokens |
+|---|---|
+| Singular | *piles of money is* (COCA) = 1 |
+| Plural | *piles of snow are* (COCA) 1, *piles of money were* (COHA) 1 = 2 |
+
+**n = 3 across two corpora spanning two centuries.** No verdict is available. What can be said is narrow and should be said exactly: nothing in the available data supports the singular override for *piles*, and the three tokens lean against it. That is not evidence that the profile is wrong, because three tokens cannot bear that weight; it is evidence that this member cannot be used to test it.
+
+The diachronic prediction, that members enter the class by grammaticalization and so should show abstract complements rising over time, is likewise untestable on three tokens.
+
+## 7. Final verdict
+
+| Prediction | Outcome |
+|---|---|
+| P1 agreement override (non-count) | **Untestable.** n = 3 across COCA and COHA, leaning plural. No verdict. |
+| P2 agreement (count complement) | Confirmed, 3/3 plural, but never discriminating |
+| P3 determiner frame | **Confirmed, and sense-discriminating beyond the prediction** |
+| P4 partitive dispreferred | Consistent; and it corrected an appendix over-claim |
+| P5 premodification | Not run |
+| Control (container nouns) | Empty, confirming the sparsity is structural |
+
+**What the test established.** The profile's determiner-frame prediction holds for a member identified without using any predicted behaviour, and it does more than predicted: the determined frame sorts *piles* into its senses, with the literal use productive across 174 complements and the quantificational use confined to a handful. That is a real held-out success, on a behaviour the paper treats as secondary.
+
+**What it established about the method.** The agreement override, which the paper leads with, is corpus-testable only for members that occur in subject position. *Piles* doesn't, the container-noun control doesn't, and inanimate *bunch* didn't. Candidate-member discovery for this class needs acceptability judgments, not frequency. That is a finding about the profile's testability, and the paper is better for saying it than for reporting a confirmation it didn't get.

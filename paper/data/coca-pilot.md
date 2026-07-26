@@ -35,7 +35,7 @@ KWIC check: *lots of day* hits are modifier uses (*day-to-day*, *day hikes*, *da
 | LOADS OF THE DAY | 1 |
 | **Total** | **13** |
 
-Partitive ratio: 13 / (6311 + 13) ≈ 0.2%. *Lots* is the only form with non-zero partitive uses; *piles, heaps* return 0 partitive hits with any tested complement.
+Partitive ratio: 13 / (6311 + 13) ≈ 0.2%. *Lots* is the only form with non-zero partitive uses; *piles, heaps* return 0 partitive hits with the complements tested here (but see `piles-heldout-test.md`: a wildcard query returns 12 for *piles*, mostly literal or engineering senses) with any tested complement.
 
 ### Indefinite-NP complement (X of a N)
 
