@@ -327,3 +327,24 @@ Predictions were fixed in writing before any query (`paper/data/piles-heldout-te
 **A Google Books pre-test was run first and then reinterpreted.** It showed plural leading 3.5:1 with *money*, which read as disconfirming P1. After the COCA determiner data, that reading doesn't hold either way: since literal *piles* is the productive sense, most Google Books tokens of *piles of money are* are plausibly literal (stacks of banknotes) and so bear on nothing. Exact-string frequency can't separate the senses. Recorded as a reinterpretation rather than quietly dropped.
 
 §2.4 now reports the test and Table 3's QN row records it. Still to run: P4 (partitive, `piles of the *`, which is a different query from the `the piles of N` already run), P5 (premodification), and the container-noun control, which the P1 sparsity predicts will also come back empty.
+
+### The nine remaining review items, closed 2026-07-26
+
+Audited both reviews against the current text rather than against memory; nine items were genuinely outstanding.
+
+**Substantive.**
+1. **The concealment requirement is now constrained (R1.14).** "Same construction-type" was adjustable after the fact: narrowly drawn, no transparent construction has an opaque sibling and everything is a non-instance; broadly drawn, everything passes. §2.3 now requires the concealing control to belong to a constructional family that is independently motivated, on criteria that don't appeal to the transparency effect being assessed. English head-driven agreement qualifies (unmarked for NP subjects on grounds unrelated to quantificational nouns), as does Tsez class IV with a clausal argument. Where no such family can be identified without invoking the effect, the test returns no verdict rather than a negative one, which is what happens in Korean. The paragraph also states plainly that this is a limitation on the paper's central instrument, not a detail about its edges.
+2. **The relay/access boundary now has a criterion (R1.18).** Appendix B states it: the question is whether $R$ relates to the bearer's own feature or to a distinct feature token computed on an intermediate element. Identity or structure-sharing counts as access, which covers the QN and TFR cases on the index-agreement analysis; an intervening head acquiring a feature of its own does not, which is where obviation falls. The criterion is analysis-dependent, as framework-portability implies, and the verdict travels with the analysis. Two consequences stated: possessor raising and external possession are non-instances of *intact-NP* access specifically rather than of mediated accessibility, and the boundary is a boundary of one topology. Propagated to the abstract and conclusion.
+3. **§2's opening definition widened.** It defined morphosyntactic transparency as feature matching between a non-head property and a co-occurring exponent, which excluded the selection, binding, and coordination effects §2.5 introduces a page later. Now: a grammatical relation sensitive to a property borne inside $X$ but not by its head, with matching as the paradigm.
+4. **Haspelmath slot/value distinction stated (R2.4).** The Newmeyer reply had called $X$ itself a general-formal comparative concept and then given English and Korean constructions as its values. Now the *slot* is typed with general-formal notions and a *value* is a language-particular configuration, with the same point made for $P$ and $R$.
+
+**Smaller.**
+5. "Distributional class" replaced by **relational family** at the umbrella level, since the members share no surface distribution, which is the point.
+6. *What* is no longer called morphologically singular; its competing value is a constructional default, as *what* carries no number inflection.
+7. **Kim 2017** (*Linguistic Research* 34(3): 361–385) added beside Kim 2011.
+8. **Data availability section added**, replacing five bare `paper/data/...` paths with a statement naming the public repository, committing to a persistent identifier on acceptance, and promising a commit hash in the supplementary README so every count traces to its query. A DOI can't be minted from here.
+9. **P5, premodification, confirmed** on Google Books (*huge/great/enormous piles of money*, a few per cent of the bare-string total). The COCA `* piles of money` query is still worth running for a register-matched figure but the prediction isn't in doubt.
+
+**Struck off as not reproducing:** the line-number collisions the second review reported on pp. 1, 31, and 34 don't appear in the current build (checked those pages plus 41), and "coordination never qualifies" doesn't exist as quoted anywhere in the sections.
+
+Both reviews are now fully implemented. 41pp, build clean, style linter clean on the edited lines.

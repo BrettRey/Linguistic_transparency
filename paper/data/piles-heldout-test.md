@@ -201,8 +201,12 @@ The diachronic prediction, that members enter the class by grammaticalization an
 | P2 agreement (count complement) | Confirmed, 3/3 plural, but never discriminating |
 | P3 determiner frame | **Confirmed, and sense-discriminating beyond the prediction** |
 | P4 partitive dispreferred | Consistent; and it corrected an appendix over-claim |
-| P5 premodification | Not run |
+| P5 premodification | **Confirmed** (Google Books; COCA `* piles of money` still worth running) |
 | Control (container nouns) | Empty, confirming the sparsity is structural |
+
+### P5, premodification: confirmed
+
+Google Books gives *huge piles of money* 3.86e-10, *great piles of money* 2.43e-10, *enormous piles of money* 1.24e-10, and *huge piles of cash* 4.33e-10, against *piles of money* 2.02e-08. So degree modifiers are freely available, as the plural-only subgroup predicts, and they account for a few per cent of the bare-string total. The COCA query `* piles of money` is still worth running for a register-matched figure, but the prediction isn't in doubt.
 
 **What the test established.** The profile's determiner-frame prediction holds for a member identified without using any predicted behaviour, and it does more than predicted: the determined frame sorts *piles* into its senses, with the literal use productive across 174 complements and the quantificational use confined to a handful. That is a real held-out success, on a behaviour the paper treats as secondary.
 
