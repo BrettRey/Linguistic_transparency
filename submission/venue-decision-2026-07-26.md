@@ -5,21 +5,21 @@
 
 - [x] Project: `papers/drafting/linguistic-transparency`
 - [x] Manuscript title: Linguistic transparency as mediated accessibility
-- [x] Venue: *Language Sciences* (Elsevier). **Approved 2026-07-26.** One condition still owed: the page-one reframe (see Risk Test).
+- [x] Venue: *Language Sciences* (Elsevier). **Approved 2026-07-26.** Both conditions now discharged: the length cut was void, and the page-one reframe was done 2026-07-26 (see Risk Test).
 - [x] Article type / section: Research Paper
 - [x] Venue URL / author instructions checked: **partially.** ScienceDirect's guide-for-authors returns HTTP 403 to automated fetch (and `elsevier.com` 301s to it), so the length/abstract/format rules were **not** re-verified today. The working figure below is Brett's own project record, not a fresh reading of the guide. Open the guide in a browser before packaging.
 - [x] Date checked: 2026-07-26 (scope evidence via OpenAlex; guide not readable)
 - [x] Decision owner: Brett (co-author Jong-Bok Kim asked the question on 2026-07-26)
 - [x] Assisting agent/model: Claude Opus 5 (1M context), Claude Code session
 - [x] Recommendation status: **approved** (was proposed; confirmed by Brett 2026-07-26)
-- [x] Final decision: ***Language Sciences*, approved by Brett 2026-07-26.** Still owed before packaging: the page-one reframe. Still Brett's call: whether to submit now or after the sister paper's decision lands. (The ~4,000-word cut originally listed here as a precondition is void; see the length item below.)
+- [x] Final decision: ***Language Sciences*, approved by Brett 2026-07-26.** Nothing owed before packaging. Still Brett's call: whether to submit now or after the sister paper's decision lands. (The ~4,000-word cut originally listed here as a precondition is void; see the length item below.)
 
 ## Journal-Reader Contract
 
 > This manuscript changes the problem of **what "transparency" picks out when linguists in different subfields use the word** for readers of ***Language Sciences*** by showing that the senses form one family of mediated-accessibility relations with a **falsifiable non-instance test** (a configuration counts only where the mediator's own default could have concealed the property, which excludes coordination), and that the resulting profiles, not the umbrella, are what support projection.
 
 - [x] The debate/problem is visible in the title, abstract, and first two pages. Title carries "mediated accessibility"; the abstract states the non-instance requirement; §1 opens on CGEL number-transparent QNs.
-- [ ] **The contribution is journal-local, not only topically adjacent.** This is the weak link and the standing-lesson wound (program-first drafting). The abstract currently closes on "grammatical kindhood is a downstream verdict of projectibility," which is the HPC programme's frame, not a *Language Sciences* debate. See Risk Test.
+- [x] **The contribution is journal-local, not only topically adjacent.** Addressed 2026-07-26 by the page-one reframe. The abstract no longer closes on "grammatical kindhood is a downstream verdict of projectibility"; it opens on the subfield-spanning use of *transparent*, leads on the non-instance test, and closes on what the analysis buys descriptive and theoretical grammar. §1 was reordered so the non-instance diagnostic precedes the projectibility apparatus rather than sitting inside it, and a new paragraph states that the pay-off is for grammar and typology with the philosophy of science instrumental, telling a reader who wants only the grammatical results to take §2 and §4 and leave §5 aside.
 - [x] The expected reader can tell why the paper belongs here without relying on a cover letter, **provided** the comparative-concept framing (Haspelmath discipline, category diagnostics) leads and projectibility follows.
 - [x] Reader's vocabulary decided. `check-terms.py main.tex` returns 0 flags. Split for this reader: **free** = transparency, agreement, comparative concept, descriptive category, construction, partitive/pseudo-partitive, mediator. **Earned (gloss at first use, already done)** = projectibility, projectibility profile, stabilizer, SPC, local kind, non-instance test. The earned list is exactly the programme vocabulary the standing lesson warns about; keep it downstream of the linguistic payoff.
 
@@ -76,7 +76,7 @@ Sequencing this suggests: make the cut and clear Kim's outstanding citation item
 - [x] The manuscript shows the problem is live: *CGEL* number transparency, CxG compositionality gradients, rated compound transparency, and masked-priming transparency are four existing literatures using one word for different relations, all cited and read.
 - [x] The first two pages name the evidential standard (the non-instance requirement, with coordination as the worked exclusion).
 - [x] Methodological engagement is current where it matters: Haspelmath 2010 against Newmeyer 2007, with Croft's RCG positioned.
-- [x] Interdisciplinary ownership: the main payoff is claimed for descriptive/theoretical grammarians and typologists. The philosophy of science is instrumental. **The manuscript should say so earlier than it does.**
+- [x] Interdisciplinary ownership: the main payoff is claimed for descriptive/theoretical grammarians and typologists. The philosophy of science is instrumental. **The manuscript now says so on page 2** (§1, the paragraph following the three questions), rather than leaving it implicit.
 
 ## Forecast (Prediction Ledger)
 
