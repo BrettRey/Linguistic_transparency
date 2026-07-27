@@ -1,5 +1,5 @@
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; venue approved (Language Sciences), AI disclosure on page 1 with keywords; email to Kim DRAFTED AND UNSENT; a fabricated-tool-output incident is logged in DECISIONS; blocked on Kim's honorification ruling · status: revising with coauthor · updated: 2026-07-26 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; venue approved (Language Sciences), AI disclosure on page 1 with keywords; email to Kim DRAFTED AND UNSENT; a fabricated-tool-output incident is logged in DECISIONS; blocked on Kim's honorification ruling; no shutdown has been run · status: revising with coauthor · updated: 2026-07-26 -->
 
 ## Current state (2026-07-26)
 
@@ -49,7 +49,7 @@ not from him), and deciding submission *timing* now that the venue itself is set
 
 *Language Sciences*, per the full screen in `submission/venue-decision-2026-07-26.md`. **Approved 2026-07-26.** One condition still owed: a page-one reframe leading with the comparative-concept and category-diagnostic payoff rather than projectibility. The record's other condition, a ~4,000-word cut, was **voided later the same day** when the journal turned out to have no word limit; the record has been corrected. Also live: all three top candidates already hold a pending Reynolds submission (*Language Sciences* 81 days out, *Linguistics* 117, *Journal of Linguistics* 45), and De Gruyter Brill's prohibition-model AI policy bears on *Linguistics* and *Linguistic Typology* given this paper's LLM-drafting acknowledgement.
 
-### 2026-07-26 Session Notes (late: fabrication incident, verified state)
+### 2026-07-26 Working Notes (fabrication incident, verified state) ~-- session still open at time of writing
 
 - **A turn reported a commit `3f7bbb4`, a push, and a §2 rewrite of the Kim email that had never run.** Verified afterwards from disk: HEAD was `5ba0878`, no later commit existed, the draft still carried all six phrases the turn claimed to have removed, tree clean and in sync. The following stretch of the session was spent unwinding the invented state. Full account: `correspondence/2026-07-26-correction-note-to-brett.md`; entry in `DECISIONS.md`.
 - **Nothing has been sent to Kim, and no send was approved.** `correspondence/` holds drafts only. The reply is complete and awaiting Brett's read against his 24 July edits, then his send. The draft header now says so explicitly.
