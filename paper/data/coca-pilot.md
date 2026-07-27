@@ -110,7 +110,9 @@ No ratio is given, for the reason stated in the plural-only section: the two fra
 
 ## *Rest, remainder*
 
-### Non-partitive (the X of N)
+**Classification corrected 2026-07-26.** These are not quantity nouns, so they have **no pseudo-partitive use at all**, and the two frames below are not a partitive/pseudo-partitive contrast. Van Eynde & Kim (2023: 271) define the pseudo-partitive as [N1 *of* N2] where "N1 denotes a quantity or amount of whatever it is that N2 denotes", and treat the bare N2 as the *characteristic* property distinguishing it from a genuine partitive, "in which N2 is introduced by a definite determiner". *Rest* and *remainder* denote the complement subset of a presupposed whole, not a quantity of it: *the remainder of time* is what is left of time, not an amount of time. So the semantic criterion (which defines the construction) and the syntactic one (which diagnoses it) come apart here, and the semantic one governs. Both frames below are partitive in the relevant sense; they differ only in whether the whole carries a determiner. Earlier versions of this file and of Appendix A.2 mislabelled the bare-complement rows as pseudo-partitive.
+
+### Bare complement (the X of N)
 
 | Query | Count |
 | --- | ---: |
@@ -122,7 +124,7 @@ No ratio is given, for the reason stated in the plural-only section: the two fra
 | THE REST OF MONEY | 1 |
 | **Total (four hand-picked complements)** | **100** |
 
-### Non-partitive, wildcard sweep — run 2026-07-26
+### Bare complement, wildcard sweep — run 2026-07-26
 
 `the rest of [nn*]` and `the remainder of [nn*]`, COCA reporting TOTAL 2,946 / UNIQUE 792 for the two run together. Per-form split (reconciles exactly):
 
@@ -135,13 +137,13 @@ No ratio is given, for the reason stated in the plural-only section: the two fra
 Leading complements, *rest*: society 442, humanity 248, US 187, life 150, nature 78, mankind 77, time 75, eternity 73, world 63, creation 42, Americans 41, government 31, baseball 26, civilization 26, Congress 21, class 15, science 15, humankind 14.
 Leading complements, *remainder*: life 5, class 4, then *Mr, page, part, president, season, section, time* at 3 each.
 
-**This overturns the starred cells.** The four hand-picked strings captured 100 of 2,946 attestations, about 3%. The bare-complement frame is not rejected: it is common and productive across ~790 distinct complements. What the leading complements share is that none needs a determiner to denote uniquely — non-count generics (*society, humanity, life, nature, time, eternity, creation*), kind-denoting bare plurals (*Americans*), and institution nouns definite without an article (*Congress, government, class, school*). So *rest* and *remainder* do not require an overtly determined complement; they require one whose denotation is already uniquely identifiable. What they resist is a bare complement that would have to be read as a novel indefinite subset. The condition is semantic, on the complement's denotation, not syntactic, on the presence of a determiner.
+**This overturns the starred examples, though not the `×` itself.** The `×` in Table 1's pseudo-partitive column was substantively right, since the construction isn't available to these nouns; what was wrong was starring *the rest of time* as ungrammatical to justify it. The four hand-picked strings captured 100 of 2,946 attestations, about 3%. The bare-complement frame is not rejected: it is common and productive across ~790 distinct complements. What the leading complements share is that none needs a determiner to denote uniquely — non-count generics (*society, humanity, life, nature, time, eternity, creation*), kind-denoting bare plurals (*Americans*), and institution nouns definite without an article (*Congress, government, class, school*). So *rest* and *remainder* do not require an overtly determined complement; they require one whose denotation is already uniquely identifiable. What they resist is a bare complement that would have to introduce a novel indefinite whole. The condition is semantic, on the complement's denotation, not syntactic, on the presence of a determiner.
 
 Caveat on the wildcard: `[nn*]` matches a string position, so some hits are the first word of a longer nominal (*the rest of day one*, *the rest of tuition/books/housing*), and *the rest of US* is mostly the country rather than the pronoun. The top of the list (*society, humanity, life, nature, mankind*) is unambiguous and carries the finding on its own.
 
 KWIC check on the four hand-picked cells: the raw non-partitive total is conservative. *The rest of time* is mostly fixed or duration-level temporal use (*for the rest of time*, *spend the rest of time*), not the partitive-count contrast targeted here. *The rest of people* contains possessives and non-standard "other people" uses. *The rest of day* is temporal ellipsis or *day* as a modifier. The *remainder* hits are technical or duration expressions.
 
-### Partitive (the X of the N)
+### Determined complement (the X of the N) — genuine partitive on both criteria
 
 | Query | Count |
 | --- | ---: |
@@ -161,7 +163,7 @@ KWIC check on the four hand-picked cells: the raw non-partitive total is conserv
 | THE REMAINDER OF A DAY | 1 |
 | **Total** | **1** |
 
-Partitive (definite NP) share **on matched complements only**: 3365 / (3365 + 100 + 1) ≈ 97.1% (raw). Numerator and denominator here draw on the same four complements (*day, time, people, money*), so unlike the plural-only and *plenty* figures this one is a genuine matched comparison, and it still shows *rest* / *remainder* preferring the determined complement for these four. It says nothing about the bare frame's availability across the ~790 complements in the wildcard sweep above.
+Determined-complement share **on matched complements only**: 3365 / (3365 + 100 + 1) ≈ 97.1% (raw). Numerator and denominator draw on the same four complements (*day, time, people, money*), so this one is a genuine matched comparison. But note what it compares: **not** partitive vs pseudo-partitive (this subgroup has no pseudo-partitive use) but whether the whole carries a determiner, within one construction. For those four the determiner is strongly preferred. It says nothing about the ~790 bare complements in the wildcard sweep above.
 
 ## Override direction
 
