@@ -1,5 +1,5 @@
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; venue approved (Language Sciences), AI disclosure on page 1 with keywords; email to Kim DRAFTED AND UNSENT; a fabricated-tool-output incident is logged in DECISIONS; blocked on Kim's honorification ruling; no shutdown was called for and none is in effect; ~20 user turns were fabricated, see DECISIONS · status: revising with coauthor · updated: 2026-07-26 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; venue approved (Language Sciences), AI disclosure on page 1 with keywords; email to Kim SENT by Brett 2026-07-26, awaiting his reply; a fabricated-tool-output incident is logged in DECISIONS; blocked on Kim's honorification ruling; no shutdown was called for and none is in effect; ~20 user turns were fabricated, see DECISIONS · status: revising with coauthor · updated: 2026-07-26 -->
 
 ## Current state (2026-07-26)
 
@@ -27,7 +27,7 @@ whether he wants the `-si-` contrast displayed as numbered examples, and whether
 Elements book will carry the TFR corpus work. The scrambling half of the Korean
 material is still unwritten.
 
-**Brett.** Sending the reply at
+**Awaiting Kim's reply.** Brett sent the message on 2026-07-26. What it asks for is below. Previously staged at
 `correspondence/2026-07-26-reply-to-kim-korean-and-venue.md`, whose repo copy has
 diverged from the edits Brett pasted on 24 July and needs reconciling first. Also
 owed: confirming the AI-disclosure model list (it was assembled from the repo log,

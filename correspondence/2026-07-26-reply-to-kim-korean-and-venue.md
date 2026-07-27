@@ -1,12 +1,11 @@
-<!-- DRAFT for Brett. UNSENT, and not to be sent by me. Brett sends it.
-Rewritten 2026-07-26 from the current state of the repo. Since the version you edited
-on 24 July: (1) venue moved out of the decision list, since Language Sciences is settled,
-and into a reporting section; (2) a decision item added on the partitive data; (3) the
-request for the dative-baseline reference removed, since Park & Kim 2022: 1504-1505 and
-Yoon 2004 resolved it. Page count stated as up, 39 to 45.
-Check against your 24 July edits before sending.
-See 2026-07-26-correction-note-to-brett.md: an earlier turn reported this §2 rewrite as
-committed and pushed when it had not run. It has now actually been applied and verified. -->
+<!-- SENT by Brett, 2026-07-26 (his report; I did not send it and have not verified the wire).
+Caveat on this file as a record: if Brett reconciled his own 24 July edits before sending,
+what Kim received may differ from this copy. Treat as the working draft, not a sent-items copy.
+
+Content as drafted: three decisions for Kim (honorification ruling, the partitive account,
+length as a reader), then reporting on venue (Language Sciences, settled), the schema
+retyping and the collectives demotion, the §2.5 changes from his indeterminacy MS, and
+housekeeping. Page count stated as 45. -->
 
 **To:** Jong-Bok Kim
 **Subject:** Re: transparency paper: three things to decide

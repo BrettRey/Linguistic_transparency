@@ -44,7 +44,7 @@ Unchanged and still true from the verified part of the session: 45pp, clean buil
 
 ## What is outstanding
 
-- **The email is drafted and unsent.** It needs your read against your 24 July edits, then you send it. I am not sending it.
+- ~~The email is drafted and unsent.~~ **Sent by Brett, 2026-07-26.** Now awaiting Kim's reply.
 - Kim's honorification ruling still gates whether Korean is a case at all.
 - The page-one reframe the venue record asks for.
 - Submission timing against the sister paper, 81 days out.
