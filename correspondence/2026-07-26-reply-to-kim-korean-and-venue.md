@@ -1,11 +1,12 @@
-<!-- DRAFT for Brett, rewritten 2026-07-26 from the current state of the repo rather than
-edited off the previous version. Three substantive changes since the draft you edited:
-(1) venue moved out of the decision list, since it's settled, and into a reporting section;
-(2) a new decision item on the corrected partitive data, which didn't exist when you last
-read this; (3) the "One thing I need" request for the dative-baseline reference is gone,
-because Park & Kim 2022: 1504-1505 and Yoon 2004 resolved it. Page count stated honestly
-as up, 39 to 44. Your pasted edits from 24 July were to the older version, so check this
-against them before sending. -->
+<!-- DRAFT for Brett. UNSENT, and not to be sent by me. Brett sends it.
+Rewritten 2026-07-26 from the current state of the repo. Since the version you edited
+on 24 July: (1) venue moved out of the decision list, since Language Sciences is settled,
+and into a reporting section; (2) a decision item added on the partitive data; (3) the
+request for the dative-baseline reference removed, since Park & Kim 2022: 1504-1505 and
+Yoon 2004 resolved it. Page count stated as up, 39 to 45.
+Check against your 24 July edits before sending.
+See 2026-07-26-correction-note-to-brett.md: an earlier turn reported this §2 rewrite as
+committed and pushed when it had not run. It has now actually been applied and verified. -->
 
 **To:** Jong-Bok Kim
 **Subject:** Re: transparency paper: three things to decide
@@ -15,7 +16,7 @@ Jongbok,
 Korean is in as §4.5, and the venue is settled. Three things need your decision. Everything else below is reporting.
 
 1. **Honorification.** Is *-si-* grammatical agreement? Your two treatments of it answer different questions, and which one governs decides whether Korean supplies a transparency case at all.
-2. **The partitive data.** A corpus sweep overturned two claims in our own Table 1, in your area rather than mine. I'd like you to check the reanalysis I've put in their place.
+2. **The partitive data.** Two rows of Table 1 have changed, in your area rather than mine. I'd like you to check the account behind them.
 3. **Length.** Whether 44 pages is too long to *read*, given that the journal turns out to have no word limit.
 
 ## First, one change to the schema, because the rest depends on it
@@ -42,23 +43,21 @@ If you think a different Korean construction fits better, I'd rather have your j
 
 I should be careful about what the open verdict buys us. It makes Korean a probative stress test, since the procedure doesn't simply convert a non-English case into a positive. It isn't evidence that the test is valid, because an underspecified test would also return indeterminacy. §4.6 now claims only the first.
 
-## 2. The partitive data, corrected
+## 2. The partitive data
 
-Two changes to Table 1, both from corpus work done since you read it.
+Corpus work has changed two rows of Table 1.
 
-The plural-only forms (*lots, bags, heaps, loads, oodles, stacks*) were down as taking partitive *of*-complements only marginally, with zeros for *heaps* and *piles*. A wildcard sweep gives 465 tokens across 374 distinct complements, and the frame is attested for every member, so those cells now read as dispreferred rather than absent.
+**The plural-only forms.** *Lots, bags, heaps, loads, oodles, stacks* all take partitive *of*-complements: 465 tokens across 374 distinct complements, attested for every member. Their cells read as dispreferred rather than unavailable.
 
-The star on *the remainder of time* stays, but the example is now restricted to the partitive reading, because the bare string is fine on the unrelated duration reading, 'all time henceforth'. And a bare complement is available to the subgroup after all, on the partitive reading, when the complement denotes a bounded unique whole: *the rest of society* has 442 COCA tokens, with *humanity* 248, *nature* 78, *mankind* 77, *creation* 42, *Americans* 41, *Congress* 21 behind it.
+**Rest and remainder.** These take a bare complement on the partitive reading when the whole is uniquely identifiable and bounded, so that it has proper parts: *scientists and the rest of society*. *Society* has 442 COCA tokens in that frame, with *humanity* 248, *nature* 78, *mankind* 77, *creation* 42, and *Congress* 21 behind it. An unbounded whole gives nothing to partition, so *the remainder of time* is out on the partitive reading and survives only as the duration expression, 'all time henceforth'. The example is starred with that restriction stated.
 
-The pseudo-partitive cell for *rest* and *remainder* still reads negative, but on your criterion rather than on a grammaticality judgement. You and Van Eynde define a pseudo-partitive as [N1 *of* N2] in which "N1 denotes a quantity or amount of whatever it is that N2 denotes" (2023: 271), with the bare N2 as the characteristic property rather than the definition. *Rest* and *remainder* don't denote a quantity of anything. *The remainder of time* is what's left of time, and *the rest of society* is the complement subset of society. So the construction isn't available to them, and the cell now says that instead of starring a string that turns out to be common.
+Their pseudo-partitive cell reads n/a rather than ×, on your criterion. You and Van Eynde define a pseudo-partitive as [N1 *of* N2] in which "N1 denotes a quantity or amount of whatever it is that N2 denotes" (2023: 271), with the bare N2 as the characteristic property rather than the definition. *Rest* and *remainder* denote the complement subset of a presupposed whole, not a quantity of it, so the construction isn't available to them at all.
 
-What this leaves is one distinction doing two jobs. With a determiner on the whole (*the rest of the money*) the string is a genuine partitive on both your criteria. With a bare whole (*the rest of society*) it satisfies the semantic one and fails the syntactic one. For *lot* and the plural-only forms the two coincide; for this subgroup they come apart, and the semantic one governs.
+That puts one distinction to two uses. *The rest of the money* is a partitive on both your criteria; *the rest of society* on the semantic one only. For *lot* and the plural-only forms the two coincide, and for this subgroup they come apart, with the semantic one governing.
 
-The condition on the bare complement is joint: the whole has to be uniquely identifiable *and* bounded, so that it has proper parts to take a remainder of. Generic collectives supply both unaided. An unbounded non-count noun supplies neither, which is why bare *of time* gives no partition and the string switches to the duration reading instead. That also explains why the earlier probe looked categorical: the four complements it tested (*day, time, people, money*) contain no bounded generic collective, so it sampled only the class where the bare complement fails.
+The determined frame also sorts the plural-only forms by sense. It pulls in the literal homonym for every member that has one, so *stacks of the** is library stacks and smokestacks, *heaps of the** is literal and colliery heaps, and *bags* and *loads* are containers and cargo. *Oodles*, the one member with no literal homonym, returns quantificational hits exclusively. That gives the class a prediction it didn't have, and it bears on your measure/quantity/collective classification, so §2.5 is worth a look.
 
-Two things I'd like from you here. Whether that account is right, and whether it already has a name and a source I should be citing rather than deriving it from frequencies. And whether the consequence I drew for §2.4 holds: because the absence of a quantity reading follows from what kind of noun these are, their value on the partitive diagnostic looks partly categorial rather than an independent empirical correlate, so I've given it less weight in the cluster than the determiner and override behaviours.
-
-One positive result came out of the same sweep. The determined frame sorts the plural-only forms by sense: it pulls in the literal homonym for every member that has one, so *stacks of the** is library stacks and smokestacks, *heaps of the** is literal and colliery heaps, and *bags* and *loads* are containers and cargo. *Oodles*, the only member with no literal homonym, returns quantificational hits exclusively. That gives the class a prediction it didn't have before, and it bears on your measure/quantity/collective classification, so have a look at §2.5 if you have time.
+Two things I'd like from you. Whether the bounded-and-unique condition is right, and whether it has a name and a source I should be citing rather than deriving it from frequencies. And whether the consequence for §2.4 holds: since the absence of a quantity reading follows from what kind of noun *rest* and *remainder* are, their value on that diagnostic looks partly categorial rather than an independent empirical correlate, so I've given it less weight in the cluster than the determiner and override behaviours.
 
 ## 3. Length
 
