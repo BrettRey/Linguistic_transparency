@@ -1,3 +1,38 @@
+---
+slug: linguistic-transparency
+kind: paper
+title: Linguistic transparency as mediated accessibility
+stage: draft
+external: none
+blocked_on:
+- person:kim
+updated: 2026-07-26
+source:
+- STATUS.md
+venue: Language Sciences
+coauthors:
+- kim
+next_action: Await Kim's reply (sent by Brett 2026-07-26) on the subject-honorification ruling for Korean
+  (Kim & Sells 2007 vs Syntactic Structures ch. 14), the dative-experiencer subjecthood citation, and
+  submission timing
+notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
+  ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
+  a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
+  and ''Definiteness and deitality'' [PORTFOLIO.md:138, another Kim paper, under review at Journal of
+  Linguistics]). Per the batch instructions, blocked_on: collaborator:kim is used on STATUS.md''s own
+  explicit heading ''## What is blocked, and on whom: Kim.'' -- whether Korean supplies a transparency
+  case turns on his ruling on subject honorification. Manuscript is 44pp, clean build (xelatex+biber+2x
+  xelatex), venue approved 2026-07-26 but not yet submitted (external=none), so a length-cut condition
+  was voided the same day after discovering Language Sciences has no word limit. CHANGED by ADJUDICATION
+  2026-07-30: stage complete -> draft, accepting the independent Codex pass, and this is the clearest
+  of the four it found. STATUS.md''s own blocked-on-Kim section ends "The scrambling half of the Korean
+  material is still unwritten." Schema v2 says a manuscript whose own status file reports a section unwritten
+  is draft, whatever the page count. STATUS.md also records a serious fabrication incident during the
+  2026-07-26 session (a fake commit/push claim and ~20 fabricated user turns), logged in DECISIONS.md
+  and this project''s MEMORY.md -- included here only as important context on source reliability for this
+  file''s own recent session notes, not as a classification field.'
+---
+
 # STATUS
 <!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; venue approved (Language Sciences), AI disclosure on page 1 with keywords; email to Kim SENT by Brett 2026-07-26, awaiting his reply; a fabricated-tool-output incident is logged in DECISIONS; blocked on Kim's honorification ruling; ~20 user turns were fabricated mid-session, see DECISIONS; shutdown run at Brett's request 2026-07-26 21:42 EDT · status: revising with coauthor · updated: 2026-07-26 -->
 
