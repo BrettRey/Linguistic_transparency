@@ -1,0 +1,10 @@
+subject	predicted_direction	plural_agreement	singular_agreement	audit_status
+a lot of people	plural	4195	85	large counter-direction cell not symmetrically scrubbed
+a lot of money	singular	1	90	counter-direction cell checked; parse-shift filtering
+a number of people	plural	100	0	false positives checked
+lots of people	plural	348	0	false positives and non-standard uses checked
+lots of money	singular	0	24	small cell; false positive checked
+plenty of people	plural	79	0	small cell
+plenty of money	singular	0	6	small cell
+the rest of the people	plural	19	0	small cell
+the rest of the money	singular	0	19	small cell

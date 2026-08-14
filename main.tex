@@ -4,11 +4,11 @@
 \input{.house-style/preamble.tex}
 
 \hypersetup{
-  pdftitle={Linguistic transparency as mediated accessibility},
-  pdfkeywords={mediated accessibility, transparency, agreement, comparative concepts, number transparency, transparent free relatives, projectibility}
+  pdftitle={Access transparency in grammar: Mediated accessibility as a comparative concept},
+  pdfkeywords={access transparency, mediated accessibility, agreement, comparative concepts, number transparency, transparent free relatives, projectibility}
 }
 
-\title{Linguistic transparency as mediated accessibility}
+\title{Access transparency in grammar: Mediated accessibility as a comparative concept}
 \author{Brett Reynolds \orcidlink{0000-0003-0073-7195}%
 \thanks{Contact: \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}\\
 Humber Polytechnic \& University of Toronto
@@ -31,20 +31,6 @@ Kyung Hee University}
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \providecommand{\real}[1]{#1}
 \providecommand{\pandocbounded}[1]{#1}
-
-% The local .house-style snapshot predates the central \aidisclosure macro
-% (added centrally 2026-07-16), so define it here. Deliberate divergence from
-% the central version: that one reads "I am responsible", which is wrong for a
-% co-authored paper. Plural here. Worth fixing centrally with a plural variant.
-\providecommand{\aidisclosure}[1]{}
-\renewcommand{\aidisclosure}[1]{%
-  \par\medskip
-  \noindent{\small\textsc{AI use.}\enspace The large language models #1 served as
-  drafting and editing aids throughout the preparation of this paper. We're
-  responsible for all theoretical claims, arguments, errors, and interpretive
-  choices.\par}%
-  \medskip
-}
 
 \definecolor{schemablue}{RGB}{239,247,255}
 \definecolor{schemabluerule}{RGB}{185,211,230}
@@ -84,9 +70,7 @@ Kyung Hee University}
 \input{paper/sections/00-abstract.tex}
 \end{abstract}
 
-\noindent\textbf{Keywords:} mediated accessibility; transparency; agreement; comparative concepts; number transparency; transparent free relatives; projectibility
-
-\aidisclosure{Claude Opus 4.7 \& Opus 5 (1M context); OpenAI Codex 5.5; and GPT-5.6 Sol (pro)}
+\noindent\textbf{Keywords:} access transparency; mediated accessibility; agreement; comparative concepts; number transparency; transparent free relatives; projectibility
 
 \input{paper/sections/01-introduction.tex}
 \input{paper/sections/02-morphosyntactic-transparency.tex}
@@ -107,10 +91,14 @@ Kyung Hee University}
 
 \section*{Data availability}
 
-The corpus material behind §\ref{sec:2} and Appendix~\ref{sec:A-3} is the COCA and COHA pilot described there: the full query list, raw returns, per-cell coding decisions, and the pre-registered protocol and results for the \mention{piles} candidate-member test. These files travel with the paper as supplementary material and are versioned in the project repository at \url{https://github.com/BrettRey/Linguistic_transparency}. A citable archive will be deposited on acceptance; the supplementary README records the manuscript commit so that every reported count can be traced to its query.
+The corpus material behind §\ref{sec:2} and Appendix~\ref{sec:A-3} is the COCA and COHA pilot described there: query specifications, aggregate counts, raw KWIC checks, coding notes, and the pre-registered protocol and results for the \mention{piles} candidate-member test. These files travel with the paper as supplementary material and are versioned in the project repository at \url{https://github.com/BrettRey/Linguistic_transparency}. The supplementary README records the manuscript commit and maps reported counts to their queries.
 
 \endgroup
 \clearpage
+\section*{Declaration of generative AI and AI-assisted technologies in the manuscript preparation process}
+
+During preparation of this manuscript, the authors used Claude Opus 4.7 and Opus 5 (1M context), OpenAI Codex 5.5, and GPT-5.6 Sol (pro) for drafting, editing, and review of manuscript text. After using these tools, the authors reviewed and edited the outputs as needed and take full responsibility for the content.
+
 \begingroup
 \scriptsize
 \printbibliography

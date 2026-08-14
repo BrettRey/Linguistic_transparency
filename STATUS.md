@@ -1,7 +1,7 @@
 ---
 slug: linguistic-transparency
 kind: paper
-title: Linguistic transparency as mediated accessibility
+title: Access transparency in grammar: Mediated accessibility as a comparative concept
 stage: draft
 external: none
 blocked_on:
@@ -12,8 +12,8 @@ source:
 venue: Language Sciences
 coauthors:
 - kim
-next_action: Resolve the deliberately open lexical analysis of rest with Kim, then prepare the
-  final coauthor copy for submission to Language Sciences
+next_action: Coauthor-review the bounded architecture revision, especially the conditional TFR pilot
+  and the rest analytical fork, then freeze the submission supplement for Language Sciences
 historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
   ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
   a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
@@ -30,27 +30,29 @@ historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched 
   2026-07-26 session (a fake commit/push claim and ~20 fabricated user turns), logged in DECISIONS.md
   and this project''s MEMORY.md -- included here only as important context on source reliability for this
   file''s own recent session notes, not as a classification field. Kim replied 2026-08-14; Korean is out,
-  the current build is 39 pages, and the paper remains unsubmitted.'
-notes: 'Kim replied 2026-08-14. Korean is out of the paper; the current build is 39 pages for Language
-  Sciences; the paper is not submitted; and the lexical classification of rest remains open for coauthor
-  discussion.'
+  the current build is 34 pages after the bounded architecture revision, and the paper remains unsubmitted.'
+notes: 'Kim replied 2026-08-14. Korean is out of the paper; the architecture revision now centres access
+  transparency, QNs and TFRs, and the current build is 34 pages. The paper is not submitted. The lexical
+  classification of rest remains an explicit analytical fork, and the TFR pilot remains conditional.'
 ---
 
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Korean removed by agreement; 39pp clean build;
-venue Language Sciences; not submitted; rest/remainder lexical classification left open for coauthor
-resolution; TFR companion development requested by Kim; updated 2026-08-14 -->
+<!-- SUMMARY: Access-transparency paper (Reynolds & Kim); Korean removed by agreement; 34pp clean build;
+venue Language Sciences; not submitted; rest/remainder lexical classification is an explicit fork; TFR
+pilot is conditional; supplementary data map added; updated 2026-08-14 -->
 
 ## Current state (2026-08-14)
 
 Kim's reply resolves the Korean question: the Korean material is out of the umbrella paper. The manuscript
-now builds cleanly at 39 pages for *Language Sciences*, with the coordinated AP example as the TFR category
-diagnostic. Kim accepts the bounded-and-unique condition for bare complements, but treats the rest of society
-as pseudo-partitive; the draft records that disagreement instead of silently changing the
-analysis. No submission has been made.
+now builds cleanly at 34 pages for *Language Sciences* after a bounded architecture revision. The paper is
+centred on access transparency as a comparative concept, with QNs as the primary grammatical case and TFRs
+as a second, conditional illustration; projectibility is a secondary assessment. Kim accepts the bounded-and-unique condition
+for bare complements, but treats the rest of society as pseudo-partitive; the draft records that disagreement
+as an analytical fork. The TFR evidence is stated as a conditional pilot result. No submission has been made.
 
-The next coauthor question is the lexical-semantic status of rest. The companion TFR project stays
-in development, with its next step a publishable skeleton from `two-kinds.tex`.
+The next coauthor questions are the lexical-semantic status of rest, the compact TFR evidence insertion, and
+the final supplement release. The companion TFR project stays in development, with its next step a
+publishable skeleton from `two-kinds.tex`.
 
 ## Historical state (2026-07-26)
 

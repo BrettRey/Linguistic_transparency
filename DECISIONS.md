@@ -2,6 +2,14 @@
 
 Format: `YYYY-MM-DD — Decision. Reason.`
 
+## 2026-08-14 — Bounded architecture-first revision
+
+- **The paper is recentered on access transparency.** The title, abstract, introduction, protocol, conclusion, and projectibility discussion now make the comparative concept and its four applicability gates primary; projectibility is a secondary profile-level assessment.
+- **QN and TFR material remain together.** QNs are the strongest candidate profile. TFRs are a second, conditional grammatical illustration, with the available verb-class evidence reported as a pilot rather than a completed profile audit.
+- **Form--meaning material is demoted to boundary scope.** Constructional compositionality, compound ratings, and morphological priming no longer carry the paper's evidential spine or a cross-domain projectibility claim.
+- **The QN corpus result is reframed.** The main text reports raw counts and audit limitations instead of confidence intervals or headline rates. The `piles` result is partial prospective support plus a feasibility failure; `rest` remains an explicit analytical fork.
+- **A reviewer-facing data map was added.** `paper/data/README.md` and `paper/data/override-audit.tsv` document the pilot's provenance, asymmetrical filtering, and the fact that no independent second-coder audit has been completed.
+
 ## 2026-08-14 — Kim's reply and the cautious finalization position
 
 - **Korean is removed from the umbrella paper.** Kim agreed that the honorification/case-stacking material should be left out. The paper now makes no Korean empirical claim and no longer depends on resolving the competing analyses.

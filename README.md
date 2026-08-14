@@ -1,59 +1,42 @@
-# Linguistic transparency as mediated accessibility
+# Access transparency in grammar
 
-Working repository for a paper arguing that *transparency* in linguistics is a family of mediated-accessibility relations, not a unitary syntactic property. Some local transparency profiles may be projectible kinds in Khalidi's sense; the umbrella is not.
+Working repository for a paper proposing **access transparency** as a comparative concept for mediated grammatical accessibility. The paper's primary grammatical case is English number-transparent quantificational nouns; transparent free relatives supply a second, conditional illustration. Projectibility is assessed as a secondary, profile-level question.
 
 ## Read first
 
-- `PROJECT-BRIEF.md` — Brett's full project package (canonical brief)
-- `CLAUDE.md` — role, source-grounding, sister-project relationships, style, terminology, workflow, argumentative discipline
-- `STATUS.md` — current state, what exists, what doesn't, next action
-- `DECISIONS.md` — decisions log
+- `STATUS.md` — current state and remaining coauthor decisions
+- `DECISIONS.md` — append-only decisions log
+- `CLAUDE.md` — source-grounding, style, terminology, and workflow instructions
+- `PROJECT-BRIEF.md` — historical canonical brief; the current architecture is recorded in the manuscript and latest decisions
 
-## Layout
+## Build
 
-```
-Linguistic_transparency/
-├── PROJECT-BRIEF.md     # canonical brief
-├── CLAUDE.md            # agent guidance
-├── STATUS.md            # state and next action
-├── DECISIONS.md         # decisions log
-├── README.md            # this file
-└── paper/
-    ├── sources/
-    │   ├── sources.bib       # project bibliography (empty until source-grounded)
-    │   └── source-notes.md   # source curation: summaries, claims, quotations, warnings
-    ├── draft/
-    │   ├── 00-abstract.md
-    │   ├── 01-introduction.md
-    │   ├── 02-morphosyntactic-transparency.md
-    │   ├── 03-constructional-transparency.md
-    │   ├── 04-semantic-transparency.md
-    │   ├── 05-processing-transparency.md
-    │   ├── 06-typological-transparency.md
-    │   ├── 07-metaphysical-framing.md
-    │   └── 08-conclusion.md
-    ├── notes/
-    │   ├── argument-map.md
-    │   ├── claims-to-verify.md
-    │   ├── terminology.md
-    │   └── possible-venues.md
-    └── output/
-        ├── paper-draft.md     # combined draft (not yet built)
-        └── paper-draft.tex    # converted LaTeX (not yet built)
+This is a LaTeX-native paper. Build the current PDF with:
+
+```sh
+make
 ```
 
-## Workflow
+The entry point is `main.tex`; section sources are in `paper/sections/`. The generated reviewer-facing PDF is `main.pdf`.
 
-Markdown-first. Sections are drafted in `paper/draft/`, combined into `paper/output/paper-draft.md`, then converted to LaTeX in `paper/output/paper-draft.tex`. LaTeX scaffolding will be added at the conversion stage.
+## Current architecture
+
+The applicability protocol requires:
+
+1. an independently diagnosable bearer of the property;
+2. a distinct mediator;
+3. evidence that the relation tracks the property; and
+4. an independently established concealing counterpart in the same constructional family.
+
+Cases receive positive, non-instance, or indeterminate relational verdicts. A positive relation does not automatically supply a projectible profile.
+
+## Supplementary data
+
+The corpus record is in `paper/data/`. Start with `paper/data/README.md`. The override audit is also available as the machine-readable `paper/data/override-audit.tsv`. The current data are exploratory and preserve the known asymmetry between predicted- and counter-direction filtering.
 
 ## Sister projects
 
-- `papers/What_do_we_mean_by_language/` (preprint, LingBuzz 009947) — closest predecessor methodologically.
-- `papers/Field_relative_HPC_categories/` (drafting) — closest predecessor argumentatively.
-- `papers/HPC book/` chapter 7 — load-bearing for the metaphysical framing; the NPI-as-class-not-kind passage is the structural analogue.
-
-## Umbrella schema
-
-> X is transparent with respect to property P for relation R when P remains accessible through X for the purposes of R.
-
-Every case study in the paper should be re-expressible in this form. If it can't, it's the wrong case or the schema needs revision.
+- `papers/What_do_we_mean_by_language/` — closest predecessor methodologically.
+- `papers/Field_relative_HPC_categories/` — closest predecessor argumentatively.
+- `papers/HPC book/` chapter 7 — background for the projectibility framing.
+- `papers/retarget/transparent-free-relatives/` — separate joint TFR project under development.
