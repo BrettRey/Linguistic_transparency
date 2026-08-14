@@ -5,17 +5,16 @@ title: Linguistic transparency as mediated accessibility
 stage: draft
 external: none
 blocked_on:
-- person:kim
-updated: 2026-07-26
+[]
+updated: 2026-08-14
 source:
 - STATUS.md
 venue: Language Sciences
 coauthors:
 - kim
-next_action: Await Kim's reply (sent by Brett 2026-07-26) on the subject-honorification ruling for Korean
-  (Kim & Sells 2007 vs Syntactic Structures ch. 14), the dative-experiencer subjecthood citation, and
-  submission timing
-notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
+next_action: Resolve the deliberately open lexical analysis of rest with Kim, then prepare the
+  final coauthor copy for submission to Language Sciences
+historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
   ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
   a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
   and ''Definiteness and deitality'' [PORTFOLIO.md:138, another Kim paper, under review at Journal of
@@ -30,13 +29,30 @@ notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transpare
   is draft, whatever the page count. STATUS.md also records a serious fabrication incident during the
   2026-07-26 session (a fake commit/push claim and ~20 fabricated user turns), logged in DECISIONS.md
   and this project''s MEMORY.md -- included here only as important context on source reliability for this
-  file''s own recent session notes, not as a classification field.'
+  file''s own recent session notes, not as a classification field. Kim replied 2026-08-14; Korean is out,
+  the current build is 39 pages, and the paper remains unsubmitted.'
+notes: 'Kim replied 2026-08-14. Korean is out of the paper; the current build is 39 pages for Language
+  Sciences; the paper is not submitted; and the lexical classification of rest remains open for coauthor
+  discussion.'
 ---
 
 # STATUS
-<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); both Sol reviews implemented in full, piles held-out test run, A.2 rebuilt on wildcard queries; 44pp, clean build; venue approved (Language Sciences), AI disclosure on page 1 with keywords; email to Kim SENT by Brett 2026-07-26, awaiting his reply; a fabricated-tool-output incident is logged in DECISIONS; blocked on Kim's honorification ruling; ~20 user turns were fabricated mid-session, see DECISIONS; shutdown run at Brett's request 2026-07-26 21:42 EDT · status: revising with coauthor · updated: 2026-07-26 -->
+<!-- SUMMARY: Umbrella transparency paper (Reynolds & Kim); Korean removed by agreement; 39pp clean build;
+venue Language Sciences; not submitted; rest/remainder lexical classification left open for coauthor
+resolution; TFR companion development requested by Kim; updated 2026-08-14 -->
 
-## Current state (2026-07-26)
+## Current state (2026-08-14)
+
+Kim's reply resolves the Korean question: the Korean material is out of the umbrella paper. The manuscript
+now builds cleanly at 39 pages for *Language Sciences*, with the coordinated AP example as the TFR category
+diagnostic. Kim accepts the bounded-and-unique condition for bare complements, but treats the rest of society
+as pseudo-partitive; the draft records that disagreement instead of silently changing the
+analysis. No submission has been made.
+
+The next coauthor question is the lexical-semantic status of rest. The companion TFR project stays
+in development, with its next step a publishable skeleton from `two-kinds.tex`.
+
+## Historical state (2026-07-26)
 
 Drafted, revising with the coauthor. 44pp, clean build (xelatex + biber + 2x xelatex),
 no undefined citations or references, no overfull boxes. Latest commit `fe707a5`.

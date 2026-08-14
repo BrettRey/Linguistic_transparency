@@ -40,7 +40,7 @@ Kyung Hee University}
 \renewcommand{\aidisclosure}[1]{%
   \par\medskip
   \noindent{\small\textsc{AI use.}\enspace The large language models #1 served as
-  drafting and editing aids throughout the preparation of this paper. We are
+  drafting and editing aids throughout the preparation of this paper. We're
   responsible for all theoretical claims, arguments, errors, and interpretive
   choices.\par}%
   \medskip
@@ -97,14 +97,23 @@ Kyung Hee University}
 
 \clearpage
 \appendix
+\begingroup
+\scriptsize
 \input{paper/sections/A1-appendix-a.tex}
+\endgroup
+\begingroup
+\footnotesize
 \input{paper/sections/B1-appendix-b.tex}
 
 \section*{Data availability}
 
-The corpus material behind §\ref{sec:2} and Appendix~\ref{sec:A-3} is the COCA and COHA pilot described there: the full query list, raw returns, per-cell coding decisions, and the pre-registered protocol and results for the \mention{piles} candidate-member test. These files travel with the paper as supplementary material and are versioned in the project repository at \url{https://github.com/BrettRey/Linguistic_transparency}. A citable archive with a persistent identifier will be deposited on acceptance; the repository commit corresponding to this manuscript is recorded in the supplementary README so that every count reported here can be traced to the query that produced it.
+The corpus material behind §\ref{sec:2} and Appendix~\ref{sec:A-3} is the COCA and COHA pilot described there: the full query list, raw returns, per-cell coding decisions, and the pre-registered protocol and results for the \mention{piles} candidate-member test. These files travel with the paper as supplementary material and are versioned in the project repository at \url{https://github.com/BrettRey/Linguistic_transparency}. A citable archive will be deposited on acceptance; the supplementary README records the manuscript commit so that every reported count can be traced to its query.
 
+\endgroup
 \clearpage
+\begingroup
+\scriptsize
 \printbibliography
+\endgroup
 
 \end{document}

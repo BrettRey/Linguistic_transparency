@@ -2,6 +2,13 @@
 
 Format: `YYYY-MM-DD — Decision. Reason.`
 
+## 2026-08-14 — Kim's reply and the cautious finalization position
+
+- **Korean is removed from the umbrella paper.** Kim agreed that the honorification/case-stacking material should be left out. The paper now makes no Korean empirical claim and no longer depends on resolving the competing analyses.
+- **Language Sciences remains the venue, and the paper is not submitted.** Kim approved the venue and prefers the shorter version. The current clean build is 39 pages, with the appendix and references compacted to meet that target.
+- **The rest analysis stays open.** Kim proposes treating the rest of society as pseudo-partitive. The draft does not adopt that conclusion silently: the cited definition makes a pseudo-partitive an N1 quantity or amount of N2, while the working semantic analysis treats rest and remainder as complement-subset expressions. The bare-complement corpus pattern supports a bounded-and-unique condition but does not decide the lexical-semantic classification. Table 1 therefore marks rest unresolved pending coauthor discussion.
+- **The TFR companion becomes the next joint development target.** Kim asked that the WRAPP/TFR work be developed as a publishable paper. The companion remains separate from the umbrella and starts from `two-kinds.tex`, with its current analysis keeping what syntactically NP and treating category flexibility as construction- and verb-class-sensitive.
+
 ## 2026-04-30 — Initial scaffold
 
 - **2026-04-30** — Project named `Linguistic_transparency/`. Reason: the working title "Linguistic transparency as mediated accessibility" would produce a long directory name; the short label is unambiguous in the portfolio (no other transparency-related project). Subject to confirmation.
