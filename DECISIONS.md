@@ -10,6 +10,10 @@ Format: `YYYY-MM-DD — Decision. Reason.`
 - **The QN corpus result is reframed.** The main text reports raw counts and audit limitations instead of confidence intervals or headline rates. The `piles` result is partial prospective support plus a feasibility failure; `rest` remains an explicit analytical fork.
 - **A reviewer-facing data map was added.** `paper/data/README.md` and `paper/data/override-audit.tsv` document the pilot's provenance, asymmetrical filtering, and the fact that no independent second-coder audit has been completed.
 
+## 2026-08-14 — Opus level/category audit is a pre-submission action gate
+
+- **The audit must be acted on before submission.** The read-only Claude Opus audit identifies eight substantive role/level mismatches, all locally repairable: coordination's gate assignment, mediator versus concealment, Tsez binding, configuration-level mediator cells, collective-NP wording, TFR counterpart status, Aleut's independent-bearer qualification, and analysis-relative verdicts. The raw audit is preserved verbatim in `paper/notes/opus-level-category-audit-2026-08-14.md`, with an action hook in the companion note. Reason: the paper is not ready for submission until these are resolved or explicitly downgraded to indeterminate; this is a finite consistency pass, not another architectural rewrite.
+
 ## 2026-08-14 — Kim's reply and the cautious finalization position
 
 - **Korean is removed from the umbrella paper.** Kim agreed that the honorification/case-stacking material should be left out. The paper now makes no Korean empirical claim and no longer depends on resolving the competing analyses.
