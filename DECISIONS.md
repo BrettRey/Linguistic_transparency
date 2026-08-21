@@ -2,6 +2,17 @@
 
 Format: `YYYY-MM-DD — Decision. Reason.`
 
+## 2026-08-21 — TFR pilot numbers provisional; scope claim corrected
+
+Two model reviews of the companion working paper exposed that the "178 adjective hits" description
+of the seem/appear check misdescribed the archived query log (six queries, 474 results examined,
+with an internal 72-vs-48 anomaly in the seem pair that only a COCA re-run can resolve). §2.5 now
+states the zero-genuine result without a total, deferring details to the working paper; shipped
+`3ca0a3e`. Same round: the central bib's Grosu 2003 DOI was dead and is corrected
+(`10.1023/A:1023387128941`), shipped `1b8c088`. Brett's outstanding task: re-run the four adjective
+queries by hand and restate the totals in both papers and in Kim's MS §5.6, which carries a third
+incompatible use of 178 ("178 hits for attributional verbs").
+
 ## 2026-08-21 — §4.5 and §5 resolved: compress, don't cut (Brett's call, Sol-checked)
 
 Brett approved the recommended middle path on both of Kim's structural suggestions, conditional on a
