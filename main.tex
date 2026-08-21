@@ -22,7 +22,7 @@ Kyung Hee University}
 \usepackage{booktabs}
 \usepackage{calc}
 \usepackage{array}
-\usepackage[mathlines]{lineno}
+\usepackage[modulo,mathlines]{lineno}
 % Pandoc-style longtables set \LTcaptype to none; lineno expects that counter.
 \newcounter{none}
 % Tightlist for compact lists; pandocbounded/real are legacy compatibility
@@ -81,6 +81,7 @@ Kyung Hee University}
 
 \clearpage
 \appendix
+\numberwithin{table}{section} % appendix tables number A.1, B.1, ...
 \begingroup
 \scriptsize
 \input{paper/sections/A1-appendix-a.tex}

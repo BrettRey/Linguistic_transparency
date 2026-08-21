@@ -6,14 +6,15 @@ stage: draft
 external: none
 blocked_on:
 []
-updated: 2026-08-14
+updated: 2026-08-21
 source:
 - STATUS.md
 venue: Language Sciences
 coauthors:
 - kim
-next_action: Coauthor-review the bounded architecture revision, especially the conditional TFR pilot
-  and the rest analytical fork, then freeze the submission supplement for Language Sciences
+next_action: Brett reads the compressed §4.5 and §5 and the fourth-round edits, decides go/no-go on
+  drafting the TFR working paper from two-kinds.tex in the companion repo, then the short
+  consistency pass (terminology, Aleut gate-1, Corbett) and the submission package
 historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
   ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
   a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
@@ -37,11 +38,27 @@ notes: 'Kim replied 2026-08-14. Korean is out of the paper; the architecture rev
 ---
 
 # STATUS
-<!-- SUMMARY: Access-transparency paper (Reynolds & Kim); Korean removed by agreement; 34pp clean build;
-venue Language Sciences; not submitted; rest/remainder lexical classification is an explicit fork; TFR
-pilot is conditional; supplementary data map added; updated 2026-08-14 -->
+<!-- SUMMARY: Access-transparency paper (Reynolds & Kim); Kim's fourth round implemented except two
+scope calls (§4.5, §5) owed by Brett; 34pp clean build; venue Language Sciences; not submitted;
+updated 2026-08-21 -->
 
-## Current state (2026-08-14)
+## Current state (2026-08-21)
+
+Kim's fourth review round arrived and was triaged the same day. He confirms all three judgment
+points from Brett's last message (TFR analysis-relative verdict, ordinary fused relative as a
+weaker family-level counterpart, the collectives formulation as his HPSG position) and asks for a
+shorter abstract, modulo line numbers, a compressed intro, and consistent table numbering; all of
+those are implemented in the working tree (see DECISIONS 2026-08-21). The two structural
+questions are resolved the same day: Brett took the compress-don't-cut path on §4.5 and the
+trim-around-the-tables path on §5, checked against Codex Sol, which concurred and caught a Table 3
+intro error, now fixed; build clean at 33pp. Still open: producing the citable TFR working paper
+from the companion repo's two-kinds.tex (Brett's side of the April split; Kim prefers working
+paper or manuscript over a preprint) and the consistency-pass items from the two model reviews
+(terminology, Aleut gate-1, Corbett engagement). Reviews in reviews/ox-alpha-review-2026-08-21.md
+(ran on the orx fallback) and reviews/codex-sol-structural-check-2026-08-21.md; both are
+candidates, not evidence.
+
+## Previous state (2026-08-14)
 
 Kim's reply resolves the Korean question: the Korean material is out of the umbrella paper. The manuscript
 now builds cleanly at 34 pages for *Language Sciences* after a bounded architecture revision. The paper is

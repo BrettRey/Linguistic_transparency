@@ -2,6 +2,49 @@
 
 Format: `YYYY-MM-DD — Decision. Reason.`
 
+## 2026-08-21 — §4.5 and §5 resolved: compress, don't cut (Brett's call, Sol-checked)
+
+Brett approved the recommended middle path on both of Kim's structural suggestions, conditional on a
+Codex Sol (gpt-5.6-sol, xhigh) second opinion. Sol concurred on both (PROCEED WITH CHANGES;
+`reviews/codex-sol-structural-check-2026-08-21.md`) and its retention specs were followed:
+
+- **§4.5 compressed to five short paragraphs**, not cut: objection, language-internal reply,
+  individuation limit now a cross-reference to §2.3 (which develops it) plus the Haspelmath
+  suitability criterion, the Newmeyer slot/value response (unique to this subsection, per Sol's
+  repo search), and a closing limit with Croft demoted to a footnote plus the "answers don't
+  travel" consequence. The duplicate three-level paragraph was deleted outright, making §5's
+  statement canonical. Rationale for not cutting: §4.1 forward-references the subsection, the
+  venue's readership is native to the comparative-concepts debate, and the Ox Alpha review said
+  it would raise the objection itself.
+- **§5 kept, §§5.2–5.4 collapsed into one subsection** ("Profiles, stabilizers, and levels",
+  three paragraphs) per Sol's spec: evidential grades pointing back to §2.4/§2.5 instead of
+  re-narrating them, both scope exclusions retained (Spanish/Tsez travel ≠ profile travel;
+  form–meaning stays boundary), both proposed stabilizers with the SPC/Khalidi division and "no
+  Khalidian result", and the three-level conclusion. §5.1 and Tables 3–4 kept intact. The
+  `reynolds2026countability` aside was dropped (still cited in §2.2); labels sec:7-3/7-4 deleted
+  (no incoming references, grep-verified).
+- **Two error fixes from the checks.** Sol caught §5's Table 3 intro claiming the final column
+  holds verdict terminology (it holds concealing counterparts); the intro now describes Table 3
+  and Table 4 correctly. And §2.3's transition ("The first two are mediated accessibility")
+  turned out to be the third stray collective sentence Kim's exchange was about; it now reads
+  "member plurality is available to agreement but is borne by the head itself, so no distinct
+  mediator intervenes... Only the first is access through a mediator."
+- Build clean at 33pp (from 34), no undefined references or citations.
+
+## 2026-08-21 — Kim's fourth round triaged; settled items implemented
+
+Kim's 2026-08-21 email confirms all three judgment points Brett put to him and adds direct edit requests. Implemented same day (uncommitted, pending Brett's read):
+
+- **TFR verdict split into two levels, per Brett's proposal, Kim's confirmation.** §2.5 and Table 4 now state: analysis-relative, positive under Kim's constructional analysis; analysis-neutral, indeterminate, since the paper doesn't adjudicate among Wilder, van Riemsdijk, and Grosu.
+- **Ordinary fused relative explicitly described as a weaker, family-level counterpart** rather than a minimal control (it lacks a nucleus, so it can't hold the concealed property constant). New §2.5 paragraph discharges gate 4 at that stated grade; Table 3's TFR-parent row annotated. Kim's preference between the two options Brett offered.
+- **Collectives brought fully in line with the strict-sense verdict.** The two §2.2 sentences still calling the HPSG index/concord encoding "the same accessibility relation" and saying the schema "accommodates both" cases now use the agreed formulation: collective agreement makes semantic plurality available to agreement but isn't access transparency in the strict sense, because bearer and proposed mediator aren't distinct elements. Kim confirmed this states his HPSG position.
+- **Abstract cut ~310 → ~165 words, one paragraph.** Kim's second request for a shorter abstract.
+- **Intro back half compressed** (PDF lines 86–137 → ~30 lines saved): the two-questions and audience paragraphs merged, the QN/TFR/typology preview paragraphs cut (their content lives in §2 and §4), the two roadmap paragraphs merged, the field-relative point folded into the projectibility paragraph. Kim: "I don't think we need a lengthy intro in this part."
+- **Table numbering repaired via real `\caption`s.** The behavioural matrix and the raw-counts table were both rendering as "Table 1" (one hand-written, one float-numbered); Tables 2–4 were hand-numbered text, and the appendix table was out of sequence. Now: Table 1 matrix, Table 2 raw counts, Table 3 roles, Table 4 verdicts, Table A.1 full pilot returns, Table B.1 topologies (`\numberwithin{table}{section}` after `\appendix`). All prose references are `\ref`-based. Kim flagged the duplicate at his lines 420/437.
+- **Line numbers every 5 lines** (`modulo` option on lineno), per Kim.
+
+Open, Brett's call, not implemented: (1) whether to cut §4.5 (objection-and-reply) now and restore per reviewers, as Kim suggests; (2) whether §5 (projectibility profiles) stays, is trimmed to the verdict tables plus a residue, or goes — Kim questions the section but praises Tables 3–4, which live in it; (3) the citable form of the joint TFR work — Kim wants a working paper or manuscript, which means producing it in the companion `tfr-paper` project and repointing `kim-reynolds-2026-tfr-two-kinds`.
+
 ## 2026-08-14 — Bounded architecture-first revision
 
 - **The paper is recentered on access transparency.** The title, abstract, introduction, protocol, conclusion, and projectibility discussion now make the comparative concept and its four applicability gates primary; projectibility is a secondary profile-level assessment.
