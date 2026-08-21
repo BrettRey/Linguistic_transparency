@@ -12,9 +12,9 @@ source:
 venue: Language Sciences
 coauthors:
 - kim
-next_action: Brett reads the compressed §4.5 and §5 and the fourth-round edits, decides go/no-go on
-  drafting the TFR working paper from two-kinds.tex in the companion repo, then the short
-  consistency pass (terminology, Aleut gate-1, Corbett) and the submission package
+next_action: Brett sends Kim the reframed TFR working paper (committed a0f400e in the companion
+  repo, unpushed pending Kim's look); on Kim's OK, push it, repoint kim-reynolds-2026-tfr-two-kinds,
+  then the consistency pass (terminology, Aleut gate-1, Corbett) and the submission package
 historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
   ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
   a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
