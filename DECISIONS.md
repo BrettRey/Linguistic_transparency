@@ -2,6 +2,18 @@
 
 Format: `YYYY-MM-DD — Decision. Reason.`
 
+## 2026-08-21 — Pilot numbers resolved by hand re-run
+
+Brett re-ran all seven seem/appear queries in the COCA web interface (tables archived at
+`transparent-free-relatives/coca-data/rerun-2026-08-21.md`). The four exclusion-style queries
+reproduce the March log exactly (107, 72, 54, 63): the 296-token candidate set for right-edge
+non-NP nuclei was token-complete and stays zero-genuine. The unexcluded adjective queries return
+508 and 224 tokens against the logged "130"/"48", which evidently counted examined list entries;
+130 + 48 is where the spurious "178" came from. The wider-window query returns 593 tokens, so its
+one-candidate result is a screening, and degree-modified nuclei move to the open questions. §2.5
+restated on the 296-token candidate set; working paper restated at `bc3d0c9`; Kim's MS §5.6 still
+needs his correction (flagged in the reply draft).
+
 ## 2026-08-21 — TFR pilot numbers provisional; scope claim corrected
 
 Two model reviews of the companion working paper exposed that the "178 adjective hits" description

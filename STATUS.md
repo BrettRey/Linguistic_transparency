@@ -12,10 +12,10 @@ source:
 venue: Language Sciences
 coauthors:
 - kim
-next_action: Brett re-runs the four seem/appear adjective queries by hand on COCA (72-vs-48 anomaly
-  in the archived log; all pilot totals provisional until then), sends Kim the revised working paper
-  (companion repo e538dda, unpushed pending Kim), then on Kim's OK push + repoint the citation,
-  the consistency pass (terminology, Aleut gate-1, Corbett), and the submission package
+next_action: Brett reads the reply draft and the v4 working paper (companion repo bc3d0c9, unpushed
+  pending Kim) and sends both to Kim; on Kim's OK push + repoint the citation, then the consistency
+  pass (terminology, Aleut gate-1, Corbett) and the submission package. Query anomaly resolved by
+  the 2026-08-21 hand re-run; 296-token candidate set, zero genuine, totals archived
 historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
   ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
   a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
