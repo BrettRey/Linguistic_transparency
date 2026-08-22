@@ -12,10 +12,12 @@ source:
 venue: Language Sciences
 coauthors:
 - kim
-next_action: Brett reads the reply draft and the v4 working paper (companion repo bc3d0c9, unpushed
-  pending Kim) and sends both to Kim; on Kim's OK push + repoint the citation, then the consistency
-  pass (terminology, Aleut gate-1, Corbett) and the submission package. Query anomaly resolved by
-  the 2026-08-21 hand re-run; 296-token candidate set, zero genuine, totals archived
+next_action: Brett verifies the model-generated corpus coding (at minimum the tokens the working
+  paper names), reads the post-board reply draft and working paper (companion repo d95e522, unpushed
+  pending Kim), and sends both to Kim with two-kinds.pdf attached; on Kim's OK push + repoint the
+  citation, then the consistency pass (terminology, Aleut gate-1, Corbett) and the submission
+  package. The 2026-08-21/22 COCA campaign and an eight-reviewer board are folded in; three COCA
+  jobs remain on the working paper's own list (March-set re-archive, the [j*] [i*] probe, exports)
 historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
   ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
   a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
