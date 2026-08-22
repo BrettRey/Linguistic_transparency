@@ -6,18 +6,15 @@ stage: draft
 external: none
 blocked_on:
 []
-updated: 2026-08-21
+updated: 2026-08-22
 source:
 - STATUS.md
 venue: Language Sciences
 coauthors:
 - kim
-next_action: Brett verifies the model-generated corpus coding (at minimum the tokens the working
-  paper names), reads the post-board reply draft and working paper (companion repo d95e522, unpushed
-  pending Kim), and sends both to Kim with two-kinds.pdf attached; on Kim's OK push + repoint the
-  citation, then the consistency pass (terminology, Aleut gate-1, Corbett) and the submission
-  package. The 2026-08-21/22 COCA campaign and an eight-reviewer board are folded in; three COCA
-  jobs remain on the working paper's own list (March-set re-archive, the [j*] [i*] probe, exports)
+next_action: Await Kim's response to the 22 August send; incorporate any coauthor changes, then
+  decide whether to submit the umbrella paper to Language Sciences. The verified working paper and
+  umbrella revision are both public in their repositories but are not posted as preprints or submitted.
 historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched ''transparency'', ''mediated accessibility'',
   ''Jongbok'', ''Kim'' -- only sibling/unrelated rows found: ''Form-meaning transparency'' [PORTFOLIO.md:100,
   a spun-out seed project], ''Transparent free relatives'' [PORTFOLIO.md:137, a different Kim collaboration],
@@ -35,31 +32,30 @@ historical_notes: 'No PORTFOLIO.md row exists for this project itself (searched 
   and this project''s MEMORY.md -- included here only as important context on source reliability for this
   file''s own recent session notes, not as a classification field. Kim replied 2026-08-14; Korean is out,
   the current build is 34 pages after the bounded architecture revision, and the paper remains unsubmitted.'
-notes: 'Kim replied 2026-08-14. Korean is out of the paper; the architecture revision now centres access
-  transparency, QNs and TFRs, and the current build is 34 pages. The paper is not submitted. The lexical
-  classification of rest remains an explicit analytical fork, and the TFR pilot remains conditional.'
+notes: 'Kim replied 2026-08-14. Korean is out of the paper; the architecture revision centres access
+  transparency, QNs and TFRs. The TFR corpus coding, March-query archive, adjective-complement probe,
+  and exports were verified and folded into the 22 August revision. Brett sent the umbrella and working
+  paper to Kim that day. The paper is not submitted or posted as a preprint.'
 ---
 
 # STATUS
-<!-- SUMMARY: Access-transparency paper (Reynolds & Kim); Kim's fourth round implemented except two
-scope calls (§4.5, §5) owed by Brett; 34pp clean build; venue Language Sciences; not submitted;
-updated 2026-08-21 -->
+<!-- SUMMARY: Access-transparency paper (Reynolds & Kim); Kim's fourth round, verified TFR numbers,
+and final editorial gates implemented; sent to Kim 2026-08-22; venue Language Sciences; not submitted -->
 
-## Current state (2026-08-21)
+## Current state (2026-08-22)
 
-Kim's fourth review round arrived and was triaged the same day. He confirms all three judgment
-points from Brett's last message (TFR analysis-relative verdict, ordinary fused relative as a
-weaker family-level counterpart, the collectives formulation as his HPSG position) and asks for a
-shorter abstract, modulo line numbers, a compressed intro, and consistent table numbering; all of
-those are implemented in the working tree (see DECISIONS 2026-08-21). The two structural
-questions are resolved the same day: Brett took the compress-don't-cut path on §4.5 and the
-trim-around-the-tables path on §5, checked against Codex Sol, which concurred and caught a Table 3
-intro error, now fixed; build clean at 33pp. Still open: producing the citable TFR working paper
-from the companion repo's two-kinds.tex (Brett's side of the April split; Kim prefers working
-paper or manuscript over a preprint) and the consistency-pass items from the two model reviews
-(terminology, Aleut gate-1, Corbett engagement). Reviews in reviews/ox-alpha-review-2026-08-21.md
-(ran on the orx fallback) and reviews/codex-sol-structural-check-2026-08-21.md; both are
-candidates, not evidence.
+Kim's fourth review round and Brett's two structural decisions are implemented. The companion
+working paper's model-generated coding was independently checked on its named and discriminating
+tokens, all 46 PP rows, and a fixed-seed 12-row census sample. The remaining COCA work is complete:
+the four March exclusion queries are re-archived row by row (296 tokens), the adjective-complement
+probe is archived (32 tokens), and the relevant exports are preserved. The corrected corpus totals
+and bounded claims are reflected in the umbrella paper.
+
+The requested publication-gate passes, proofreading, and editorial-scar-tissue check are complete.
+The 33-page umbrella build passed and was shipped as `fa45a89`; the verified companion was shipped
+as `6487fec`. Brett sent the reply and papers to Kim on 22 August. The only current action is to
+await his response and incorporate any coauthor changes before a submission decision. Neither paper
+has been submitted or posted as a preprint.
 
 ## Previous state (2026-08-14)
 
